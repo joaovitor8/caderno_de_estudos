@@ -1,0 +1,460 @@
+Historia:
+
+JavaScript = Client x Server (Principalmente para o lado do cliente)
+
+Qual a diferença entre um cliente e um servidor para a internet?:
+   Um servidor é um host que está executando um ou mais serviços ou programas que compartilham recursos com os clientes. Um cliente não compartilha qualquer de seus recursos, mas solicita um conteúdo ou função do servidor. Os clientes iniciam sessões de comunicação com os servidores que aguardam requisições de entrada.
+
+
+HTML = Conteudo;
+CSS = Estilo;
+JavaScript = Interatividade;
+
+
+Empresa que criou o javascript?:
+   O JavaScript foi criado na década de 90 por Brendan Eich a serviço da Netscape.
+
+
+Java e JavaScript são linguagens de programação diferentes por mais que os nomes sejam iguais, o nome JavaScript só é assim por conta de Marketing. Queriam aproveitar a fama que a linguagem Java estava tendo no momento.
+
+
+O quê ECMAScript tem a ver com JavaScript?
+   ECMAScript é a versãp padronizada de JavaScript
+
+
+Comentários
+   //     = comentarios em linha
+   /**/   = comentario de codigo
+
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+
+
+Variaveis, Tipos Primitivos e Operadores:
+
+var = Variável Simples  (Escopo Universal)
+   Só guarda um valor por vez
+
+No JS moderno, além de ultilizar a palavra 'var' tabém podemos usar a palavra 'let'
+
+let = Variável Simples  (Escopo Local)
+   Só guarda um valor por vez
+
+
+Identificando Variáveis
+   Podem começar com LETRA, $ OU _
+   Não podem começar com Números
+   É possivel usar LETRAS ou NÚMEROS
+   É possivel usar ACENTOS e SÍMBOLOS
+   Não podem conter ESPAÇOS
+   Não podem ser PALAVRAS RESERVARDAS
+
+
+Tipos Primitivos -   typeof = Conferir qual é o Tipo Primitivo de uma Variavel
+   number
+      infinity
+      NaN
+   string
+   boolean
+   null
+   undefined
+   object
+      Array
+   function
+
+
+De string() para number()
+   Number.parseInt()
+   Number.parseFloot()
+   Number()
+
+De number() para string()
+   String()
+   n.toString()
+
+Formatando string()
+   ` ${} `
+
+   s.length   quantos caracteres a string() tem
+   s.toUpperCase   tudo para 'MAIÚSCULAS'
+   s.toLowerCase   tudo para 'minúsculas'
+
+Formatando Number()
+   n.toFixed   trocar '.' para ','      e    fala quantas casas tera apos o ponto
+   n.to.localesString('pt-BR', {style: 'currency', currency: 'BRL'})
+
+
+Operadores
+   Aritméticos
+      +   Adição 
+      -   Subtração
+      *   Multiplicação
+      /   Divição
+      %   Resto
+      **   Potencia
+
+   Atribuição
+      ???
+
+   Relacionais
+      >     Maior
+      <     Menor
+      >=    Maior ou igual
+      <=    Menor ou igual
+      ==    Igual
+      !=    Diferente
+      ===   Identidade
+               Irá ver além dos valores os tipos de elementos
+
+   Lógicos; Ordem - !, &&, ||
+      !   Negação                "não"  Inverte o valor de  True  para  False  ou vice-versa
+      &&   Conjunção             "e"    Considera que todos os valores sejam  True
+      ||   Disjunção             "ou"   Considera que qualquer valor seja True
+
+   Ternário
+      teste ? true : false
+
+Falsy e Truthy
+   ???
+
+
+Ordem
+   (),   ! ++ --,   * /,   + -,   < <= > >=,   == != === !==,   &&,   ||,   ?:,   = += -= *= %=
+
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+
+
+DOM = Document Object Model:   JavaScript chamando o HTML
+
+Árvore DOM 
+   location (Localização do Site)
+   document (Documento Atual)
+      html
+         head
+         body
+   history (De onde você veio, pra onde você vai)
+   ......
+
+Selecionando por
+   Marca
+      getElementesByTagName()
+   ID
+      getElementById()
+   Nome
+      getElementsByName()
+   Classe
+      getElementsByClassName()
+   Seletor ( Recomendado a Usar )
+      querySelector()    (Singular)
+      querySelectorAll() (Plural)
+
+Eventos DOM (Coisas que eu passa fazer)
+   EX:
+      mouseenter   entrar
+      mousemove    mover
+      mousedown    presionar
+      mouseup      soltar
+      click        clicar
+      mouseout     sair
+
+Ouvir eventos
+   addEventListener()
+
+
+BOM = Browser Object Model
+   Tudo o que está dentro do objeto Window
+
+Window
+   documento   - DOM
+   history
+   location
+   screen
+   navigator
+
+
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+
+
+Loops:  loops  sempre estarão dentro de  function
+
+Condições Simples
+
+if (Condiçao) {
+   true
+}
+
+
+Condições Compostas
+
+if (Condição) {
+   true
+}else {
+   false
+}
+
+
+Condição Alinhada
+
+if (Condição) {
+   true
+}else if () {
+   (true)
+}else {
+   false
+}
+
+
+if/else - if(alguma coisa) {
+             ...
+          } else if (outra coisa) {
+             ...
+          }
+
+
+while - Estrutura de repetiçãos com teste lógico no inicio
+Usar quando eu não sei o momento da parada
+
+while (Condição) {
+      True
+}
+
+
+Usar quando eu sei o momento da parada
+
+for (inicio; teste; incremento) {
+   true
+}
+
+for( ... of)    /     for( ... in)
+
+
+Switch/case - swith(parametro da função) {
+                 case 1:
+                    return "alguma coisa";
+                 case 2:
+                    return "alguma coisa";
+                 case 3:
+                    return "alguma coisa";
+                 default:
+                    return "alguma coisa"
+              }
+
+Throw e try/catch
+
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+
+
+Arrays e Funções:
+
+Variáveis Compostas (array/vetor) = []
+   É uma variavel que tem varios elementos, cada elemento é composto por seu valor e por uma chave de identificação
+Spread
+   Para enviar os dados do  array  para o parametro da função basta digitar o comando - console.log(NomeDaFunção(...NameArray))
+
+array - É uma variavel com varios espaços
+elemento - Espaço, valor colocado e  o indece
+ídice - Chave
+conteúdo - Valor
+
+
+Adicionar uma valor no array
+   variavel.push(n)
+
+Descobrir o comprimento (Quantos elementos)
+   variavel.length
+
+Colocar os elementos em ordem crecente
+   variavel.sort()
+
+Buscando valores
+   variavel.indexOf(n)
+
+
+Funções
+   São Ações executadas assim que são Chamadas ou nem decorrência de algum Evento
+   Uma Função pode receber Parâmetros e retornar um Resultado
+
+   chamada
+   parâmetro
+   ação
+   retorno
+
+Estrutura:  function NomeDaFunção (parametros){
+               // instruções
+               return;  // valor de retorno e parada da função
+            }
+
+
+Uma Variável pode armazenar uma função
+EX Função Anônima:  const soma = function (a, b){
+                       retun a + b
+                    }
+
+
+---------------------------------------------------------------------------------------------------
+
+
+Aprendi:
+
+Fundamentos
+Variáveis e Dados
+Operadores
+Condições
+Repetições
+Arrays
+Functions
+DOM
+
+---
+
+Aprofundar:
+
+functions
+objetos
+modularização
+RegEx
+JSON
+AJAX
+NodeJS
+
+
+---------------------------------------------------------------------------------------------------
+
+
+Objetos = {}:
+   Dados que possuem propriedades e valores que definem suas características. Deve ser declarado entre chaves "{}
+
+Ex - var xicara = {cor: 'azul', tamanho: 'p', funcao: tomarCafe()}
+
+Objeto  "arguments" = Parametros
+
+Pilares
+   Abstração
+      Diminuir complexidade
+   Heraça
+      Classes descendentes herdam caracteristicas de suas classes ascendentes
+   Encapsulamento
+      Propriedades e metodos de uma classe dizem respeito apenas a ela
+   Polimorfismo
+      Conseito de que classes mais complexas herdem metodos de classes mais abstratas e os executem a sua maneira
+
+Protótipos
+   Responsaveis pelo conceito de Herança em JS
+
+Metodo super()
+   passa os argumentos enviados para a classe ascendente
+
+
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+
+
+Erros:
+
+Tipos de Erros
+   ECMAScript e DOMException
+   ECMAScriptError é um tipo de erro em tempo de execução e o DOMException é um erro referente ao DOM
+
+
+Tratando Erros
+   Thorw, try/Catch e Finally
+      Thow
+         Lança um erro
+      Finally
+         É sempre executado, independente de ter um erro ou não
+
+Criando Erros
+   new error(mensagem)
+
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+
+Assincrono:
+
+Promises
+   Estrutura
+      new Promise(resolve, reject)
+
+Async/Await
+
+
+APIs - Application Programming Interface
+   Forma de intermediar os resultados do back-end com o que é apresentado no frond-end, voce consegue acessá-la por meio de URLs
+
+Fetck
+   retorna uma Promise
+
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+
+Modulos:
+
+São arquivos JavaScript quem tem a acapacidade de esportar e importar informações de outros arquivos do mesmo tipo
+
+Vantagens - Organização do código
+            Compartilhamento de variaveis em escopos diferentes
+            Explicita as dependências dos arquivos
+
+
+Exportar
+   named exports
+      Pode ser usado em varias function
+   default exports
+      Só pode hover um por arquivo
+      Será o retorno padrão do seu arquivo
+
+Importar
+   import {} from './arquivo.js'              named
+   import    from './arquivo.js'              default
+   import * as APELIDO from './arquivo.js'    todos os dados de um arquivo
+
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+
+TypeScript:
+
+É uma estenção do JS possuindo features não nativas do JS, como por exemplos chacagem de tipos que facilitam e aceleram o desenvolvimento de sistemas.
+
+
+função
+interfaces
+types
+input
+generic types
+condicionais a partir de parametros
+?
+readonly / private
+bibliotecas com typescript
+omit
+
+
+Qual a diferença na utilização de const ou readonly?
+  o const e utilizado para variaveis e não pode ser reatribuido jáo readonly e utilizado para propriedade (membros de classes), que pode ser reatribuidas desde que dentro do contrutor
+
+O que são tipos condicionais em TypeScript?
+   permitem que um tipo seja definido dinamicamente com bese em uma condição pre fornecida seguindo um formato padrão
+
+Quais são os modificadores de acesso presentes no TypeScript?
+   private, public e protected
+
+Quais das opções abaixo representa um parâmetro de função opcional?
+   cargo?: string
+
+O que são Generic types?
+   representra uma maneira de criar parametros para classes e definir tipos que podee ser substituidos em varios lugares do programa eliminando o uso da classe object para definirmos tipos variaveis
+
+Qual a forma de utilização da função Omit dentro do TypeScript?
+   em um padrao de codificação em TS é criado um novo tipo que omite (omissão) propriedades especificas de outro tipo. antes usada a combinação dos helpers pick e eclude
+
+Como funcionam as interfaces?
+   sao especies de contratos para implementar as classes ou estruturas. Uma classe que implementa uma interfa
+
+Como são utilizados os types?
+   sao utilizados para definir estruturas de dados em classes e funçoes alem de apoiar suas respectivas validaçoes
