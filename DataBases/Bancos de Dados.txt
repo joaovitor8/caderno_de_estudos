@@ -1,0 +1,44 @@
+Regras para escrever nome de tabelas e de campos:
+   1- Deve começar por um letra do alfabeto
+   2- Os caracteres seguintes não são permitidos:   () + - / * " ; = & | # < > ^ ' {} %
+   3- Não pode conter espaços
+   4- Não pode conter acentuação
+
+Tipos de campos:
+   Text
+   Number
+   Datatime
+   Primary Key
+
+
+SELECT
+
+
+Operadores Relacionais:
+   Iguais(=)
+   Like
+   Maior que(>)
+   Menor que(<)
+   Maior ou Igual(>=)
+   Menor ou Igual(<=)
+   Não igual a(<>)
+   Diferente de(!=)
+
+Operadores Matematicos
+   Adição(+)
+   Subtração(-)
+   Multiplicação(*)
+   Divisão(/)
+   Módulo(%)
+
+Operadores Logicos
+   AND
+   OR
+   BETWEEN
+   IN e NOT IN
+   IS NULL e IS NOT NULL
+
+Mais Comandos
+   INSERT INT   Adicionar dados
+   UPDATE       Atualizar os dados
+   DELETE       Deletar os dados
