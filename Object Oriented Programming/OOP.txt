@@ -1,0 +1,9 @@
+Programação Orientada a Objetos (POO)
+   Uma maneira de resolver um problema, um modo de pensar
+   Não está ligado somente a linguaguem de programação, mas a um entendimento amplo e atemporal para criação de softwares
+
+
+Objetos
+   Propriedades e Funcionalidades
+   Estado e Comportamentos
+   Atributos e Métodos
