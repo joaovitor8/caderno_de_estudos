@@ -326,33 +326,6 @@ NodeJS
 
 
 ---------------------------------------------------------------------------------------------------
-
-
-Objetos = {}:
-   Dados que possuem propriedades e valores que definem suas características. Deve ser declarado entre chaves "{}
-
-Ex - var xicara = {cor: 'azul', tamanho: 'p', funcao: tomarCafe()}
-
-Objeto  "arguments" = Parametros
-
-Pilares
-   Abstração
-      Diminuir complexidade
-   Heraça
-      Classes descendentes herdam caracteristicas de suas classes ascendentes
-   Encapsulamento
-      Propriedades e metodos de uma classe dizem respeito apenas a ela
-   Polimorfismo
-      Conseito de que classes mais complexas herdem metodos de classes mais abstratas e os executem a sua maneira
-
-Protótipos
-   Responsaveis pelo conceito de Herança em JS
-
-Metodo super()
-   passa os argumentos enviados para a classe ascendente
-
-
----------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
 
 

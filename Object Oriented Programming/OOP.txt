@@ -7,3 +7,66 @@ Objetos
    Propriedades e Funcionalidades
    Estado e Comportamentos
    Atributos e Métodos
+
+
+Classes
+   As classes na OOP funciona como um molde para os objetos. Os objetos são criados a partir de uma classe e muitos deles podem ser feitos da mesma classe.
+      EX: Máquina de Biscoito
+         Classe = Máquina
+         Objeto = Biscoito
+
+   classes em JS
+      Syntactical sugar
+      Prototype
+
+
+Encapsulamento
+   Esconder detalhes de implementação
+   Camada de segurança pata os atributos e métodos
+      EX: Dirigir Carro vs Conhecer o motor do Carro
+
+
+Herança
+   Objetos podem herdar, ou estender, caracteristicas bases
+   Uma cópia de atributos e métodos de outra classe
+
+   Saida
+      Um objeto pode estender de outro objeto que pode estender de outro objeto e assim em diante...
+      Fácil reutilização de código
+
+
+Polimorfismo
+   Quando um objeto estende de outro (Herança) talvez haja a necessidade de reescrever uma ou mais caracteristicas (Atributos e métodos) nesse novo objeto
+   Recriaremos então um método (ou mais) da classe herdada
+   Polimorfismo significa Muitas Formas
+
+
+Abstração
+   Template ou identidade de uma classe que será construida no futuro
+
+
+
+
+
+Objetos = {}:
+   Dados que possuem propriedades e valores que definem suas características. Deve ser declarado entre chaves "{}
+
+Ex - var xicara = {cor: 'azul', tamanho: 'p', funcao: tomarCafe()}
+
+Objeto  "arguments" = Parametros
+
+Pilares
+   Abstração
+      Diminuir complexidade
+   Heraça
+      Classes descendentes herdam caracteristicas de suas classes ascendentes
+   Encapsulamento
+      Propriedades e metodos de uma classe dizem respeito apenas a ela
+   Polimorfismo
+      Conseito de que classes mais complexas herdem metodos de classes mais abstratas e os executem a sua maneira
+
+Protótipos
+   Responsaveis pelo conceito de Herança em JS
+
+Metodo super()
+   passa os argumentos enviados para a classe ascendente
