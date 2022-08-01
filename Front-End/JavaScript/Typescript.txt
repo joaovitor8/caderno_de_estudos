@@ -1,3 +1,45 @@
 O que é o TypeScript?
    O TypeScript foi criado pela Microsoft para trazer um superset de tipagens para o JavaScript.
    A diferença entre o JavaScript e TypeScript é a sua tipagem que no JS não é obrigatório, já no TS é obrigatório, mas nem pra todos os casos. Algumas vantagens de utilizar o TS é que a sua adoção pode ocorrer de forma gradual em um projeto JavaScript.
+
+
+
+Tipagem Explícita
+   Na tipagem explícita nós especificamos o qual será o tipo de cada variável.
+
+   EX:   function nomeDaFunção(user: string, ticket: number) {}
+
+
+
+Any
+   Ao declarar uma variável no TypeScript o seu tipo por padrão será any. Mas devemos tomar um certo cuidado com essa tipagem que ela pode ser perigosa ao decorrer do nosso projeto, não é muito recomendada a sua utilização.
+
+Ex   let info: any;
+	info = [123];
+	info = 'João';
+	info = true;
+	info = 10.50;
+
+// Com o tipo any a variável aceitará qualquer valor.
+
+
+
+Inferência de tipos
+   O TypeScript reconhece automaticamente o tipo da variável ao passar algum valor para ela.
+
+
+
+Esses são os tipos primitivos que podemos utilizar no TypeScript:
+
+	let loading: boolean;
+	loading = false;
+
+	let email: string;
+	email = "joao@email.com";
+
+	let price: number;
+	price = 10.50;
+	price = 10;
+
+
+
