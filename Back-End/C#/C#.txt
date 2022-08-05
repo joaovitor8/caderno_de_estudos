@@ -1,0 +1,53 @@
+Tipos Primitivos
+
+Interios
+   byte
+   sbyte
+   shot
+   ushort
+   int
+   uint
+   long
+   ulong
+
+Caracteres
+   char
+   string
+
+Reais
+   float
+   double
+   decimal
+
+Logicos
+   bool
+   enum
+   struct
+   object
+
+
+
+Números Aleatórios   Random()
+
+EX:
+Random gerador = new Random();
+int n = gerador.Next(1, 4)
+
+
+
+Data e Hora   DateTime
+
+EX:
+int dia = DateTime.Now.Day;
+int mes = DateTime.Now.Month;
+int ano = DateTime.Now.Year;
+
+
+
+Formatação com Números Interpoladas
+
+:C   Monetário (Currency)
+:D   Decimal (Inteiro)
+:N   Número (Real)
+:E   Científico
+:X   Hecadecimal

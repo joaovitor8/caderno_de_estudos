@@ -1,0 +1,11 @@
+C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\ExerciciosM01\EX002\bin\Debug\EX002.exe.config
+C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\ExerciciosM01\EX002\bin\Debug\EX002.exe
+C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\ExerciciosM01\EX002\bin\Debug\EX002.pdb
+C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\ExerciciosM01\EX002\obj\Debug\EX002.csproj.AssemblyReference.cache
+C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\ExerciciosM01\EX002\obj\Debug\EX002.csproj.SuggestedBindingRedirects.cache
+C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\ExerciciosM01\EX002\obj\Debug\EX002.Form1.resources
+C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\ExerciciosM01\EX002\obj\Debug\EX002.Properties.Resources.resources
+C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\ExerciciosM01\EX002\obj\Debug\EX002.csproj.GenerateResource.cache
+C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\ExerciciosM01\EX002\obj\Debug\EX002.csproj.CoreCompileInputs.cache
+C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\ExerciciosM01\EX002\obj\Debug\EX002.exe
+C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\ExerciciosM01\EX002\obj\Debug\EX002.pdb
