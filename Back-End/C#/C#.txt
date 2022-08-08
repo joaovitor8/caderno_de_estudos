@@ -25,7 +25,7 @@ Logicos
    struct
    object
 
-
+---------------------------------------------------------------------------------------------------
 
 Números Aleatórios   Random()
 
@@ -33,7 +33,7 @@ EX:
 Random gerador = new Random();
 int n = gerador.Next(1, 4)
 
-
+---------------------------------------------------------------------------------------------------
 
 Data e Hora   DateTime
 
@@ -42,7 +42,7 @@ int dia = DateTime.Now.Day;
 int mes = DateTime.Now.Month;
 int ano = DateTime.Now.Year;
 
-
+---------------------------------------------------------------------------------------------------
 
 Formatação com Números Interpoladas
 
@@ -51,3 +51,95 @@ Formatação com Números Interpoladas
 :N   Número (Real)
 :E   Científico
 :X   Hecadecimal
+
+
+---------------------------------------------------------------------------------------------------
+
+
+CLASSIFICAÇÃO DE OPERADORES:
+
+Quantidades de Operandos
+   unario
+   binario
+   ternario
+
+Funcionalidade
+   aritimetico
+   relacional
+   lógico
+   bitwise
+   atribuição
+   incremento
+   condiconal
+
+
+OPERADORES ARITMÉTICOS:   n = Número
+
+Unarios
+   + n   identidade
+   - n   negação aritmética
+
+Binarios
+   n + n   adição
+   n - n   subtração
+   n * n   multiplicação
+   n / n   divisão (intera ou real)
+   n % n   resto da divisão inteira (remainder)
+
+
+DIVISÕES INTEIRA E REAL:
+
+Divisão Inteira
+   para que a divisão seja  interia  os dois números divididos terão que ser  inteiros
+
+Divisão Real
+    para que a divisão seja  real  apenas um dos números divididos tera que ser um número  real
+
+
+ORDEM DE PRECENDÊNCIA DOS OPERADORES ARITMÉTICOS:
+   1º ()        parênteses
+   2º +, -      unários
+   3º *, /, %   multiplicativos
+   4º +, -      aditivos (binarios)
+
+
+OPERADORES RELACIONAIS:
+
+   Comparações Logicas (sempre binarios)
+      n == n  igualdade
+      n != n  diferença
+      n > n   maior que
+      n < n   menor que
+      n >= n  maior ou igual a
+      n <= n  menor ou igual a
+      n is n  verificador de tipo
+
+      o retorno é sempre  true  ou  false
+
+
+OPERADORES LÓGICOS:
+
+   Negação
+      !  NÃO
+      unico operador lógico que é unario
+
+   Conjunção
+      &&  E
+      true
+      false
+      false
+      false
+
+   Disjunção
+      ||  OU
+      true
+      true
+      true
+      false
+
+   Disjunção Exclusiva
+      XOU  não tem no C#, mas tem bitwise
+      false
+      true
+      true
+      false
