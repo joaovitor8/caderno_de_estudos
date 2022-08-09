@@ -543,6 +543,7 @@ Tags de entrada de dados
 
 <input type="radio">
    Projetado para selecionar uma única opçaõ de um grupo de opções
+   Tem que ter o mesmo  name  todos os  input radio
 
    Atributos
       checked
@@ -578,9 +579,8 @@ Tags de entrada de dados
       size
          quandos opções visiveis
 
-
-<optgroup>
-   ???
+   <optgroup>
+      Como se fosse um "titulo" para o menu do select
 
 
 <input type="search">
@@ -606,3 +606,8 @@ Tags de entrada de dados
    Atributos
       min / max
       step
+
+
+<output>
+   Mostra um valor fixo em que o usuario não pode alterar
+   É usado apenas para mostrar coisas na tela
