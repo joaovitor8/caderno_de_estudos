@@ -1,0 +1,157 @@
+CSS - Estilo      ( Cascading Style Sheet )
+   @charset "UTF-8" - Regra para que não aconteça problemas com acentuação
+
+
+Comentários -  /**/
+
+
+---------------------------------------------------------------------------------------------------
+
+
+Fontes:
+
+Tamanhos
+   px
+   em = 16px
+
+Simplificando
+   font-family   -   Com o font-family podemos alterar a fonte dos nossos textos, como uma fonte da internet ou uma que esteja instalada no nosso computador. Tem fontes com e sem serifa
+   font-size     -   O font-size nos ajuda a mudar o tamanho do texto.
+   font-style    -   Usamos o font-style para tornar um texto itálico, na maioria das vezes você usará apenas o valor italic para ele, mas se precisar tirar o itálico de um texto você pode usar o valor normal.
+   font-weight   -   Peso da fonte
+
+   font: style, variant, weight, size, family
+
+Alinhamento
+   text-align
+      left     =   Esquerda (Padrão)
+      right    =   Direita
+      center   =   Centro
+      justify  =   Espaçamento iguais entre palavras 
+
+text-transfotm: nome          (Padrão)
+                uppercarse    Todas as letras do texto serão maiusculas
+                lowercase     Todas as letras do texto serão minusculas
+                capitalize    Todo começo de palavra a primeira letra é maiuscula
+
+text-shadow: 1px 1px 1px red
+   Sobra no texto
+
+
+---------------------------------------------------------------------------------------------------
+
+
+Seletores personalizados:
+
+Seletores
+   id (#)
+      Identificar um determinado elemento único com um  id
+      O ID só pode ser usado uma vez em uma página HTML
+
+   class (.)
+      Agrupar elementos múltiplos que tenham características semelhantes com um  class
+      A classe não tem restrições.
+
+
+Ações do usuario
+   Pseudo-classes (:)
+      :hover, :visited, :active, :checked, :empty, :focus
+
+   Pseudo-elementos (::)
+      ::before, ::after, ::first-letter, ::first-line
+
+
+---------------------------------------------------------------------------------------------------
+
+
+Modelo de Caixas:
+
+ height = Em Pé
+ width = Deitado
+
+Anatomia das Caixas
+   margin          -   Da bordar(border) para fora,   são espaçamentos entre elementos
+   outline         -   ???
+   border          -   Borda do conteúdo   -   solid: mostra uma borda simples e reta;   dotted: são bolinhas com um pequeno espaçamento entre elas;  dashed: forma uma linha tracejada.
+   padding         -   É um espaçamento entre as bordas e o conteúdo, a diferença para as margens é que declarações de imagem de fundo funcionam nele;
+
+Simplificar
+   border: width, style, color
+   outline: width, style, color
+
+   padding: top, right, bottom, left
+   margin: top, right, bottom, left  ; auto
+
+
+Sombras nas Caixas
+   box-shadow: horizontal vertical embaçamento cor
+
+Vétices Arredondadas
+   border-radius: topo-esquerda, topo-direita, baixo-direita, baixo esquerda
+      Ele permite arredondar os cantos de um elemento. Podemos usar várias unidades, mas as mais comuns são os pixels e a porcentagem.
+      Colocando apenas um valor mudamos todos os cantos do elemento, mas seguindo aquela mesma ordem que vimos no padding e margin - topo, direita, inferior e esquerda -  conseguimos alterar cada canto separadamente.
+
+
+---------------------------------------------------------------------------------------------------
+
+
+Imagens de Fundo:
+
+Simplificando
+   background: color  image  position  repeat  attachment
+
+
+---------------------------------------------------------------------------------------------------
+
+
+CSS FlexBox:
+
+display: flex   -  Deixar como se fosse um menu de uma pagina, tudo na mesma linha, tudo na mesma horizontal
+
+flex-direction: row (Padão)     -  Linha da esquerda para a direita
+                row-reverse     -  Linha da direita para a esquerda
+                column          -  Coluna do primeiro para o ultimo
+                column-reverse  -  Coluna do ultimo para o primeiro
+
+flex-wrap: nowrap        -  Padrão, não permite a quebra de linha
+           wrap          -  Permite quebra de linha assim que um dos flex itens não puder mais ser compactado
+           wrap-reverse  -  Permite quebra de linha assim que um dos flex itens não puder mais ser compactado, porem na direção contrairia da linha
+
+flex-flow:  direction   wrap
+
+justify content: flex-start    - Início do container
+                 flex-end      - Final do container
+                 center        - Ao centro do container
+                 space-between - Cria um espaçamento igual entre os elementos
+                 space-around  - Os espaçamentos do meio são duas vezes maiores que o inicial e final
+
+
+Abreviação / Ordem -    flex: grow, shink, basis
+  flex-grow   -  Define a proporcionalidade de crescimentos dos itens, respeitando o tamanho de seus conteúdos internos
+  flex-basis    -   Propriedade que estabelece o tamanho inicial do item antes das distribuição de espaço restante dentro dele
+  flex-shink   - Propriedade que estabelece a capacidade de redução ou comprenssão do tamanho de um item
+
+align-self   -   Propriedade que estabelece o alinhamento de modo individual sobre um determinado item
+   auto
+   flex-start
+   flex-end
+   center
+   strtch
+   baseline
+
+gap - Espaço entre os elementos
+
+
+---------------------------------------------------------------------------------------------------
+
+
+@Media Queries:
+
+Midia Querie = Midia Types + Midia Features
+
+Midias Types
+   É usado nos links das CSS
+   Tipo de midia
+
+Midia Feature
+   Caracteristica de midia
