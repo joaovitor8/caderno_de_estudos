@@ -71,7 +71,7 @@ Modelo de Caixas:
 
 Anatomia das Caixas
    margin          -   Da bordar(border) para fora,   são espaçamentos entre elementos
-   outline         -   ???
+   outline         -   É como uma borda com foco
    border          -   Borda do conteúdo   -   solid: mostra uma borda simples e reta;   dotted: são bolinhas com um pequeno espaçamento entre elas;  dashed: forma uma linha tracejada.
    padding         -   É um espaçamento entre as bordas e o conteúdo, a diferença para as margens é que declarações de imagem de fundo funcionam nele;
 
@@ -155,3 +155,8 @@ Midias Types
 
 Midia Feature
    Caracteristica de midia
+
+Mobile First
+   Para melhor produção é recomendado começar pela versão de celular e depois ir adicionando as demais telas
+   Pesquisar:  Device Breakpoints
+
