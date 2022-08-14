@@ -1,0 +1,5 @@
+C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\AmbienteM02\MO2EX006\obj\Debug\net6.0\MO2EX006.csproj.AssemblyReference.cache
+C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\AmbienteM02\MO2EX006\obj\Debug\net6.0\MO2EX006.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\AmbienteM02\MO2EX006\obj\Debug\net6.0\MO2EX006.AssemblyInfoInputs.cache
+C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\AmbienteM02\MO2EX006\obj\Debug\net6.0\MO2EX006.AssemblyInfo.cs
+C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\AmbienteM02\MO2EX006\obj\Debug\net6.0\MO2EX006.csproj.CoreCompileInputs.cache

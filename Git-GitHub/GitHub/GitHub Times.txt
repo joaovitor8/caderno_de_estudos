@@ -1,0 +1,21 @@
+Branches
+
+   Pense que o código está guardado em uma caixinha dentro do repositório, podemos criar uma cópia dessa caixinha e colocar outros itens nessa nova caixinha. Pensando em código podemos "ramificar" o nosso projeto, criando linhas de commits com commits separados da linha principal, por exemplo se você vai criar uma feature nova e não quer fazer isso na branch principal que está conectada ao site que está no ar, você criar uma branch trabalhar nessa feature e quando quiser junta resse novo conteúdo na branch principal e consequentemente colocando no ar.
+
+
+
+Merge
+
+   Merge é o comando do git para juntar os commits de uma branch com os commits de outra branch sempre respeitando a ordem cronologica desses commits
+
+
+
+Apagar uma branch
+
+   Podemos criar quantas branchs quisermos mas as vezes isso pode acabar deixando muita branch esquecida pra trás e nós confundir no momento de trocar de uma branch para outra, então existe momentos que é necessário apagar algumas branchs, vemos nessa aula o comando para realizar essa ação
+
+
+
+Atualizando as branchs
+
+   Quando estamos trabalhando em time é comum outra pessoa criar branchs no repositório que logicamente não vão existir na sua maquina, e se em algum momento vc quiser executar um git checkout para entrar nessas branchs que não estão na sua maquina você vai precisar atualizar essas branchs com o comando git fetch, assim como quando uma branch é excluida do github você precisa atualizar as branchs na sua maquina com o comando git fetch -p para atualizar essas branchs
