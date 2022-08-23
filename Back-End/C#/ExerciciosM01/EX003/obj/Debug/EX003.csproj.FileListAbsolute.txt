@@ -1,8 +1,0 @@
-C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\ExerciciosM01\EX003\bin\Debug\EX003.exe.config
-C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\ExerciciosM01\EX003\bin\Debug\EX003.exe
-C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\ExerciciosM01\EX003\bin\Debug\EX003.pdb
-C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\ExerciciosM01\EX003\obj\Debug\EX003.csproj.AssemblyReference.cache
-C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\ExerciciosM01\EX003\obj\Debug\EX003.csproj.SuggestedBindingRedirects.cache
-C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\ExerciciosM01\EX003\obj\Debug\EX003.csproj.CoreCompileInputs.cache
-C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\ExerciciosM01\EX003\obj\Debug\EX003.exe
-C:\Users\joaoe\Documents\Repositório\Development\Back-End\C#\ExerciciosM01\EX003\obj\Debug\EX003.pdb

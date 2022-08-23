@@ -1,0 +1,69 @@
+TIPOS PRIMITIVOS:
+
+   int     Números inteiros desde negativos a positivos
+   float   Números com ponto(virgula) desde negativos a positivos
+   bool    Valores  True  e  False
+   str     Tudo que estiver entre  aspas  desde textos, numeros ou até mesmo um valor vazio
+
+
+OPERADORES ARITMETICOS:
+
+    +   Adição
+    -   Subtração
+    *   Multiplicação
+    /   Divisão
+   **   Potência
+   //   Divição Inteira
+    %   Resto da Divisão
+
+ORDEM DE PRECEDÊNCIA:
+
+   1° ()
+   2° **
+   3° *  /  //  %
+   4° +  -
+
+
+MÓDULOS:
+
+   import.
+
+
+CADEIAS:
+
+
+COMDIÇÕES:
+
+   if
+   else
+
+
+COLRES:
+
+   \033[STYLE;TEXT;BACKm
+
+   Style
+      0   None
+      1   Bold
+      4   Underline
+      7   Negative
+
+   Text
+      30   Branco
+      31   Vermelho
+      32   Verde
+      33   Amarelho
+      34   Azul
+      35   Violeta
+      36   Azul  Fraco
+      37   Cinza
+
+   Back
+      40   Branco
+      41   Vermelho
+      42   Verde
+      43   Amarelho
+      44   Azul
+      45   Violeta
+      46   Azul  Fraco
+      47   Cinza
