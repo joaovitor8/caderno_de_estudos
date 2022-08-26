@@ -42,3 +42,28 @@ Mais Comandos
    INSERT INT   Adicionar dados
    UPDATE       Atualizar os dados
    DELETE       Deletar os dados
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
