@@ -151,11 +151,16 @@ Quando temos alguma propriedade css que muda de valor em um hover, focus ou outr
 
 transistion-property
    É a propriedade css que queremos aplicar a transição
+transition-property: all
+   É usado para aplicar transição em todos os elementos quantificáveis disponíveis e que estejam sofrendo alteração
+
 transition-duration
    É o tempo de duração da transição
 
-Somente valores quantificáveis podem ser animados. Isso quer dizer que não é possível fazer uma animação de display indo de none para block, mas sim de opacity de 0 para 1;
+transition-delay
+   É uma propriedade CSS que permite atrasar o inicio de uma transição em uma escala de segundos
 
+Somente valores quantificáveis podem ser animados. Isso quer dizer que não é possível fazer uma animação de display indo de none para block, mas sim de opacity de 0 para 1;
 
 
 Transition timing functions
@@ -167,8 +172,9 @@ Transition timing functions
    cubic-bezier(n,n,n,n) - Permite definir seus próprios valores em uma função cubic-bezier
 
 
-transition-delay
-   É uma propriedade CSS que permite atrasar o inicio de uma transição em uma escala de segundos
+
+
+
 
 ---------------------------------------------------------------------------------------------------
 
