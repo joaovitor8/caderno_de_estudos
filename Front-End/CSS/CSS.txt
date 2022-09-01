@@ -201,6 +201,17 @@ animation-direction
    alternate-reverse.: começa pela última chave do @keyframes e vai ate a primeira, se o iteration count estiver setado, no momento de repetir, será da primeira chave do @keyframes ate a última, e na próxima repetição volta a ser da última chave para a primeira e assim por diante alternando.
 
 
+
+Animation timing function
+   ease - Início lento, rápido e final lento (este é o padrão)
+   linear - Mesma velocidade do início ao fim
+   easy-in - Início lento
+   easy-out - Final lento
+   easy-in-out - Início e fim lentos
+
+
+
+
 ---------------------------------------------------------------------------------------------------
 
 
