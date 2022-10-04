@@ -1,63 +1,9 @@
-git init   -   Vai iniciar uma projeto
+Básico
 
+git clone + Repositório (Vá até o GitHub, depois no repositório desejado, clique em "Code" e copie o link no SSH)- Clona o repositorio que deseja usar
+git status - Vê se algo foi alterado
+git add . - Adiciona tudo em que eu fiz alteração para o proximo commit
+git commit -m "Comentario do Commit" - Estou commitando
+git push - Vai sicronizar o commit com o repositório
 
-
-git add .(tudo) / nomeDoDocumento    -   seleciona o arquivo e o move para a área de teste, marcando-o para inclusão no próximo commit
-git commit -m 'Comentario'           -   Comitar
-git log                              -   Informações do projeto
-
-
-
-Filtrar na data em diante         -   git log --since=2020-10-01
-Filtra na data para traz          -   git log --until=2020-10-01
-Filtar pelo auto                  -   git log --author=João
-Filtra pela discrição do commit   -   git log --grep="init"
-
-git status
-
-git diff   -   mostra um historico
-
-
-HASH = O monte de números de identificação
-
-
-Caso queiramos deletar um arquivo através do git, podemos usar o comando a seguir:
-    git rm nomedoarquivo
-
-Podemos também fazer isso em um único passo, usando o comando git mv, cuja sintaxe é:
-   git mv nomeatual.txt novonome.txt
-
-também podemos mover arquivos através do git, usando o comando git mv, usado da seguinte forma:
-   git mv arquivoquevaimover nomedodiretório/arquivoquevaimover
-
-Como reverter alterações que foram feitas no seu arquivo, que você possa ter feito sem querer e ter salvo no seu editor.
-   git restore nomedoarquivo
-
-Como desfazer alguma alteração que foi ao nosso stage area, usamos o comando a seguir:
-   git restore --staged nomedoarquivo
-Há também outra forma, que é no caso de termos múltiplos arquivos, e é usado da seguinte forma:
-   git restore --staged.
-
-Caso queiramos alterar algo de importante no nosso mais recente commit, como a mensagem, vamos usar uma opção do comando commit, que é a --amend, dessa forma:
-   git commit --amend -m "nova mensagem
-
-Podemos recuperar nossos commits antigos usando o comando git checkout, da seguinte forma:
-   git checkout HASH -- nomedoarquivo
-
-Como remover um ou mais arquivos não rastreados.
-   O comando  git clean  vai deletar tudo que não está rastreado no seu master branch
-   Cuidado, ele será apagado para sempre, não será possível recuperá-los, pois não vão para um lixeira.
-   Caso queira confirmar o que o comando vai fazer use a opção -n, que vai mostrar os arquivos que o git vai apagar.
-
-Como reverter um commit, como pegar um ponto antigo da história, revertê-lo e adicionar um novo ponto.
-   O primeiro passo é ter um diretório limpo, sem nenhum arquivo não rastreado, sem nada na stage area.
-   Usaremos então o comando git log, e onde nossa HEAD estiver, a cada commit subtrairemos 1, então, considere o commit atual como 0, o abaixo desse -1, o abaixo desse -2 e por aí vai.
-   Use o comando git revert, mas ao invés de um sinal de menos(-), use um til (~), da seguinte maneira:
-      git revert HEAD~5
-   Também há outra forma de fazer isso, que é usando a hash de onde exatamente você deseja reverter, hash que pode ser obtida facilmente através do comando git log --oneline, ficaria parecido com:
-      git revert 7f121d7
-
-
-Agora que pelo git status temos a noção de que o arquivo foi alterado, vamos commitá-lo.
-Porém, como nós já temos todos os arquivos desse projeto no repositório, podemos pular a etapa do git add, já que após a modificação ele vai direto para a stage area, pois já é um arquivo rastreado e vamos fazer a execução do comando git commit com a opção -a, da seguinte forma:
-   git commit -am "lembre que podemos usar várias opções na mesma declaração"
+git pull - Atualiza para a vesão mais recente (Caso tenha mais pessoas alem de vc mechendo no repositório)
