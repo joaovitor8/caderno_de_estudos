@@ -19,7 +19,7 @@ Java e JavaScript são linguagens de programação diferentes por mais que os no
 
 
 O quê ECMAScript tem a ver com JavaScript?
-   ECMAScript é a versãp padronizada de JavaScript
+   ECMAScript é a versão padronizada de JavaScript
 
 
 Comentários
@@ -30,62 +30,70 @@ Comentários
 ---------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
 
+Variaveis:
 
-Variaveis, Tipos Primitivos e Operadores:
+Conhecendo as variaveis
+   Nomes simbolicos para receber algum valor
+   Atalhos de código
+   Identificadores
+   3 palavras reservadas para criar um variavel
+      var
+      let
+      const
 
-var = Variável Simples  (Escopo Universal)
-   Só guarda um valor por vez
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
 
-No JS moderno, além de ultilizar a palavra 'var' tabém podemos usar a palavra 'let'
+Tipos Primitivos - typeof = Conferir qual é o Tipo Primitivo de uma Variavel - Tipos de dados:
 
-let = Variável Simples  (Escopo Local)
-   Só guarda um valor por vez
-
-
-Identificando Variáveis
-   Podem começar com LETRA, $ OU _
-   Não podem começar com Números
-   É possivel usar LETRAS ou NÚMEROS
-   É possivel usar ACENTOS e SÍMBOLOS
-   Não podem conter ESPAÇOS
-   Não podem ser PALAVRAS RESERVARDAS
-
-
-Tipos Primitivos -   typeof = Conferir qual é o Tipo Primitivo de uma Variavel
-   number
-      infinity
-      NaN
-   string
-   boolean
-   null
-   undefined
-   object
-      Array
-   function
+String
+   Cadeia de caracteres
+      Aspas duplas
+      Aspas simples
+      Template literals ou templete strings
 
 
-De string() para number()
-   Number.parseInt()
-   Number.parseFloot()
-   Number()
-
-De number() para string()
-   String()
-   n.toString()
-
-Formatando string()
-   ` ${} `
-
-   s.length   quantos caracteres a string() tem
-   s.toUpperCase   tudo para 'MAIÚSCULAS'
-   s.toLowerCase   tudo para 'minúsculas'
-
-Formatando Number()
-   n.toFixed   trocar '.' para ','      e    fala quantas casas tera apos o ponto
-   n.to.localesString('pt-BR', {style: 'currency', currency: 'BRL'})
+Number
+   Números
+      Inteiros
+      Reaid / Float
+      Not a Number
+      Infinity
 
 
-Operadores
+Boolean
+   Somente 2 valores
+      true
+      false
+
+
+undefined
+   indefinido
+
+
+null
+   nulo
+   objeto que não possui nada dentro
+   diferente de indefinito
+
+
+Object
+   Objeto
+   Propriedade / Atributos
+   Funcionalidade / Métodos
+EX:   {propriedade: "valor"}
+
+
+Array (Vetores)
+   Agrupamento de dados
+EX:   ["João", 20]
+
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+
+Operadores:
    Aritméticos
       +   Adição 
       -   Subtração
@@ -163,7 +171,6 @@ Eventos DOM (Coisas que eu passa fazer)
 Ouvir eventos
    addEventListener()
 
-
 BOM = Browser Object Model
    Tudo o que está dentro do objeto Window
 
@@ -174,64 +181,32 @@ Window
    screen
    navigator
 
-
 ---------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
-
 
 Loops:  loops  sempre estarão dentro de  function
 
-Condições Simples
-
-if (Condiçao) {
-   true
-}
-
-
-Condições Compostas
-
-if (Condição) {
-   true
-}else {
-   false
-}
+loop if/else
+	if (Condição) {
+	   true
+	}else {
+	   false
+	}
 
 
-Condição Alinhada
+loop while
+   while - Estrutura de repetiçãos com teste lógico no inicio
+   Usar quando eu não sei o momento da parada
+	while (Condição) {
+	      True
+	}
 
-if (Condição) {
-   true
-}else if () {
-   (true)
-}else {
-   false
-}
-
-
-if/else - if(alguma coisa) {
-             ...
-          } else if (outra coisa) {
-             ...
-          }
-
-
-while - Estrutura de repetiçãos com teste lógico no inicio
-Usar quando eu não sei o momento da parada
-
-while (Condição) {
-      True
-}
-
-
-Usar quando eu sei o momento da parada
-
-for (inicio; teste; incremento) {
-   true
-}
-
-for( ... of)    /     for( ... in)
-
+loop for
+   Usar quando eu sei o momento da parada   -   for( ... of)    /     for( ... in)
+	for (inicio; teste; incremento) {
+	   true
+	}
 
 Switch/case - swith(parametro da função) {
                  case 1:
