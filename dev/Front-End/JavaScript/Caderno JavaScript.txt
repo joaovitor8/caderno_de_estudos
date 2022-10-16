@@ -45,7 +45,7 @@ Conhecendo as variaveis
 ---------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
 
-Tipos Primitivos - typeof = Conferir qual é o Tipo Primitivo de uma Variavel - Tipos de dados:
+Tipos de dados: typeof = Conferir qual é o Tipo Primitivo de uma Variavel
 
 String
    Cadeia de caracteres
@@ -82,12 +82,14 @@ Object
    Objeto
    Propriedade / Atributos
    Funcionalidade / Métodos
-EX:   {propriedade: "valor"}
+EX:   const pessoa = {nome: "João", idade: 20, peso: 50}
+      console.log(pessoa.nome)
 
 
 Array (Vetores)
    Agrupamento de dados
-EX:   ["João", 20]
+EX:   const pessoas = ['João', 'Flavia', 'Mateus']
+      console.log(pessoas[0])
 
 ---------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
