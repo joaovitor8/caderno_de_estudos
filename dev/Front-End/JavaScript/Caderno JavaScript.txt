@@ -228,42 +228,13 @@ Throw e try/catch
 ---------------------------------------------------------------------------------------------------
 
 
-Arrays e Funções:
-
-Variáveis Compostas (array/vetor) = []
-   É uma variavel que tem varios elementos, cada elemento é composto por seu valor e por uma chave de identificação
-Spread
-   Para enviar os dados do  array  para o parametro da função basta digitar o comando - console.log(NomeDaFunção(...NameArray))
-
-array - É uma variavel com varios espaços
-elemento - Espaço, valor colocado e  o indece
-ídice - Chave
-conteúdo - Valor
-
-
-Adicionar uma valor no array
-   variavel.push(n)
-
-Descobrir o comprimento (Quantos elementos)
-   variavel.length
-
-Colocar os elementos em ordem crecente
-   variavel.sort()
-
-Buscando valores
-   variavel.indexOf(n)
-
-
-Funções
+Funções:
    São Ações executadas assim que são Chamadas ou nem decorrência de algum Evento
    Uma Função pode receber Parâmetros e retornar um Resultado
 
-   chamada
-   parâmetro
-   ação
-   retorno
+   Funções são tipos de dados estruturais, que são declarados dessa forma: function nomeFunção() { código à cer executado } e para executar a função, usa-se: nomeFunção(). Uma função é importante para o agrupamento e reutilização de código.
 
-Estrutura:  function NomeDaFunção (parametros){
+Estrutura:  function nomeFunção (parametros){
                // instruções
                return;  // valor de retorno e parada da função
             }
@@ -273,6 +244,23 @@ Uma Variável pode armazenar uma função
 EX Função Anônima:  const soma = function (a, b){
                        retun a + b
                     }
+
+Arrow function
+   Também podemos escrever funções expression de uma maneira mais compacta, desta maneira: () => { código a ser executado }, chamada de Arrow Function.
+   Normalmente são atribuidas a   const
+
+
+Funções construtoras
+   são utilizadas para criar novos objetos e geralmente tem a sua primeira letra maiúscula, todos com as mesmas características que são criadas na função, usando a palavra reservada this para se referir ao objeto sendo criado, por exemplo:
+
+function Person(name) {
+	this.name = name
+	this.walk() = function() {
+		return this.name + "está andando")
+	}
+}
+const mayk = new Person("Mayk")
+const joao = new Person("João")
 
 
 ---------------------------------------------------------------------------------------------------
