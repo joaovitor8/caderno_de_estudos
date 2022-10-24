@@ -186,12 +186,12 @@ Ternário
                                     console.log( Infinity ? 'verdadeiro' : 'falso' )
 
 
-   Ordem
-      (),   ! ++ --,   * /,   + -,   < <= > >=,   == != === !==,   &&,   ||,   ?:,   = += -= *= %=
+Ordem
+   (),   ! ++ --,   * /,   + -,   < <= > >=,   == != === !==,   &&,   ||,   ?:,   = += -= *= %=
 
 
-   new
-      A expressão new, também denominada como left-hand-side expression, serve para criar um novo objeto usando as funções construtoras que temos por padrão no JavaScript.
+new
+   A expressão new, também denominada como left-hand-side expression, serve para criar um novo objeto usando as funções construtoras que temos por padrão no JavaScript.
 
 ---------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
@@ -244,13 +244,15 @@ Window
    screen
    navigator
 
+
 ---------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
 
-Loops:  loops  sempre estarão dentro de  function
 
-loop if/else
+Controle:
+
+if/else
 	if (Condição) {
 	   true
 	}else {
@@ -258,31 +260,66 @@ loop if/else
 	}
 
 
-loop while
+Switch/case - swith(parametro da função) {
+                 case 1:
+                    return "alguma coisa";
+                    break
+                 case 2:
+                    return "alguma coisa";
+                    break
+                 case 3:
+                    return "alguma coisa";
+                    break
+                 default:
+                    return "alguma coisa"
+                    break
+              }
+
+
+Throw e try/catch
+   Throw em inglês significa lançar, disparar, catch quer dizer pegar e try tentar.
+   Isso significa que vamos tentar executar um bloco de código, e se der algum erro, será disparado e capturado na nossa aplicação. Suponhamos que haja uma função que dispare um erro caso não seja passado um parâmetro dessa função.
+
+   function sayMyName(name = '') {
+      if (name === '') {
+         throw 'Nome é obrigatório'
+   }
+
+      console.log(name)
+   }
+
+   Nesse caso, se o nome vier vazio, será disparada uma mensagem.
+   Precisamos agora usar o try/catch para capturarmos esse erro, caso contrário, ele irá encerrar nossa aplicação, e nós o faremos da seguinte maneira:
+
+   try {
+      sayMyName()
+   } catch(e) {
+      console.log(e)
+   }
+
+   console.log('após ao try/catch')
+   O try irá executar a função, enquanto o catch vai capturar o erro e atribuir à variável e, que só existe dentro do catch. Após isso, mesmo com o erro, nossa aplicação não será interrompida por completo
+
+
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+
+
+Loops:  loops  sempre estarão dentro de  function
+
+loop while   ENQUANDO
    while - Estrutura de repetiçãos com teste lógico no inicio
    Usar quando eu não sei o momento da parada
 	while (Condição) {
 	      True
 	}
 
-loop for
+loop for   PARA
    Usar quando eu sei o momento da parada   -   for( ... of)    /     for( ... in)
-	for (inicio; teste; incremento) {
+	for (inicialização de uma variável; condição de continuação para o loop; expressão final){
 	   true
 	}
-
-Switch/case - swith(parametro da função) {
-                 case 1:
-                    return "alguma coisa";
-                 case 2:
-                    return "alguma coisa";
-                 case 3:
-                    return "alguma coisa";
-                 default:
-                    return "alguma coisa"
-              }
-
-Throw e try/catch
 
 ---------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
