@@ -21,28 +21,6 @@ Java e JavaScript são linguagens de programação diferentes por mais que os no
 O quê ECMAScript tem a ver com JavaScript?
    ECMAScript é a versão padronizada de JavaScript
 
-
-Comentários
-   //     = comentarios em linha
-   /**/   = comentario de codigo
-
----------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------
-
-Variaveis:
-
-Conhecendo as variaveis
-   Nomes simbolicos para receber algum valor
-   Atalhos de código
-   Identificadores
-   3 palavras reservadas para criar um variavel
-      var
-      let
-      const
-
----------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
 
 Tipos de dados: typeof = Conferir qual é o Tipo Primitivo de uma Variavel
@@ -91,21 +69,6 @@ Array (Vetores)
 EX:   const pessoas = ['João', 'Flavia', 'Mateus']
       console.log(pessoas[0])
 
-
----------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------
-
-
-Manipulando dados:
-
-Prototype
-   O JavaScript possui uma característica chamada Prototype, que é uma série de funcionalidades e atributos que já existem nativamente em diversos tipos de dados, que são lidados como objetos.
-
-
-
----------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
 
 Operadores:
@@ -156,97 +119,9 @@ Ternário
    condição então valor 1 se não valor 2
 
 
-   Falsy e Truthy
-      O falsy é quando um valor é considerado falso em contextos que onde um booleano é obrigatório (condicionais e loops), exemplo a seguir:
-
-         Todos os valores abaixo seriam representados como false em um boolean.
-            false
-            0
-            -0
-            ""
-            null
-            undefined
-            NaN
-                                     console.log( NaN ? 'verdadeiro' : 'falso' )
-
-
-      Já o truthy é o oposto, quando um valor é considerado verdadeiro (true) em contextos onde um booleano é obrigatório (condicionais e loops), exemplo a seguir:
-
-         Todos os valores abaixo seriam representados como false em um boolean.
-            true
-            {}
-            []
-            1
-            3.23
-            "0"
-            "false"
-            -1
-            Infinity
-            -Infinity
-                                    console.log( Infinity ? 'verdadeiro' : 'falso' )
-
-
 Ordem
    (),   ! ++ --,   * /,   + -,   < <= > >=,   == != === !==,   &&,   ||,   ?:,   = += -= *= %=
 
-
-new
-   A expressão new, também denominada como left-hand-side expression, serve para criar um novo objeto usando as funções construtoras que temos por padrão no JavaScript.
-
----------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------
-
-
-DOM = Document Object Model:   JavaScript chamando o HTML
-
-Árvore DOM 
-   location (Localização do Site)
-   document (Documento Atual)
-      html
-         head
-         body
-   history (De onde você veio, pra onde você vai)
-   ......
-
-Selecionando por
-   Marca
-      getElementesByTagName()
-   ID
-      getElementById()
-   Nome
-      getElementsByName()
-   Classe
-      getElementsByClassName()
-   Seletor ( Recomendado a Usar )
-      querySelector()    (Singular)
-      querySelectorAll() (Plural)
-
-Eventos DOM (Coisas que eu passa fazer)
-   EX:
-      mouseenter   entrar
-      mousemove    mover
-      mousedown    presionar
-      mouseup      soltar
-      click        clicar
-      mouseout     sair
-
-Ouvir eventos
-   addEventListener()
-
-BOM = Browser Object Model
-   Tudo o que está dentro do objeto Window
-
-Window
-   documento   - DOM
-   history
-   location
-   screen
-   navigator
-
-
----------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
 
 
@@ -362,35 +237,6 @@ const joao = new Person("João")
 
 
 ---------------------------------------------------------------------------------------------------
-
-
-Aprendi:
-
-Fundamentos
-Variáveis e Dados
-Operadores
-Condições
-Repetições
-Arrays
-Functions
-DOM
-
----
-
-Aprofundar:
-
-functions
-objetos
-modularização
-RegEx
-JSON
-AJAX
-NodeJS
-
-
----------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------
-
 
 Erros:
 
