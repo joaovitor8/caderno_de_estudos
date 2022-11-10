@@ -200,3 +200,5 @@ Promesas
 
 fetch()   -   Buscar/pegar
 .then()   -   "Resultado"
+
+teste
