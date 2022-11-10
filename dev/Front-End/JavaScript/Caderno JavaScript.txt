@@ -196,8 +196,20 @@ setTimeout
 ---------------------------------------------------------------------------------------------------
 
 Promesas
+   É um objeto JavaScript com a promessa de que algo será realizado
+   Essa promessa não significa que vai dar certo ou que vai dar errado.
 
----------------------------------------------------------------------------------------------------
+   Uma promessa tem quantro estagios, ou seja poderá ser
+      Pending: Estado inicial, assim que o objeto da promessa é iniciado
+      Fulfilled: A promessa foi concluída com sucesso
+      Rejected: A promessa foi rejeitada, houve um erro
+      Settled: Seja com sucesso ou erro, ela foi finalmente concluída
+
+   const promesa = new Promise ((resolve, reject) => {
+      return resolve('Pedido aceito!')
+      return reject('Pedido negado!')
+   })
+
 
 fetch()   -   Buscar/pegar
 .then()   -   "Resultado"
