@@ -23,13 +23,12 @@ O quê ECMAScript tem a ver com JavaScript?
 
 ---------------------------------------------------------------------------------------------------
 
-Tipos de dados: typeof = Conferir qual é o Tipo Primitivo de uma Variavel
+Tipos de dados:                           typeof = Conferir qual é o Tipo Primitivo de uma Variavel
 
 String
-   Cadeia de caracteres
+   Cadeia de caracteres (Texto)
       Aspas duplas
       Aspas simples
-      Template literals ou templete strings
 
 
 Number
@@ -61,13 +60,11 @@ Object
    Propriedade / Atributos
    Funcionalidade / Métodos
 EX:   const pessoa = {nome: "João", idade: 20, peso: 50}
-      console.log(pessoa.nome)
 
 
-Array (Vetores)
+Array
    Agrupamento de dados
 EX:   const pessoas = ['João', 'Flavia', 'Mateus']
-      console.log(pessoas[0])
 
 ---------------------------------------------------------------------------------------------------
 
@@ -81,6 +78,7 @@ Aritméticos
    %   Resto
    **   Potencia
 
+
 Atribuição
      =
     +=
@@ -89,6 +87,7 @@ Atribuição
     /=
    **=
     %=
+
 
 Relacionais
    >     Maior
@@ -100,6 +99,10 @@ Relacionais
    ===   Estritamente igual
             Irá ver além dos valores os tipos de elementos
    !==   Estritamente diferente
+
+
+New
+   A expressão new, também denominada como left-hand-side expression, serve para criar um novo objeto usando as funções construtoras que temos por padrão no JavaScript.
 
 
 Lógicos; Ordem - !, &&, ||
@@ -114,6 +117,7 @@ Unarios
    delete
       Deleta alguma propriedade de um objeto, desde que ela exista.
 
+
 Ternário
    condição ? true : false
    condição então valor 1 se não valor 2
@@ -123,7 +127,6 @@ Ordem
    (),   ! ++ --,   * /,   + -,   < <= > >=,   == != === !==,   &&,   ||,   ?:,   = += -= *= %=
 
 ---------------------------------------------------------------------------------------------------
-
 
 Controle:
 
@@ -151,192 +154,49 @@ Switch/case - swith(parametro da função) {
               }
 
 
-Throw e try/catch
-   Throw em inglês significa lançar, disparar, catch quer dizer pegar e try tentar.
-   Isso significa que vamos tentar executar um bloco de código, e se der algum erro, será disparado e capturado na nossa aplicação. Suponhamos que haja uma função que dispare um erro caso não seja passado um parâmetro dessa função.
+Throw e try/catch (?)
 
-   function sayMyName(name = '') {
-      if (name === '') {
-         throw 'Nome é obrigatório'
-   }
+---------------------------------------------------------------------------------------------------
 
-      console.log(name)
-   }
+Repetição
 
-   Nesse caso, se o nome vier vazio, será disparada uma mensagem.
-   Precisamos agora usar o try/catch para capturarmos esse erro, caso contrário, ele irá encerrar nossa aplicação, e nós o faremos da seguinte maneira:
+for   -   of(?)   -   in(?)
+   Usar quando eu sei a hora de parar
 
-   try {
-      sayMyName()
-   } catch(e) {
-      console.log(e)
-   }
-
-   console.log('após ao try/catch')
-   O try irá executar a função, enquanto o catch vai capturar o erro e atribuir à variável e, que só existe dentro do catch. Após isso, mesmo com o erro, nossa aplicação não será interrompida por completo
-
+while
+   Usar quando eu não sei a hora de parar
 
 ---------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
 
+Sincrono X Assincrono
 
-Loops:  loops  sempre estarão dentro de  function
+Sistema Síncrono
+   Um sistema síncrono (synchronous) é uma tarefa que é concluída após a outra.
+   Por padrão, o JavaScript é um sistema síncrono
 
-loop while   ENQUANDO
-   while - Estrutura de repetiçãos com teste lógico no inicio
-   Usar quando eu não sei o momento da parada
-	while (Condição) {
-	      True
-	}
-
-loop for   PARA
-   Usar quando eu sei o momento da parada   -   for( ... of)    /     for( ... in)
-	for (inicialização de uma variável; condição de continuação para o loop; expressão final){
-	   true
-	}
-
----------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------
-
-
-Funções:
-   São Ações executadas assim que são Chamadas ou nem decorrência de algum Evento
-   Uma Função pode receber Parâmetros e retornar um Resultado
-
-   Funções são tipos de dados estruturais, que são declarados dessa forma: function nomeFunção() { código à cer executado } e para executar a função, usa-se: nomeFunção(). Uma função é importante para o agrupamento e reutilização de código.
-
-Estrutura:  function nomeFunção (parametros){
-               // instruções
-               return;  // valor de retorno e parada da função
-            }
-
-
-Uma Variável pode armazenar uma função
-EX Função Anônima:  const soma = function (a, b){
-                       retun a + b
-                    }
-
-Arrow function
-   Também podemos escrever funções expression de uma maneira mais compacta, desta maneira: () => { código a ser executado }, chamada de Arrow Function.
-   Normalmente são atribuidas a   const
-
-
-Funções construtoras
-   são utilizadas para criar novos objetos e geralmente tem a sua primeira letra maiúscula, todos com as mesmas características que são criadas na função, usando a palavra reservada this para se referir ao objeto sendo criado, por exemplo:
-
-function Person(name) {
-	this.name = name
-	this.walk() = function() {
-		return this.name + "está andando")
-	}
-}
-const mayk = new Person("Mayk")
-const joao = new Person("João")
-
+Sistema Assíncrono
+   Num sistema assíncrono (asynchronous) as tarefas são executadas de maneira independente uma da outra.
+   O JavaScript poderá usar o assincronismo ao seu favor
 
 ---------------------------------------------------------------------------------------------------
 
-Erros:
-
-Tipos de Erros
-   ECMAScript e DOMException
-   ECMAScriptError é um tipo de erro em tempo de execução e o DOMException é um erro referente ao DOM
-
-
-Tratando Erros
-   Thorw, try/Catch e Finally
-      Thow
-         Lança um erro
-      Finally
-         É sempre executado, independente de ter um erro ou não
-
-Criando Erros
-   new error(mensagem)
+Callback
+   Callback (chamar de volta) é uma função que é passada como argumento de outra função e depois de algum tempo ela é chamada de volta.
 
 ---------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------
 
-Assincrono:
-
-Promises
-   Estrutura
-      new Promise(resolve, reject)
-
-Async/Await
-
-
-APIs - Application Programming Interface
-   Forma de intermediar os resultados do back-end com o que é apresentado no frond-end, voce consegue acessá-la por meio de URLs
-
-Fetck
-   retorna uma Promise
+setTimeout
+   setTimeout() é uma função que recebe como argumento uma outra função e um tempo para ser executada.
+   setTimeout(function, delay)
+   A função de argumento do setTimeout é uma callback, ela vai executar depois de um certo tempo.
 
 ---------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------
 
-Modulos:
-
-São arquivos JavaScript quem tem a acapacidade de esportar e importar informações de outros arquivos do mesmo tipo
-
-Vantagens - Organização do código
-            Compartilhamento de variaveis em escopos diferentes
-            Explicita as dependências dos arquivos
-
-
-Exportar
-   named exports
-      Pode ser usado em varias function
-   default exports
-      Só pode hover um por arquivo
-      Será o retorno padrão do seu arquivo
-
-Importar
-   import {} from './arquivo.js'              named
-   import    from './arquivo.js'              default
-   import * as APELIDO from './arquivo.js'    todos os dados de um arquivo
+Promesas
 
 ---------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------
 
-TypeScript:
-
-É uma estenção do JS possuindo features não nativas do JS, como por exemplos chacagem de tipos que facilitam e aceleram o desenvolvimento de sistemas.
-
-
-função
-interfaces
-types
-input
-generic types
-condicionais a partir de parametros
-?
-readonly / private
-bibliotecas com typescript
-omit
-
-
-Qual a diferença na utilização de const ou readonly?
-  o const e utilizado para variaveis e não pode ser reatribuido jáo readonly e utilizado para propriedade (membros de classes), que pode ser reatribuidas desde que dentro do contrutor
-
-O que são tipos condicionais em TypeScript?
-   permitem que um tipo seja definido dinamicamente com bese em uma condição pre fornecida seguindo um formato padrão
-
-Quais são os modificadores de acesso presentes no TypeScript?
-   private, public e protected
-
-Quais das opções abaixo representa um parâmetro de função opcional?
-   cargo?: string
-
-O que são Generic types?
-   representra uma maneira de criar parametros para classes e definir tipos que podee ser substituidos em varios lugares do programa eliminando o uso da classe object para definirmos tipos variaveis
-
-Qual a forma de utilização da função Omit dentro do TypeScript?
-   em um padrao de codificação em TS é criado um novo tipo que omite (omissão) propriedades especificas de outro tipo. antes usada a combinação dos helpers pick e eclude
-
-Como funcionam as interfaces?
-   sao especies de contratos para implementar as classes ou estruturas. Uma classe que implementa uma interfa
-
-Como são utilizados os types?
-   sao utilizados para definir estruturas de dados em classes e funçoes alem de apoiar suas respectivas validaçoes
+fetch()   -   Buscar/pegar
+.then()   -   "Resultado"
