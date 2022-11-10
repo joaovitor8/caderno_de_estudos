@@ -170,7 +170,8 @@ while
 ---------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
 
-Sincrono X Assincrono
+Sincrono X Assincrono:
+
 
 Sistema Síncrono
    Um sistema síncrono (synchronous) é uma tarefa que é concluída após a outra.
@@ -195,10 +196,21 @@ setTimeout
 ---------------------------------------------------------------------------------------------------
 
 Promesas
+   É um objeto JavaScript com a promessa de que algo será realizado
+   Essa promessa não significa que vai dar certo ou que vai dar errado.
 
----------------------------------------------------------------------------------------------------
+   Estagios de uma promise / Uma promessa poderá ser
+      Pending:  Estado inicial, assim que o objeto da promessa é iniciado
+      Fulfilled:  A promessa foi concluída com sucesso
+      Rejected:  A promessa foi rejeitada, houve um erro
+      Settled:  Seja com sucesso ou erro, ela foi finalmente concluída
+   
+   conts promesa = new Promise((resolve, reject) => {
+      return resolve('Pedido Aceito')
+      return reject('Pedido Negado')
+   })
+
+
 
 fetch()   -   Buscar/pegar
 .then()   -   "Resultado"
-
-teste
