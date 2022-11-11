@@ -62,19 +62,54 @@ ESTRUTURAS DE REPETIÇÃO:
 
 
 TUPLAS:
-   nome = ('A', 'B', 'C', 'D')
+   tupla = ('A', 'B', 'C', 'D')
    TUPLAS SÃO IMUTAVEIS
 
+
 LISTAS:
-   nome = ['A', 'B', 'C', 'D']
+   lista = ['A', 'B', 'C', 'D']
    LISTAS SÃO MUTAVEIS
    Adicionando itens a Lista
-      nome.append('item')
+      lista.append('valor')
    Adicionando em um lugar específico
-      nome.insert(3, 'item')
+      lista.insert(3, 'valor')
    Removendo da Lista
-      del nome[4]
-      nome.pop(4)
-      nome.renove('item')
+      del lista[4]
+      lista.pop(4)
+      nome.renove('valor')
    Colocando valores numerios em ordem
-      nome.sort()
+      lista.sort()
+   Ver o tamanho da lista
+      len(lista)
+   Da para colocar uma Lista dentro da outra
+
+
+DICIONÁRIOS:
+   dicionario = {'chave': 'valor', 'chave': 'valor', 'chave': 'valor', 'chave': 'valor'}
+   São personalizaveis
+   Pegar os conteudos
+      dicionario.values()
+   Pegar as chaves
+      dicionario.keys()
+   Pegar os dois
+      dicionario.items()
+   Da para colocar um Dicionário dentro de uma Lista
+
+
+FUNÇOES:
+   def nomeFunção():
+
+
+AJUDA INTERATIVA:
+   help()
+
+
+ERROS:
+   try:                 Vai tentar fazer a operação
+      operação
+   except:              Se deu problema vai retornar a mensagem de erro   (posso ter varios except)
+      falhou
+   else:                Se deu certo vai retornar a operação   (opcional)
+      deu certo
+   finally:             Vai retornar algo independente se deu certo ou errado   (opcional)
+      certo / falha
