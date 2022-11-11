@@ -211,5 +211,11 @@ Promesas
    })
 
 
-fetch()   -   Buscar/pegar
-.then()   -   "Resultado"
+fetch()   -   Buscar/pegar   -   fetch tambem é todo uma estrutura de promesa que esta pendente
+.then()   -   Resposta
+.catch()  -   Caso haja erro
+
+
+
+
+axios
