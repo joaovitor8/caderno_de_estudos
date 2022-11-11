@@ -1,5 +1,4 @@
 TIPOS PRIMITIVOS:
-
    int     Números inteiros desde negativos a positivos
    float   Números com ponto(virgula) desde negativos a positivos
    bool    Valores  True  e  False
@@ -7,7 +6,6 @@ TIPOS PRIMITIVOS:
 
 
 OPERADORES ARITMETICOS:
-
     +   Adição
     -   Subtração
     *   Multiplicação
@@ -16,38 +14,26 @@ OPERADORES ARITMETICOS:
    //   Divição Inteira
     %   Resto da Divisão
 
-ORDEM DE PRECEDÊNCIA:
 
+ORDEM DE PRECEDÊNCIA:
    1° ()
    2° **
    3° *  /  //  %
    4° +  -
 
 
-MÓDULOS:
-
-   import.
-
-
-CADEIAS:
-
-
-COMDIÇÕES:
-
+ESTRUTURA DE CONDIÇÕES:
    if
+   elif
    else
 
 
-COLRES:
-
-   \033[STYLE;TEXT;BACKm
-
+COLRES:   \033[STYLE;TEXT;BACKm
    Style
       0   None
       1   Bold
       4   Underline
       7   Negative
-
    Text
       30   Branco
       31   Vermelho
@@ -57,7 +43,6 @@ COLRES:
       35   Violeta
       36   Azul  Fraco
       37   Cinza
-
    Back
       40   Branco
       41   Vermelho
@@ -67,3 +52,19 @@ COLRES:
       45   Violeta
       46   Azul  Fraco
       47   Cinza
+
+
+ESTRUTURAS DE REPETIÇÃO:
+   for - Usar quando eu sei quando acaba
+   while - Usar quando eu não sei quando acaba
+   
+   break - Responsável por interromper um laço imediatamente
+
+
+TUPLAS:
+   nome = ('A', 'B', 'C', 'D')
+   TUPLAS SÃO IMUTAVEIS
+
+LISTAS:
+nome = ['A', 'B', 'C', 'D']
+   LISTAS SÃO MUTAVEIS
