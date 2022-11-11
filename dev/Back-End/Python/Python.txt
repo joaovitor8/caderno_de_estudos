@@ -66,5 +66,15 @@ TUPLAS:
    TUPLAS SÃO IMUTAVEIS
 
 LISTAS:
-nome = ['A', 'B', 'C', 'D']
+   nome = ['A', 'B', 'C', 'D']
    LISTAS SÃO MUTAVEIS
+   Adicionando itens a Lista
+      nome.append('item')
+   Adicionando em um lugar específico
+      nome.insert(3, 'item')
+   Removendo da Lista
+      del nome[4]
+      nome.pop(4)
+      nome.renove('item')
+   Colocando valores numerios em ordem
+      nome.sort()
