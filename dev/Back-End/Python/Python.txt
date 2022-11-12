@@ -28,7 +28,7 @@ ESTRUTURA DE CONDIÇÕES:
    else
 
 
-COLRES:   \033[STYLE;TEXT;BACKm
+COLRES:   \033[STYLE;TEXT;BACKm TEXTO \033[m
    Style
       0   None
       1   Bold
