@@ -1,26 +1,26 @@
 Tipos Primitivos
 
 Interios
-   byte
-   sbyte
-   shot
-   ushort
-   int
-   uint
-   long
-   ulong
+   byte   = 1byte / 0 a 255
+   sbyte   = 1byte / -128 a 127
+   shot   = 2byte / -32768 a 32767
+   ushort   = 2byte / 0 a 65535
+   int   = 4byte / -2147483648 a 214748367
+   uint   = 4byte / 0 a 4294967295
+   long   = 8byte / -9223372036854775808L to 9223372036854775807L
+   ulong   = 8byte / 0 a 1844674407379551615
 
 Caracteres
-   char
-   string
+   char   = 2byte / Caractes delimitadas por aspas. EX: 'a', 'ç', 'o'
+   string   = "Texto"
 
 Reais
-   float
-   double
-   decimal
+   float   = 4byte / Números até 10 elevado a 38
+   double   = 8byte / Números até 10 elevado a 308
+   decimal   = 16byte / Números com até 28 casas decimais
 
 Logicos
-   bool
+   bool  =  true or false
    enum
    struct
    object
