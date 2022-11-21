@@ -1,3 +1,9 @@
+Comandos:
+   Console.WhiteLine("Escreve um Texto no console")
+   Console.ReadKey();   Espera o usuario apertar ENTER para sair do console
+
+---------------------------------------------------------------------------------------------------
+
 Tipos Primitivos
 
 Interios
@@ -35,7 +41,7 @@ int n = gerador.Next(1, 4)
 
 ---------------------------------------------------------------------------------------------------
 
-Data e Hora   DateTime
+Data e Hora:   DateTime
 
 EX:
 int dia = DateTime.Now.Day;
@@ -44,7 +50,7 @@ int ano = DateTime.Now.Year;
 
 ---------------------------------------------------------------------------------------------------
 
-Formatação com Números Interpoladas
+Formatação com Números Interpoladas:
 
 :C   Monetário (Currency)
 :D   Decimal (Inteiro)
@@ -72,6 +78,7 @@ Funcionalidade
    incremento
    condiconal
 
+---------------------------------------------------------------------------------------------------
 
 OPERADORES ARITMÉTICOS:   n = Número
 
@@ -86,6 +93,7 @@ Binarios
    n / n   divisão (intera ou real)
    n % n   resto da divisão inteira (remainder)
 
+---------------------------------------------------------------------------------------------------
 
 DIVISÕES INTEIRA E REAL:
 
@@ -102,6 +110,7 @@ ORDEM DE PRECENDÊNCIA DOS OPERADORES ARITMÉTICOS:
    3º *, /, %   multiplicativos
    4º +, -      aditivos (binarios)
 
+---------------------------------------------------------------------------------------------------
 
 OPERADORES RELACIONAIS:
 
@@ -116,6 +125,7 @@ OPERADORES RELACIONAIS:
 
       o retorno é sempre  true  ou  false
 
+---------------------------------------------------------------------------------------------------
 
 OPERADORES LÓGICOS:
 
@@ -144,6 +154,7 @@ OPERADORES LÓGICOS:
       true
       false
 
+---------------------------------------------------------------------------------------------------
 
 OPERADOR CONDICIONAL:
 
@@ -152,7 +163,7 @@ OPERADOR CONDICIONAL:
 
       ex -   (altura <= 1.70) ? "baixa" : "alta"
 
-
+---------------------------------------------------------------------------------------------------
 
 BASES NUMÉRICAS C#:
 
@@ -177,6 +188,7 @@ BASES NUMÉRICAS C#:
 
       Apos fazer a converção, inverter todos os numeros, os 0 serão 1 e os 1 serão 0, e somar mais 1
 
+---------------------------------------------------------------------------------------------------
 
 OPERADORES BITWISE:
 
@@ -249,6 +261,7 @@ OPERADORES BITWISE:
               64 32 16 8 4 2 1
                1  0  1 1 0 0 0  = 64 + 16 + 8 = 88
 
+---------------------------------------------------------------------------------------------------
 
 OPERADORES DE ATRIBUIÇÃO:
 
@@ -267,6 +280,7 @@ OPERADORES DE ATRIBUIÇÃO:
       >>=
       <<=
 
+---------------------------------------------------------------------------------------------------
 
 INCREMENTO e DECREMENTO
 
@@ -282,6 +296,7 @@ INCREMENTO e DECREMENTO
    Menos Menos Pós
       n--
 
+---------------------------------------------------------------------------------------------------
 
 COALESCÊNCIA NULA:
 
@@ -313,6 +328,7 @@ PRECENDÊNCIA COMPLETA:
    16°   ,                                                          -> da esquerda para a direita
    (OBS: os  pós  irão ser apenas lido, e só no final será dado seu valor) 
 
+---------------------------------------------------------------------------------------------------
 
 CLASSES Math e MathF:
 
@@ -324,6 +340,7 @@ CLASSES Math e MathF:
       sempre irá retornar o valor  float
       oculpa  4 bytes
 
+---------------------------------------------------------------------------------------------------
 
 FUNÇÕES - ANÁLISE e ARREDONDAMENTO:
 
@@ -338,6 +355,7 @@ FUNÇÕES - ANÁLISE e ARREDONDAMENTO:
       Math.Truncate()
       Math.Round()
 
+---------------------------------------------------------------------------------------------------
 
 CÁLCULOS ANGULARES:
 
