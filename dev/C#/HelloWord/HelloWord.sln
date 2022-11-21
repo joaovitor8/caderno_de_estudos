@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora", "Calculadora\Calculadora.csproj", "{803A2BE8-6D99-4FB0-878E-532C89E7D2BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomarMedia", "SomarMedia\SomarMedia.csproj", "{835E397F-638E-4D09-A179-40F1953BAB6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{803A2BE8-6D99-4FB0-878E-532C89E7D2BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{803A2BE8-6D99-4FB0-878E-532C89E7D2BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{803A2BE8-6D99-4FB0-878E-532C89E7D2BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{803A2BE8-6D99-4FB0-878E-532C89E7D2BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{835E397F-638E-4D09-A179-40F1953BAB6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{835E397F-638E-4D09-A179-40F1953BAB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{835E397F-638E-4D09-A179-40F1953BAB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{835E397F-638E-4D09-A179-40F1953BAB6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9030D67-16B4-4798-B382-60C57ED90906}
+	EndGlobalSection
+EndGlobal
