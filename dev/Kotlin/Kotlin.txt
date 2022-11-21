@@ -1,1 +1,10 @@
-Historia
+Historia:
+   Qual é o nome de um dos líderes idealizadores da Linguagem Kotlin?
+       Hadi Hariri
+
+
+Primeiro Programa:
+
+   fun main(args: Arry<String>) {
+      print("Olá,Mundo!")
+   }
