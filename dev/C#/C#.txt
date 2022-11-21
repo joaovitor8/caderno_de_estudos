@@ -1,6 +1,11 @@
-Comandos:
-   Console.WhiteLine("Escreve um Texto no console")
+Comandos Basicos:
+   Console.WhiteLine("Escreve um Texto no console e cria uma nova linha")
+   Console.White("Escreve um Texto no console)
    Console.ReadKey();   Espera o usuario apertar ENTER para sair do console
+
+   Ler um numero
+      int num = 0;
+      int.TryParse(Console.ReadLine(), out num)
 
 ---------------------------------------------------------------------------------------------------
 
