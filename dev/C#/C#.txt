@@ -4,8 +4,8 @@ Comandos Basicos:
    Console.ReadKey();   Espera o usuario apertar ENTER para sair do console
 
    Ler um numero
-      int num = 0;
-      int.TryParse(Console.ReadLine(), out num)
+      int num;
+      int.TryParse(Console.ReadLine(), out int num)
 
 ---------------------------------------------------------------------------------------------------
 

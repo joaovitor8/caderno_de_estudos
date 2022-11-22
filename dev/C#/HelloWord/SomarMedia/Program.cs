@@ -10,6 +10,10 @@ namespace SomarMedia
     {
         static void Main(string[] args)
         {
+            Console.Write("Informe quantas notas vc quer ler: ");
+            int.TryParse(Console.ReadLine(), out int num);
+
+            int[] n = { };
         }
     }
 }

@@ -16,10 +16,11 @@ namespace Calculadora
             Console.Write("Informe o segundo numero: ");
             int.TryParse(Console.ReadLine(), out int num2);
 
+            Console.WriteLine();
+
             Console.WriteLine("1-somar, 2-subtrair, 3-multiplicar, 4-dividir, 5-resto, 6-potencia, 0-sair");
             Console.Write("Informe o Sinal: ");
             int.TryParse(Console.ReadLine(), out int sinal);
-
 
             while (sinal > 6)
             {
