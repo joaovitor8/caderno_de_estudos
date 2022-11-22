@@ -1,0 +1,8 @@
+C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\SomarMedia\obj\Debug\SomarMedia.csproj.AssemblyReference.cache
+C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\SomarMedia\obj\Debug\SomarMedia.csproj.SuggestedBindingRedirects.cache
+C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\SomarMedia\obj\Debug\SomarMedia.csproj.CoreCompileInputs.cache
+C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\SomarMedia\bin\Debug\SomarMedia.exe.config
+C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\SomarMedia\bin\Debug\SomarMedia.exe
+C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\SomarMedia\bin\Debug\SomarMedia.pdb
+C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\SomarMedia\obj\Debug\SomarMedia.exe
+C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\SomarMedia\obj\Debug\SomarMedia.pdb

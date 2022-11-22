@@ -13,7 +13,15 @@ namespace SomarMedia
             Console.Write("Informe quantas notas vc quer ler: ");
             int.TryParse(Console.ReadLine(), out int num);
 
-            int[] n = { };
+            for (int i = 1; i < num+1; i++)
+            {
+                Console.Write("Informe a {0}ª nota: ", i);
+                int.TryParse(Console.ReadLine(), out int notas);
+            }
+
+            Console.WriteLine();
+
+            Console.ReadKey();
         }
     }
 }
