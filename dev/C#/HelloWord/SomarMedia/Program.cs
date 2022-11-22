@@ -17,6 +17,10 @@ namespace SomarMedia
             {
                 Console.Write("Informe a {0}ª nota: ", i);
                 int.TryParse(Console.ReadLine(), out int notas);
+
+                int[] n = new int[num];
+                
+                Console.WriteLine(n);
             }
 
             Console.WriteLine();
