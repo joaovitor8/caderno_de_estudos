@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora", "Calculadora\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomarMedia", "SomarMedia\SomarMedia.csproj", "{835E397F-638E-4D09-A179-40F1953BAB6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JogarDados", "JogarDados\JogarDados.csproj", "{A0ADDE33-20E9-4B67-BBD9-31D445F41B62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{835E397F-638E-4D09-A179-40F1953BAB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{835E397F-638E-4D09-A179-40F1953BAB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{835E397F-638E-4D09-A179-40F1953BAB6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0ADDE33-20E9-4B67-BBD9-31D445F41B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0ADDE33-20E9-4B67-BBD9-31D445F41B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0ADDE33-20E9-4B67-BBD9-31D445F41B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0ADDE33-20E9-4B67-BBD9-31D445F41B62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

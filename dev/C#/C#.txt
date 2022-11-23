@@ -3,9 +3,12 @@ Comandos Basicos:
    Console.White("Escreve um Texto no console)
    Console.ReadKey();   Espera o usuario apertar ENTER para sair do console
 
-   Ler um numero
-      int num;
+   Ler Teclado
+      string(Console.ReadLine(), out string txt)
+      float.TryParse(Console.ReadLine(), out float num)
       int.TryParse(Console.ReadLine(), out int num)
+
+          TryParse = Tente converte
       
 
    .ToLower()
