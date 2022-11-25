@@ -1,0 +1,8 @@
+C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\Data\bin\Debug\Data.exe.config
+C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\Data\bin\Debug\Data.exe
+C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\Data\bin\Debug\Data.pdb
+C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\Data\obj\Debug\Data.csproj.AssemblyReference.cache
+C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\Data\obj\Debug\Data.csproj.SuggestedBindingRedirects.cache
+C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\Data\obj\Debug\Data.exe
+C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\Data\obj\Debug\Data.pdb

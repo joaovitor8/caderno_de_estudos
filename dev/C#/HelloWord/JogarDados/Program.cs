@@ -45,6 +45,7 @@ namespace JogarDados
                 Console.WriteLine("Pontos!");
                 Console.WriteLine("Jogador 1: {0} pontos", pj1);
                 Console.WriteLine("Jogador 2: {0} pontos", pj2);
+                Console.WriteLine("Empate: {0} pontos", empate);
                 Console.WriteLine();
 
                 c++;
@@ -61,6 +62,43 @@ namespace JogarDados
             else if (pj1 == pj2)
             {
                 Console.WriteLine("Empate, jogem novamente até sair um vencedor!");
+                while (pj1 == pj2)
+                {
+                    int j1 = gerador.Next(1, 7);
+                    int j2 = gerador.Next(1, 7);
+
+                    Console.WriteLine("Jogando dados!");
+                    Console.WriteLine("Jogador 1 tirou {0} no dado!", j1);
+                    Console.WriteLine("Jogador 2 tirou {0} no dado!", j2);
+
+                    if (j1 > j2)
+                    {
+                        pj1++;
+                    }
+                    else if (j2 > j1)
+                    {
+                        pj2++;
+                    }
+                    else if (j1 == j2)
+                    {
+                        empate++;
+                    }
+
+                    Console.WriteLine("Pontos!");
+                    Console.WriteLine("Jogador 1: {0} pontos", pj1);
+                    Console.WriteLine("Jogador 2: {0} pontos", pj2);
+                    Console.WriteLine("Empate: {0} pontos", empate);
+                    Console.WriteLine();
+                }
+
+                if (pj1 > pj2)
+                {
+                    Console.WriteLine("Jogardor 1 ganhou");
+                }
+                else if (pj2 > pj1)
+                {
+                    Console.WriteLine("Jogador 2 ganhou");
+                }
             }
 
             Console.WriteLine();
