@@ -389,7 +389,7 @@ Ve se um valor tem no vetor
 
 Repetições:
 
-if / else is / else
+if / else is / else      se / se não se / se não
    if ()
    {
       Comando
@@ -403,18 +403,17 @@ if / else is / else
       Comando
    }
 
-for
+for      para
    for (int i = 0; i < 10; i++)
    {
       Comando
    }
 
-while
+while      enquanto
    while ()
    {
       Comando
    }
-   
-   ---------------------------------------------------------------------------------------------------
-   
-   
+
+---------------------------------------------------------------------------------------------------
+
