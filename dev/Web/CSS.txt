@@ -55,7 +55,12 @@ Seletores
 
 Ações do usuario
    Pseudo-classes (:)
-      :hover, :visited, :active, :checked, :empty, :focus
+      :hover - Cria uma "animação" quando o mause passa por cima
+      :visited
+      :active, 
+      :checked
+      :empty
+      :focus
 
    Pseudo-elementos (::)
       ::before, ::after, ::first-letter, ::first-line
