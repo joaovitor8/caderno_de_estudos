@@ -23,6 +23,16 @@ O quê ECMAScript tem a ver com JavaScript?
 
 ---------------------------------------------------------------------------------------------------
 
+DOM
+
+por Marca = getElementsByTagName("div")
+por ID = getElementById("id")
+por Nome = getElementsbyByNome()
+por Classe = getElementByClasseName("classe")
+por Seletor =
+
+---------------------------------------------------------------------------------------------------
+
 Tipos de dados:                           typeof = Conferir qual é o Tipo Primitivo de uma Variavel
 
 String

@@ -211,16 +211,11 @@ Animation fill mode
 
 @Media Queries:
 
-Midia Querie = Midia Types + Midia Features
+@media screen  -  Telas de dispositivos
 
-Midias Types
-   É usado nos links das CSS
-   Tipo de midia
 
-Midia Feature
-   Caracteristica de midia
-
-Mobile First
-   Para melhor produção é recomendado começar pela versão de celular e depois ir adicionando as demais telas
-   Pesquisar:  Device Breakpoints
-
+Celular  =  @media screen and (min-width: 768px) {
+   ... {
+      ...
+   }
+}
