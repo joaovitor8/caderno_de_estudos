@@ -1,0 +1,44 @@
+Hooks:
+
+useState
+
+
+
+
+
+---------------------------------------------------------------------------------------------------
+
+
+Links React:
+
+instalar - npm install react-router-dom
+
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'   -   Importação
+
+<Router>
+   <Header></Header>
+        
+   <Routes>
+      <Route path='/' element={<Home/>} />
+      <Route path='/' element={}/>
+      <Route path='/' element={} />
+      <Route path='/' element={}/>
+      <Route path='/' element={}/>
+   </Routes>
+</Router>
+
+
+
+import { Link } from "react-router-dom"   -   importação
+
+<nav className="header-nav">
+   <Link to="/">Home</Link>
+   <Link to="/"> </Link>
+   <Link to="/"> </Link>
+   <Link to="/"> </Link>
+   <Link to="/"> </Link>
+</nav>
+
+
+---------------------------------------------------------------------------------------------------

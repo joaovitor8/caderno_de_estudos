@@ -11,41 +11,12 @@ Comentários   -   <!-- blablabla -->
 ---------------------------------------------------------------------------------------------------
 
 
-Caracteres, parágrafos e quebras de linha:
+Texto:
 
-Parágrafos - <p></p>
-   Usado para adcionar o conteudo do site.
-   O <p> representa um parágrafo, mas ele não suporta apenas texto, podemos adicionar imagens, código, vídeos e vários outros tipos de conteúdo dentro dele.
-
-Quebras de linha - <br>
-   Usado para quebra em um terderminado lugar no parágrafo
-
-Caracteres / Emojis - &, &#x
-
-
----------------------------------------------------------------------------------------------------
-
-
-Imagens e Favicon:
-
-Formatos de Imagens - JPEG, PENG, JPG
-Imagens - <img>
-
-  A web também é feita de imagens e para representá-las temos o elemento <img>, ele é um daqueles elementos sem tag de fechamento.
-  O elemento img é bem simples, contendo apenas 2 atributos próprios, o src e o alt.
-  O src é obrigatório e guarda o caminho para a imagem que você quer mostrar na página.
-  O alt não é obrigatório mas é altamente recomendado por melhorar a acessibilidade, ele mostra a descrição da imagem caso ela não carregue e leitores de tela usam esse atributo para descrever a imagem para o usuário saber o que ela significa.
-
-Facivon(Icone)
-   Para adicionar um Ícone vá até uma linha na parte de configuração do site e digite 'link' e escolha a opção com favicon
-
-
----------------------------------------------------------------------------------------------------
-
-
-Hierarquia de Títulos:
-
-São utilizados para marcar a importância dos títulos, sendo <h1> o mais importante e <h6> o menos. Uma dica: use apenas um <h1> por página, pois ele representa o objetivo da sua página.
+Hierarquia de Títulos - <h1> a <h6>
+   Marca a importância dos títulos, sendo <h1> o mais importante e <h6> o menos. Use apenas um <h1> por página, pois ele representa o objetivo da sua página.
+Parágrafos            - <p></p>
+Quebras de linha      - <br>
 
 
 ---------------------------------------------------------------------------------------------------
@@ -68,7 +39,12 @@ Abreviações       - <abbr>
 Texto Invertido   - <bdo> rtl(Esquerda), ltr(Direita)
 
 
-Espaço no começo da frase  -  &nbsp;
+---------------------------------------------------------------------------------------------------
+
+
+Caracteres / Emojis:     &, &#x
+
+    -  &nbsp;        Espaço no começo da frase
 <   -  &lt;
 >   -  &gt;
 &   -  &amp;
@@ -83,45 +59,36 @@ Listas HTML:
 
 Listas Ordenadas - <ol>
    Onde a Ordem Importa
-   O <ol> serve para criar lista ordenadas, nessas a ordem importa, portanto elas são representadas com números, algarismos romanos ou letras.
+   Serve para criar lista ordenadas, portanto elas são representadas com números, algarismos romanos ou letras.
 
 Listas não Ordenadas - <ul>
    Onde a Ordem não Importa
-   O elemento ul cria uma lista não ordenada, onde a ordem dos elementos não é importante, e é representada com pontos, círculos ou quadrados
+   Cria uma lista não ordenada, e é representada com pontos, círculos ou quadrados
 
 Adicionar itens a lista - <li>
-   E o elemento li é um item dentro de uma dessas listas. Um <li> pode conter vários tipos de conteúdos, como parágrafos, imagens e até outras listas.
-
-
-Lista de Definições - <dl><dt><dd>
+   É um item dentro de uma dessas listas. Um <li> pode conter vários tipos de conteúdos, como parágrafos, imagens e até outras listas.
 
 
 ---------------------------------------------------------------------------------------------------
 
 
-Links:
+Links:   <a> - que significa anchor/âncora, é ele que interliga vários conteúdos e páginas na web.
 
-Hyperlink -  <a href=" Link do Site no qual deseja ir "  target=" Controle de Destino ">,   <a> - que significa anchor/âncora, é ele que interliga vários conteúdos e páginas na web.
+Hyperlink -  <a href=" Link do Site no qual deseja ir "  target=" Controle de Destino ">
 
+   _self  vai abrir o Link na janela(Padrão)
    _blank  vai abrir o Link em uma nova janela em 'branco'
-   _self  vai abrir o Link na janela ou frame atual (Padrão)
-   _top  vai desfazer todos os frames e abrir o destino no navegador completo
-   _parent  similar ao uso do _top em uma referência à janela mãe
-   nome-do-frame  caso esteja usando frames, indicar o nome da janela a abrir
 
 
 ---------------------------------------------------------------------------------------------------
 
 
-Imagens dinâmicas, áudios e vídeos:
+Imagens dinâmicas, áudios e vídeos:   Imagens - <img>
 
 Consentrar as configurações da imagem - <picture>
 Consentrar as configurações do audio - <audio>
 Consentrar as configurações do video - <video>
 Configurações das midias - <source>
-
-Em paginas com imagens flexíveis a ordem das imagens é da menor(cima) para a maior(baixo), tendo como principal a maior, tudo entre    picture
-
 
 ---------------------------------------------------------------------------------------------------
 
@@ -155,14 +122,6 @@ Grouping Tags e Semantic Tags
 ---------------------------------------------------------------------------------------------------
 
 
-Aprendendo Git e GitHub:
-
-Client/sever
-
-
----------------------------------------------------------------------------------------------------
-
-
 Tabelas:
 
 Não usar tabelas para a criação de sites
@@ -176,51 +135,6 @@ Anatomia das Tabelas
          TR, TD, TH   -             <td> = Adicionar dados na tabela
       TFOOT           - Rodapé
          TR, TD, TH   -             <th> = Titulo do Cabeçalho
-
-Alinhamentos de conteúdos em Tabelas
-   text-align: center;       = Alinhamento Horizontal
-   vertical-align: middle;   = Alinhamento Vertical
-
-Efeito Zebrado
-   ???
-
-Cabeçalho Fixo
-   ???
-
-Mesclagem de Células
-   <table>
-      <tr>
-         <td colspan="n" scope="">
-             rowspan="n"
-
-Agrupando Colunas com  colgrup
-   <colgrup>
-      <col class=" ">
-
-Tabelas Responsivas
-   overflow(x):auto
-
-
----------------------------------------------------------------------------------------------------
-
-
-iframes:   "São quadros em linha"
-
-Tamanho padrão  -  300x150px  (Largura  Altura)
-
-Abrindo paginas pelo iframe
-   1 - Adicione um link com o  target="frame"
-   2 - Na tag  iframe  coloque um  name="frame"
-
-Segurança
-   referrerpolicy="no-referrer"      (Não pega dados de nada e ninguem)
-   sandbox="sandbox"    (Bloqueia tudo)
-
-Coisas Ulteis com  iframe
-   Videos
-   Mapas
-   Documentos
-   Etc...
 
 
 ---------------------------------------------------------------------------------------------------

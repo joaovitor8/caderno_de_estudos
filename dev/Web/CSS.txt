@@ -10,10 +10,6 @@ Comentários -  /**/
 
 Fontes:
 
-Tamanhos
-   px
-   em = 16px
-
 Simplificando
    font-family   -   Com o font-family podemos alterar a fonte dos nossos textos, como uma fonte da internet ou uma que esteja instalada no nosso computador. Tem fontes com e sem serifa
    font-size     -   O font-size nos ajuda a mudar o tamanho do texto.
@@ -33,9 +29,6 @@ text-transfotm: nome          (Padrão)
                 uppercarse    Todas as letras do texto serão maiusculas
                 lowercase     Todas as letras do texto serão minusculas
                 capitalize    Todo começo de palavra a primeira letra é maiuscula
-
-text-shadow: 1px 1px 1px red
-   Sobra no texto
 
 
 ---------------------------------------------------------------------------------------------------
@@ -63,7 +56,7 @@ Ações do usuario
       :focus
 
    Pseudo-elementos (::)
-      ::before, ::after, ::first-letter, ::first-line
+      ??
 
 
 ---------------------------------------------------------------------------------------------------
@@ -75,26 +68,23 @@ Modelo de Caixas:
  width = Deitado
 
 Anatomia das Caixas
-   margin          -   Da bordar(border) para fora,   são espaçamentos entre elementos
-   outline         -   É como uma borda com foco
-   border          -   Borda do conteúdo   -   solid: mostra uma borda simples e reta;   dotted: são bolinhas com um pequeno espaçamento entre elas;  dashed: forma uma linha tracejada.
-   padding         -   É um espaçamento entre as bordas e o conteúdo, a diferença para as margens é que declarações de imagem de fundo funcionam nele;
+   margin    -   Da bordar(border) para fora,   são espaçamentos entre elementos
+   outline   -   É como uma borda com foco
+   border    -   Borda do conteúdo   -   solid: mostra uma borda simples e reta;   dotted: são bolinhas com um pequeno espaçamento entre elas;  dashed: forma uma linha tracejada.
+   padding   -   É um espaçamento entre as bordas e o conteúdo, a diferença para as margens é que declarações de imagem de fundo funcionam nele;
 
-Simplificar
-   border: width, style, color
-   outline: width, style, color
-
-   padding: top, right, bottom, left
-   margin: top, right, bottom, left  ; auto
-
+   Simplificar
+      border: width, style, color
+      outline: width, style, color
+      padding: top, right, bottom, left
+      margin: top, right, bottom, left  ; auto
 
 Sombras nas Caixas
    box-shadow: horizontal vertical embaçamento cor
 
 Vétices Arredondadas
    border-radius: topo-esquerda, topo-direita, baixo-direita, baixo esquerda
-      Ele permite arredondar os cantos de um elemento. Podemos usar várias unidades, mas as mais comuns são os pixels e a porcentagem.
-      Colocando apenas um valor mudamos todos os cantos do elemento, mas seguindo aquela mesma ordem que vimos no padding e margin - topo, direita, inferior e esquerda -  conseguimos alterar cada canto separadamente.
+   border-radius: tudo
 
 
 ---------------------------------------------------------------------------------------------------
@@ -178,8 +168,6 @@ Transition timing functions
 
 
 
-
-
 CSS Animations:
    É uma ferramenta do CSS que permite criar animações sem a interação do usuário, onde elas podem acontecer de forma autônoma.
 
@@ -213,13 +201,9 @@ Animation timing function
    easy-in - Início lento
    easy-out - Final lento
    easy-in-out - Início e fim lentos
-   
-   
-   
-   
+
+
 Animation fill mode
-
-
 
 
 ---------------------------------------------------------------------------------------------------
