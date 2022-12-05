@@ -32,18 +32,27 @@ TIPOS PRIMITIVOS:
    str     Tudo que estiver entre  aspas  desde textos, numeros ou até mesmo um valor vazio
 
 
+Utilizar Strings:
+
+
+Formatação Numérica:
+   {variavel:, .nf}
+
+---------------------------------------------------------------------------------------------------
+
 OPERADORES ARITMETICOS:
-    +   Adição
-    -   Subtração
-    *   Multiplicação
-    /   Divisão
-   **   Potência
-   //   Divição Inteira
-    %   Resto da Divisão
+   n + n          Adição
+   n - n          Subtração
+   n * n          Multiplicação
+   n / n          Divisão
+   n ** n         Potência
+   n ** (1/raiz)  Raiz
+   n // n         Divição Inteira
+   n % n          Resto da Divisão
 
 ORDEM DE PRECEDÊNCIA:
    1° ()
-   2° **
+   2° **  ** /
    3° *  /  //  %
    4° +  -
 
@@ -100,6 +109,8 @@ DICIONÁRIOS:
 FUNÇOES:
    def nomeFunção():
 
+    Funções Lambda - "Funções Anônimas"
+
 
 AJUDA INTERATIVA:
    help()
@@ -118,8 +129,42 @@ ERROS:
 ---------------------------------------------------------------------------------------------------
 
 Bibliotecas:
-   Pandas - Integração do Python com Excel
+   Pandas - Biblioteca de DADOS  /  Integração do Python com Excel
       pip install pandas
       pip install openpyxl
    Twilio - Integração do Python com SMS
       pip install twilio
+
+---------------------------------------------------------------------------------------------------
+
+Orientação a Objeto:
+   class NomeDoObjeto()
+
+---------------------------------------------------------------------------------------------------
+
+APIs:
+   APIs Publicas
+      import resquests
+      impot JSON
+      
+      variavel01 = requests.get("URL API")
+      variavel02 = variavel01.json()
+      variavel03 = variavel02['']
+      print(variavel03)
+
+
+   APIs "Privadas"
+
+---------------------------------------------------------------------------------------------------
+
+APRENDER:
+   ciencia de dados
+      pandas, numpy e bibliotecas de graficos
+      obtenção e tratamento de dados
+   desenvolvimento web
+      orientação e objeto
+      integração backend frontend con algum framework (flask ou django)
+   automaçoes
+      trabalhar com arquivos, caminhos, tabelas, etc
+      ferrementasn de automatizar o pc(rpa) e a web(web-scraping)
+   
