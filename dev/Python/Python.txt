@@ -1,33 +1,3 @@
-TIPOS PRIMITIVOS:
-   int     Números inteiros desde negativos a positivos
-   float   Números com ponto(virgula) desde negativos a positivos
-   bool    Valores  True  e  False
-   str     Tudo que estiver entre  aspas  desde textos, numeros ou até mesmo um valor vazio
-
-
-OPERADORES ARITMETICOS:
-    +   Adição
-    -   Subtração
-    *   Multiplicação
-    /   Divisão
-   **   Potência
-   //   Divição Inteira
-    %   Resto da Divisão
-
-
-ORDEM DE PRECEDÊNCIA:
-   1° ()
-   2° **
-   3° *  /  //  %
-   4° +  -
-
-
-ESTRUTURA DE CONDIÇÕES:
-   if
-   elif
-   else
-
-
 COLRES:   \033[STYLE;TEXT;BACKm TEXTO \033[m
    Style
       0   None
@@ -53,6 +23,37 @@ COLRES:   \033[STYLE;TEXT;BACKm TEXTO \033[m
       46   Azul  Fraco
       47   Cinza
 
+---------------------------------------------------------------------------------------------------
+
+TIPOS PRIMITIVOS:
+   int     Números inteiros desde negativos a positivos
+   float   Números com ponto(virgula) desde negativos a positivos
+   bool    Valores  True  e  False
+   str     Tudo que estiver entre  aspas  desde textos, numeros ou até mesmo um valor vazio
+
+
+OPERADORES ARITMETICOS:
+    +   Adição
+    -   Subtração
+    *   Multiplicação
+    /   Divisão
+   **   Potência
+   //   Divição Inteira
+    %   Resto da Divisão
+
+ORDEM DE PRECEDÊNCIA:
+   1° ()
+   2° **
+   3° *  /  //  %
+   4° +  -
+
+---------------------------------------------------------------------------------------------------
+
+ESTRUTURA DE CONDIÇÕES:
+   if
+   elif
+   else
+
 
 ESTRUTURAS DE REPETIÇÃO:
    for - Usar quando eu sei quando acaba
@@ -60,11 +61,11 @@ ESTRUTURAS DE REPETIÇÃO:
    
    break - Responsável por interromper um laço imediatamente
 
+---------------------------------------------------------------------------------------------------
 
 TUPLAS:
    tupla = ('A', 'B', 'C', 'D')
    TUPLAS SÃO IMUTAVEIS
-
 
 LISTAS:
    lista = ['A', 'B', 'C', 'D']
@@ -83,7 +84,6 @@ LISTAS:
       len(lista)
    Da para colocar uma Lista dentro da outra
 
-
 DICIONÁRIOS:
    dicionario = {'chave': 'valor', 'chave': 'valor', 'chave': 'valor', 'chave': 'valor'}
    São personalizaveis
@@ -95,6 +95,7 @@ DICIONÁRIOS:
       dicionario.items()
    Da para colocar um Dicionário dentro de uma Lista
 
+---------------------------------------------------------------------------------------------------
 
 FUNÇOES:
    def nomeFunção():
@@ -113,3 +114,12 @@ ERROS:
       deu certo
    finally:             Vai retornar algo independente se deu certo ou errado   (opcional)
       certo / falha
+
+---------------------------------------------------------------------------------------------------
+
+Bibliotecas:
+   Pandas - Integração do Python com Excel
+      pip install pandas
+      pip install openpyxl
+   Twilio - Integração do Python com SMS
+      pip install twilio
