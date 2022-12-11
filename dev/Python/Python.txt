@@ -134,6 +134,8 @@ Bibliotecas:
       pip install openpyxl
    Twilio - Integração do Python com SMS
       pip install twilio
+   Selenium - Automação Web
+      pip install selenium
 
 ---------------------------------------------------------------------------------------------------
 
