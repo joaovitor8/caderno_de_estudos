@@ -60,78 +60,16 @@ EX:  int dia = DateTime.Now.Day;
 
 ---------------------------------------------------------------------------------------------------
 
-Formatação com Números Interpoladas:
-
-:C   Monetário (Currency)
-:D   Decimal (Inteiro)
-:N   Número (Real)
-:E   Científico
-:X   Hecadecimal
-
----------------------------------------------------------------------------------------------------
-
-CLASSIFICAÇÃO DE OPERADORES:
-
-Quantidades de Operandos
-   unario
-   binario
-   ternario
-
-Funcionalidade
-   aritimetico
-   relacional
-   lógico
-   bitwise
-   atribuição
-   incremento
-   condiconal
-
----------------------------------------------------------------------------------------------------
-
-OPERADORES ARITMÉTICOS:   n = Número
-
-Unarios
-   + n   identidade
-   - n   negação aritmética
-
-Binarios
-   n + n   adição
-   n - n   subtração
-   n * n   multiplicação
-   n / n   divisão (intera ou real)
-   n % n   resto da divisão inteira (remainder)
-
----------------------------------------------------------------------------------------------------
-
-DIVISÕES INTEIRA E REAL:
-
-Divisão Inteira
-   para que a divisão seja  interia  os dois números divididos terão que ser  inteiros
-
-Divisão Real
-    para que a divisão seja  real  apenas um dos números divididos tera que ser um número  real
-
-
-ORDEM DE PRECENDÊNCIA DOS OPERADORES ARITMÉTICOS:
-   1º ()        parênteses
-   2º +, -      unários
-   3º *, /, %   multiplicativos
-   4º +, -      aditivos (binarios)
-
----------------------------------------------------------------------------------------------------
-
 OPERADORES RELACIONAIS:
 
-Comparações Logicas (sempre binarios)
+Comparações Logicas
    n == n  igualdade
    n != n  diferença
    n > n   maior que
    n < n   menor que
    n >= n  maior ou igual a
    n <= n  menor ou igual a
-   n is n  verificador de tipo
-
-   o retorno é sempre  true  ou  false
+   n is n  verificador de tipo  -  o retorno é sempre  true  ou  false
 
 ---------------------------------------------------------------------------------------------------
 
@@ -139,28 +77,12 @@ OPERADORES LÓGICOS:
 
 Negação
    !  NÃO
-   unico operador lógico que é unario
 
 Conjunção
    &&  E     As duas respostas tem que ser verdadeiro para dar  true
-   true
-   false
-   false
-   false
 
 Disjunção
    ||  OU     Apenas uma resposta tem que ser verdadeiro para dar  true
-   true
-   true
-   true
-   false
-
-Disjunção Exclusiva  (não tem no C#, mas tem bitwise)
-   XOU        Para dar verdadeiro tem que ter exclusivamente um  true 
-   false
-   true
-   true
-   false
 
 ---------------------------------------------------------------------------------------------------
 
@@ -170,208 +92,6 @@ Ternário
    expreção lógica ? true : false
 
    ex -   (altura <= 1.70) ? "baixa" : "alta"
-
----------------------------------------------------------------------------------------------------
-
-BASES NUMÉRICAS C#:
-
-Binária     (Base 2)  0 1
-Octal       (Base 8)  0 1 2 3 4 5 6 7
-Decinal     (Base 10) 0 1 2 3 4 5 6 7 8 9
-Hexadecimal (Base 16) 0 1 2 3 4 5 6 7 8 9 A B C D E F
-
-Convertendo Bases numéricas (Na Programação)
-   Convert.ToString(n, ToBase: B)
-
-Convertendo Bases numéricas (Na Mão)
-   Fazer potencias de 2 até dar uma resultado mais proximo do número que você estiver fazendo a inversão
-      Ex: n° 53      32 16 8 4 2 1
-                      1  1 0 1 0 1      n° 53 em base Binária
-
-Base Binária Negativa
-   Fazer potencias de 2 até dar uma resultado mais proximo do número que você estiver fazendo a inversão
-      Ex: n° ~12      128 64 32 16  8 4 2 1
-                        0  0  0  0  1 1 0 0   =  +12
-                        1  1  1  1  0 0 1 1   =  -13
-
-      Apos fazer a converção, inverter todos os numeros, os 0 serão 1 e os 1 serão 0, e somar mais 1
-
----------------------------------------------------------------------------------------------------
-
-OPERADORES BITWISE:
-
-Conjução   &
-   Primeiro você passa os numeros para a base Binária
-     Ex: n°s  26 & 12
-
-   Depois que fizer a conversão você faz a regra da Conjução
-
-             26 = 1 1 0 1 0
-             12 =   1 1 0 0
-      Resultado = 0 1 0 0 0  = 8
-
-
-Disjunção   |
-   Primeiro você passa os numeros para a base Binária
-     Ex: n°s  26 | 12
-
-   Depois que fizer a conversão você faz a regra da Disjução
-
-             26 = 1 1 0 1 0
-             12 =   1 1 0 0
-      Resultado = 1 1 1 1 0  = 30
-
-
-Disjunção Esclusiva ^
-   Primeiro você passa os numeros para a base Binária
-     Ex: n°s  26 ^ 12
-
-   Depois que fizer a conversão você faz a regra da Disjução Esclusiva
-
-             26 = 1 1 0 1 0
-             12 =   1 1 0 0
-      Resultado = 1 0 1 1 0  = 8
-
-
-Negação ~
-   Fazer potencias de 2 até dar uma resultado mais proximo do número que você estiver fazendo a inversão
-      Ex: n° ~12      128 64 32 16  8 4 2 1
-                        0  0  0  0  1 1 0 0   =  +12
-                        1  1  1  1  0 0 1 1   =  -13
-
-   Apos fazer a converção, inverter todos os numeros, os 0 serão 1 e os 1 serão 0, e somar mais 1
-   Um atalho é que quando for inverter um numero de positivo para negativo é só somar mais 1 e trocar o sinal
-   E de negativo para positivo tira 1 e troca o sinal
-
-
-Right Shift >>
-   Primeiro você passa o 1° numero para a base Binária
-   Depois que fizer a conversão, da direita para a esquerda, você tira a quantidade do 2° numero
-     Ex: n°  22 >> 2
-
-                 16 8 4 2 1
-             22 = 1 0 1 1 0
-      resultado = 1 0 1 1 0  menos 2 casas = 1 0 1
-
-                      4 2 1
-                      1 0 1  = 4 + 1 = 5
-
-
-Left Shift <<
-   Primeiro você passa o 1° numero para a base Binária
-   Depois que fizer a conversão, você aduciona a quantidade do 2° numero
-     Ex: n°  22 << 2
-
-                 16 8 4 2 1
-             22 = 1 0 1 1 0
-      resultado = 1 0 1 1 0  mais 2 casas = 1 0 1 1 0 0 0
-
-           64 32 16 8 4 2 1
-            1  0  1 1 0 0 0  = 64 + 16 + 8 = 88
-
----------------------------------------------------------------------------------------------------
-
-OPERADORES DE ATRIBUIÇÃO:
-
-Atribuição Simple
-   =
-
-Demais Atribuições
-   +=
-   -=
-   *=
-   /=
-   %=
-   &=
-   |=
-   ^=
-  >>=
-  <<=
-
----------------------------------------------------------------------------------------------------
-
-INCREMENTO e DECREMENTO:
-
-Mais Mais Pré
-   ++n
-
-Mais Mais Pós
-   n++
-
-Menos Menos Pré
-   --n
-
-Menos Menos Pós
-   n--
-
----------------------------------------------------------------------------------------------------
-
-COALESCÊNCIA NULA:
-
-Tipo Primitivo?
-   a  ?  ira fazer o tipo primitivo aceitar um valor nulo(null)
-
-??
-   as ??  iram trocar o valor nulo(null) por algum outro valor escolido
-   Ex:  float nota = nota ?? 0.0
-
-
-PRECENDÊNCIA COMPLETA:
-
-1°   ()   pós++   pós--                                         -> da esquerda para a direita
-2°   SizeOf   +unario   -unario   ~   !   ++pré   --pré         <- da direita para a esquerda
-3°   TypeCasts                                                  <- da direita para a esquerda
-4°   *   /   %                                                  -> da esquerda para a direita
-5°   +binario   -binario                                        -> da esquerda para a direita
-6°   >>   <<                                                    -> da esquerda para a direita
-7°   <   <=   =>   >                                            -> da esquerda para a direita
-8°   ==   !=                                                    -> da esquerda para a direita
-9°   &                                                          -> da esquerda para a direita
-10°   ^                                                          -> da esquerda para a direita
-11°   |                                                          -> da esquerda para a direita
-12°   &&                                                         -> da esquerda para a direita
-13°   ||                                                         -> da esquerda para a direita
-14°   ? :                                                        <- da direita para a esquerda
-15°   =   +=   -=   *=   /=   %=                                 <- da direita para a esquerda
-16°   ,                                                          -> da esquerda para a direita
-(OBS: os  pós  irão ser apenas lido, e só no final será dado seu valor) 
-
----------------------------------------------------------------------------------------------------
-
-CLASSES Math e MathF:
-
-Math
-   sempre irá retornar o valor  double
-   oculpa  8 bytes
-
-MathF
-   sempre irá retornar o valor  float
-   oculpa  4 bytes
-
----------------------------------------------------------------------------------------------------
-
-FUNÇÕES - ANÁLISE e ARREDONDAMENTO:
-
-Análise
-   Math.Min()
-   Math.Max()
-   Math.Clamp()
-
-Arredondamento
-   Math.Celing()
-   Math.Floor()
-   Math.Truncate()
-   Math.Round()
-
----------------------------------------------------------------------------------------------------
-
-CÁLCULOS ANGULARES:
-
-Math.Sin(n°)
-Math.Cos(n°)
-Math.Tan(n°)
-
-(Obs: numero tem q ser em  radiano)
 
 ---------------------------------------------------------------------------------------------------
 
