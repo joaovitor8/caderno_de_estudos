@@ -139,4 +139,45 @@ while      enquanto
 
 Funções:
 
-public static tipo NomeDaFunção(); {}
+public static tipo NomeDaFunção() {}
+
+---------------------------------------------------------------------------------------------------
+
+Tentar/Erro:
+
+
+Ler um arvivo
+
+try
+{
+   string line = "";
+   StreamReader sr = new StreamReader(arquivo);
+   line= sr.ReadLine();
+   while (line != null)
+   {
+      Console.WriteLine(line);
+      line = sr.ReadLine();
+   }
+   sr.Close();
+}
+catch (Exception e)
+{
+   Console.WriteLine("Erro: " + e.Message);
+}
+Console.ReadKey();
+
+
+
+Gravar texto
+
+try
+{
+   StreamWriter sr = new StreamWriter(txt);
+   sr.WriteLine();
+   sr.Close();
+}
+catch (Exception e)
+{
+   Console.WriteLine("Erro: " + e.Message);
+}
+Console.ReadKey();
