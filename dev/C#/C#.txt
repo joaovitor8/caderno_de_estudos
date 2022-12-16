@@ -181,3 +181,15 @@ catch (Exception e)
    Console.WriteLine("Erro: " + e.Message);
 }
 Console.ReadKey();
+
+---------------------------------------------------------------------------------------------------
+
+Programação Orientada a Objetos:
+
+Os 4 Pilares
+   Abstração
+   Encapsulamento
+   Herança
+   Polimorfismo
+
+Classe

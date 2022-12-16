@@ -1,8 +1,0 @@
-C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\JogarDados\bin\Debug\JogarDados.exe.config
-C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\JogarDados\bin\Debug\JogarDados.exe
-C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\JogarDados\bin\Debug\JogarDados.pdb
-C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\JogarDados\obj\Debug\JogarDados.csproj.AssemblyReference.cache
-C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\JogarDados\obj\Debug\JogarDados.csproj.SuggestedBindingRedirects.cache
-C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\JogarDados\obj\Debug\JogarDados.csproj.CoreCompileInputs.cache
-C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\JogarDados\obj\Debug\JogarDados.exe
-C:\Users\joaoe\Documents\repositorio\development\dev\C#\HelloWord\JogarDados\obj\Debug\JogarDados.pdb
