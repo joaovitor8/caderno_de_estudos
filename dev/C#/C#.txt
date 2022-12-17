@@ -189,7 +189,25 @@ Programação Orientada a Objetos:
 Os 4 Pilares
    Abstração
    Encapsulamento
+      É o ato de esconder as informações do usuario restringindo o acesso por meio de propriedades e metodos
    Herança
    Polimorfismo
 
-Classe
+
+Classes
+   como se fosse as propriedas do ReactJS
+
+metodos
+
+Probiedades
+   get
+   set
+
+Construtores
+   é uma metodo q não preciso definir o tipo
+   o nome é igual ao da classe
+
+   public nome(receber parametros)
+   {
+      
+   }
