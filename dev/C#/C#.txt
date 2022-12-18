@@ -190,18 +190,18 @@ Os 4 Pilares
    Abstração
    Encapsulamento
       É o ato de esconder as informações do usuario restringindo o acesso por meio de propriedades e metodos
-   Herança
+   Herança        :
    Polimorfismo
 
 
 Classes
-   como se fosse as propriedas do ReactJS
+   O Objeto
 
 metodos
+      Um método em C# é um bloco de código que contém uma série de instruções. Um programa executa as instruções chamando o método e especificando argumentos.
 
-Probiedades
-   get
-   set
+Propriedades   -   comando = propfull
+Propriedade Simplificadas   -   public tipo nome { get; set; }
 
 Construtores
    é uma metodo q não preciso definir o tipo
@@ -211,3 +211,7 @@ Construtores
    {
       
    }
+
+
+
+ENUM
