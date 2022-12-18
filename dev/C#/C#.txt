@@ -184,24 +184,30 @@ Console.ReadKey();
 
 ---------------------------------------------------------------------------------------------------
 
-Programação Orientada a Objetos:
+Programação Orientada a Objetos C#:
 
 Os 4 Pilares
    Abstração
+      O conceito de abstração consiste em esconder os detalhes de algo, no caso, os detalhes desnecessários. No mundo real, utilizamos abstrações o tempo todo. Tudo que não sabemos como funciona por baixo dos panos pode ser considerado uma abstração.
    Encapsulamento
-      É o ato de esconder as informações do usuario restringindo o acesso por meio de propriedades e metodos
+     Significa que o código de cada objeto deve controlar apenas seu próprio estado
    Herança        :
+      Permite que um objeto adquira as propriedades e métodos de outro objeto
    Polimorfismo
+      Pode compartilhar comportamentos e permitir substituições personalizadas.
 
 
 Classes
    O Objeto
 
+
 metodos
       Um método em C# é um bloco de código que contém uma série de instruções. Um programa executa as instruções chamando o método e especificando argumentos.
 
+
 Propriedades   -   comando = propfull
 Propriedade Simplificadas   -   public tipo nome { get; set; }
+
 
 Construtores
    é uma metodo q não preciso definir o tipo
@@ -215,3 +221,8 @@ Construtores
 
 
 ENUM
+Destruidores
+Modificador Static
+Classe Abstrata
+Interface
+Interfaces X Classes Abstratas
