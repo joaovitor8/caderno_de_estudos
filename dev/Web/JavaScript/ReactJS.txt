@@ -1,26 +1,34 @@
 Hooks:
 
 useState
-   É uma função para controle de estado:
-      recebe um parâmetro (valor inicial desse estado)
-      retorna uma lista com 2 variáveis (a primeira é o valor do estado em si e a segunda é a função que atualiza esse estado)
-         const [state, setState] = useState(0);
-
-   O setState será usado para atualizar os valores do estado, por exemplo:
-      function increment() {
-         setState(state + 1)
-      }
 
 
 useEffect
-   recebe dois parâmetros: uma função e uma lista de dependências. Quando algum elemento dessa lista for alterado, a função é executada automaticamente.
-   o retorno da função pode ser uma função. Se for, ela será executada quando o componente for desmontado
       useEffect(() => {
          console.log(state)
       }, [state])
 
-   Quando a lista de dependências estiver vazia, a função será executada no momento que o componente for renderizado. É executado de forma assíncrona depois de uma renderização na tela.
+---------------------------------------------------------------------------------------------------
 
+localStorage e sessionStorage:   Salvar dados no navegador
+
+localStorage
+   Quandos os dados são importantes
+
+   NORMAL
+   localStorage.serItem("chave", dado)     salvar
+   localStorage.getItem("chave", dado)     resgatar
+   localStorage.removeItem("chave", dado)  remover
+
+   OBJETO
+   localStorage.setItem("chave", JSON.stringigy(objeto))  salvar de objeto para JSON
+   const obetoTOstring = localStorage.getItem("nome")     pegar o JSON
+   const objeto = JSON.parse(obetoTOstring)               de JSON para objeto
+   console.log(objeto.dado)                               usar o objeto
+
+sessionStorage
+   Quandos os dados não são importantes
+   
 
 ---------------------------------------------------------------------------------------------------
 
