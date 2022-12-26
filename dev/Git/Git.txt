@@ -1,4 +1,4 @@
-Básico
+Básico:
 
 git clone + Repositório (Vá até o GitHub, depois no repositório desejado, clique em "Code" e copie o link no SSH)- Clona o repositorio que deseja usar
 git status - Vê se algo foi alterado
@@ -7,3 +7,9 @@ git commit -m "Comentario do Commit" - Estou commitando
 git push - Vai sicronizar o commit com o repositório
 
 git pull - Atualiza para a vesão mais recente (Caso tenha mais pessoas alem de vc mechendo no repositório)
+
+---------------------------------------------------------------------------------------------------
+
+GitHub Pages ReactJS Vite:
+
+https://www.youtube.com/watch?v=UX4gvort2TU

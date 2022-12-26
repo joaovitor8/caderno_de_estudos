@@ -128,13 +128,13 @@ Não usar tabelas para a criação de sites
 
 Anatomia das Tabelas
    TABLE
-      CAPTION         - Legenda
-      THEAD           - Cabeçalho
-         TR, TD, TH   -             <tr> = Linha da Tabela
-      TBODY           - Corpo
-         TR, TD, TH   -             <td> = Adicionar dados na tabela
-      TFOOT           - Rodapé
-         TR, TD, TH   -             <th> = Titulo do Cabeçalho
+      CAPTION - Legenda (opcional)
+      1º - THEAD           - Cabeçalho
+              <tr> = Linha da Tabela  -  <th> = Titulo do Cabeçalho
+      2º - TBODY           - Corpo
+              <tr> = Linha da Tabela  -  <td> = Adicionar dados na tabela
+      3º - TFOOT           - Rodapé
+              <tr> = Linha da Tabela  -
 
 
 ---------------------------------------------------------------------------------------------------

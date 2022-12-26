@@ -148,7 +148,7 @@ if/else
 	}
 
 
-Switch/case - swith(parametro da função) {
+Switch/case - swith(parametro da função / variavel) {
                  case 1:
                     return "alguma coisa";
                     break
@@ -175,6 +175,10 @@ for   -   of(?)   -   in(?)
 
 while
    Usar quando eu não sei a hora de parar
+
+---------------------------------------------------------------------------------------------------
+
+let data = new Date()  -   Pegar a data / Horario
 
 ---------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
@@ -221,11 +225,3 @@ Promesas
    })
 
 
-fetch()   -   Buscar/pegar   -   fetch tambem é todo uma estrutura de promesa que esta pendente
-.then()   -   Resposta
-.catch()  -   Caso haja erro
-
-
-
-
-axios
