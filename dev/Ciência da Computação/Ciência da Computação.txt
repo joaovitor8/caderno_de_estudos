@@ -1,0 +1,52 @@
+Sobre o profissional de Ciência da Computação pode-se afirmar que:
+   precisa desenvolver e estimular sua capacidade de resolver problemas reais.
+
+---------------------------------------------------------------------------------------------------
+
+Programas são instruções para o computador
+
+---------------------------------------------------------------------------------------------------
+
+Um profissional de Ciência da Computação deve se preparar para desenvolver várias habilidades
+   gerenciar software de grande porte composto por muitos programas.
+   comunicar-se com clientes e usuários para entender problemas, dificuldades e necessidades.
+   gerenciar equipes de desenvolvimento de software.
+
+---------------------------------------------------------------------------------------------------
+
+O hardware dos computadores pode executar diretamente programas em: 
+   linguagem de máquina.
+
+---------------------------------------------------------------------------------------------------
+
+O compilador é responsável por traduzir programas escritos em linguagem de alto nível para linguagem de máquina.
+
+---------------------------------------------------------------------------------------------------
+
+As metodologias modernas de desenvolvimento de software dizem que devemos testar os programas que escrevemos  a todo o momento. 
+Por outro lado, nos métodos mais convencionais utilizados tradicionalmente, as etapas usadas para construção de um programa, em ordem, são:
+   analisar, desenvolver, testar.
+
+---------------------------------------------------------------------------------------------------
+
+Um programa que seja compilado seguirá o seguinte percurso:
+   código-fonte, compilador, código-objeto, executor, saída.
+
+---------------------------------------------------------------------------------------------------
+
+Como aprender a desenvolver software?
+   escrever códigos em linguagem de alto nível.
+   executar pequenos programas.
+   aprender novos conceitos de forma incremental.
+   aumentar a sofisticação e tamanho dos programas progressivamente.
+
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+
+CC50:
+
+C
+Arrays
+Algoritmos
+Memoria
+Estruturas de Dados
