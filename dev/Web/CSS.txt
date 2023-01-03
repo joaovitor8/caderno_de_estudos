@@ -219,3 +219,26 @@ Celular  =  @media screen and (min-width: 768px) {
       ...
    }
 }
+
+---------------------------------------------------------------------------------------------------
+
+Sass:
+
+instalar  -  npm install -g node-sass
+atualizar  -  node-sass --watch scss/style.scss css/style.css
+
+variaveis
+   $nome: dado;
+
+Extend
+   @extend - pegar estilos de outras classes
+
+funções
+   lighten($color, %%)
+   darken($color, %%)
+
+   criar
+      @function nome(parametros) { @return ... }
+
+placenholder
+   %nome{}

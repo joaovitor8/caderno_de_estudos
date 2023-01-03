@@ -20,6 +20,8 @@ Java e JavaScript são linguagens de programação diferentes por mais que os no
 
 O quê ECMAScript tem a ver com JavaScript?
    ECMAScript é a versão padronizada de JavaScript
+   ECMAscript é a linguagem, e javascript é um dialeto, ou seja, a mesma coisa. 
+   Cada navegador implementa o javascript de uma maneira diferente e o papel do ecmascript e padronizar essas implementacoes, para que voce nao precise como antigamente escrever um codigo para alguns navegadores e outro codigo para o internet explorer por exemplo.
 
 ---------------------------------------------------------------------------------------------------
 
@@ -69,12 +71,14 @@ Object
    Objeto
    Propriedade / Atributos
    Funcionalidade / Métodos
-EX:   const pessoa = {nome: "João", idade: 20, peso: 50}
-
+  EX:   const pessoa = {nome: "João", idade: 20, peso: 50}
+   JSON
+      stringify  -  transforma o objeto tudo para texto  string
+      parce  -  tranforma em objeto
 
 Array
    Agrupamento de dados
-EX:   const pessoas = ['João', 'Flavia', 'Mateus']
+  EX:   const pessoas = ['João', 'Flavia', 'Mateus']
 
 ---------------------------------------------------------------------------------------------------
 
@@ -138,6 +142,79 @@ Ordem
 
 ---------------------------------------------------------------------------------------------------
 
+Operadores Bit à Bit:
+
+Conjução   &
+   Primeiro você passa os numeros para a base Binária
+     Ex: n°s  26 & 12
+
+   Depois que fizer a conversão você faz a regra da Conjução
+
+             26 = 1 1 0 1 0
+             12 =   1 1 0 0
+      Resultado = 0 1 0 0 0  = 8
+
+
+Disjunção   |
+   Primeiro você passa os numeros para a base Binária
+     Ex: n°s  26 | 12
+
+   Depois que fizer a conversão você faz a regra da Disjução
+
+             26 = 1 1 0 1 0
+             12 =   1 1 0 0
+      Resultado = 1 1 1 1 0  = 30
+
+
+Disjunção Esclusiva ^
+   Primeiro você passa os numeros para a base Binária
+     Ex: n°s  26 ^ 12
+
+   Depois que fizer a conversão você faz a regra da Disjução Esclusiva
+
+             26 = 1 1 0 1 0
+             12 =   1 1 0 0
+      Resultado = 1 0 1 1 0  = 8
+
+
+Negação ~
+   Fazer potencias de 2 até dar uma resultado mais proximo do número que você estiver fazendo a inversão
+      Ex: n° ~12      128 64 32 16  8 4 2 1
+                        0  0  0  0  1 1 0 0   =  +12
+                        1  1  1  1  0 0 1 1   =  -13
+
+   Apos fazer a converção, inverter todos os numeros, os 0 serão 1 e os 1 serão 0, e somar mais 1
+   Um atalho é que quando for inverter um numero de positivo para negativo é só somar mais 1 e trocar o sinal
+   E de negativo para positivo tira 1 e troca o sinal
+
+
+Right Shift >>
+   Primeiro você passa o 1° numero para a base Binária
+   Depois que fizer a conversão, da direita para a esquerda, você tira a quantidade do 2° numero
+     Ex: n°  22 >> 2
+
+                 16 8 4 2 1
+             22 = 1 0 1 1 0
+      resultado = 1 0 1 1 0  menos 2 casas = 1 0 1
+
+                      4 2 1
+                      1 0 1  = 4 + 1 = 5
+
+
+Left Shift <<
+   Primeiro você passa o 1° numero para a base Binária
+   Depois que fizer a conversão, você aduciona a quantidade do 2° numero
+     Ex: n°  22 << 2
+
+                 16 8 4 2 1
+             22 = 1 0 1 1 0
+      resultado = 1 0 1 1 0  mais 2 casas = 1 0 1 1 0 0 0
+
+           64 32 16 8 4 2 1
+            1  0  1 1 0 0 0  = 64 + 16 + 8 = 88
+
+---------------------------------------------------------------------------------------------------
+
 Controle:
 
 if/else
@@ -164,7 +241,14 @@ Switch/case - swith(parametro da função / variavel) {
               }
 
 
-Throw e try/catch (?)
+Throw ?????
+
+try/catch
+   tratamento de erro
+
+   try{tenta executa}
+   catch{error}
+   finally{executa sempre}
 
 ---------------------------------------------------------------------------------------------------
 
@@ -178,9 +262,13 @@ while
 
 ---------------------------------------------------------------------------------------------------
 
+Biblioteca Math
+
+-------------------------------------------------
+
+Biblioteca Date
 let data = new Date()  -   Pegar a data / Horario
 
----------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
 

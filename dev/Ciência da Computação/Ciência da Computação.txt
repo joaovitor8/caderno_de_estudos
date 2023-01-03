@@ -41,12 +41,11 @@ Como aprender a desenvolver software?
    aumentar a sofisticação e tamanho dos programas progressivamente.
 
 ---------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------
 
-CC50:
+Introdução à Computação:
 
-C
-Arrays
-Algoritmos
-Memoria
-Estruturas de Dados
+Algoritmos; Lógica de Programação;
+Lógica Formal; PROLOG; Recursão; Matrizes; Booleanos; Grafos;
+Sistemas Operacionais; Redes; Arquivos; Arrays; Algoritmos; Memoria; Estruturas de Dados
+Língua Portuguesa; Escrita; Gramática; Argumentação;
+Portas Lógicas; Diagramas; Máquinas de Estado; Projeto de Circuitos;
