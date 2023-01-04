@@ -1,0 +1,38 @@
+Criar Banco de Bados
+   CREATE DATABASE nomeTabela;
+
+
+Ver os Banco de Dados
+   SHOW DATABASES;
+
+
+Acesar Banco de Dados
+   USE nomeTabela;
+
+
+Abrir uma tabela
+   SHOW TABLES;
+
+
+Ver estrutura ta tabela
+   DESCRIBE nomeTabela;
+
+
+Inserir Dados em uma tabela
+   INSERT INTO nomeTabela;
+
+
+Ver todos os dados da tabela
+   SELECT * FROM nomeTabela;
+
+
+Pegar dados especificos
+   SELECT * FROM nomeTabela WHERE nomeDado = dado;
+
+
+Deletar algo
+   DELETE FROM nomeTabela WHERE nomeDado = dado;
+
+
+Atualizar Dados
+   UPDATE nomeTabela SET nomeDado = dado WHERE nomeDadoAntigo = dadoAntigo

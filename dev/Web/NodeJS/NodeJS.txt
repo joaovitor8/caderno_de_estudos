@@ -1,0 +1,3 @@
+O que é?
+   É um interpretador JS que não depende do navegador, ou seja é totalmente desvinculado do navegador
+
