@@ -1,3 +1,10 @@
 O que é?
    É um interpretador JS que não depende do navegador, ou seja é totalmente desvinculado do navegador
 
+
+
+
+Para trabalhar com node é obrigatório usar templates Engines?
+   Não, vc pode trabalhar com React no frontend e Node no backend.
+e ao invés de retornar html puro com o handlebars, pode retornar objetos json
+Entre outras formas
