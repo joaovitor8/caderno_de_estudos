@@ -1,0 +1,24 @@
+Types - TypeScript
+   boolean - true / false
+   string - 'a' / "a" / ´a´
+   number - int / float / hex / binary
+   array - type[] ou Array<type>
+   tuple - [type, type, type, type]  tuple é um array que pode ter valores e types diferente 
+   enum
+   any - qualquer coisa / não é legal
+   void - vazio / não retorna nada
+   null - nulo
+   undefined - indefinido
+   never -
+   object - objeto
+
+
+Type Aliases e Union
+   Passar dois ou mais tipos para um valor
+   EX: number | string
+
+   Informando só uma vez o tipo
+   EX: type usuario = string | number | void
+
+
+? na frente de uma variavel significa que passar um valor é opcional

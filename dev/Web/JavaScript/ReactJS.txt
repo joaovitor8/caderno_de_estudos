@@ -1,9 +1,19 @@
+const nomeFunção = () => {}
+
+---------------------------------------------------------------------------------------------------
+
+props: Enviar propriedades / dados
+
+---------------------------------------------------------------------------------------------------
+
 Hooks:
 
 useState
+   a criação de estado no componente através de função e faz o gerenciamento do estado local do componente retorna um array como resultado.
 
 
-useEffect
+
+useEffect  -  ira atualizar algo quando algo mudar
       useEffect(() => {
          console.log(state)
       }, [Preste atenção nisso])
@@ -41,6 +51,8 @@ map:   { variavel.map(nomeFunção => ... ) }
 
 ex
 { numbers.map( (number) => <li key = { number.toString() }>{ number }</li>) }
+
+Da para colocar em uma const
 
 ---------------------------------------------------------------------------------------------------
 
