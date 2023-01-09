@@ -5,6 +5,6 @@ O que é?
 
 
 Para trabalhar com node é obrigatório usar templates Engines?
-   Não, vc pode trabalhar com React no frontend e Node no backend.
-e ao invés de retornar html puro com o handlebars, pode retornar objetos json
-Entre outras formas
+   Não, vc pode trabalhar com React no frontend e Node no backend, e ao invés de retornar html puro com o handlebars, pode retornar objetos json, Entre outras formas
+
+
