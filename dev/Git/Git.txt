@@ -10,6 +10,3 @@ git pull - Atualiza para a vesão mais recente (Caso tenha mais pessoas alem de 
 
 ---------------------------------------------------------------------------------------------------
 
-GitHub Pages ReactJS Vite:
-
-https://www.youtube.com/watch?v=UX4gvort2TU

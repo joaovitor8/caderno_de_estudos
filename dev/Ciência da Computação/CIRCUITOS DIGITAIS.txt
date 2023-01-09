@@ -1,7 +1,0 @@
-CIRCUITOS DIGITAIS:
-
-O que é um circuito digital?
-
-Sinais Analógicos vs Sinais Digitais
-   Sinal analógicos - Assume infinitos valores amplitude
-   Sinal digital - Assume apenas finitos valores de amplitude
