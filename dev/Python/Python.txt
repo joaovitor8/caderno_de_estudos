@@ -167,6 +167,6 @@ APRENDER:
       orientação e objeto
       integração backend frontend con algum framework (flask ou django)
    automaçoes
-      trabalhar com arquivos, caminhos, tabelas, etc
-      ferrementasn de automatizar o pc(rpa) e a web(web-scraping)
-   
+      trabalhar com arquivos, caminhos, tabelas, etc...
+      ferramentas de automatizar o pc(rpa) e a web(web-scraping)
+
