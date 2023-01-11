@@ -269,6 +269,28 @@ Biblioteca Math
 Biblioteca Date
 let data = new Date()  -   Pegar a data / Horario
 
+-------------------------------------------------
+
+localStorage e sessionStorage:   Salvar dados no navegador
+
+localStorage
+   Quandos os dados são importantes
+
+   NORMAL
+   localStorage.serItem("chave", dado)     salvar
+   localStorage.getItem("chave", dado)     resgatar
+   localStorage.removeItem("chave", dado)  remover
+
+   OBJETO
+   localStorage.setItem("chave", JSON.stringigy(objeto))  salvar de objeto para JSON
+   const obetoTOstring = localStorage.getItem("nome")     pegar o JSON
+   const objeto = JSON.parse(obetoTOstring)               de JSON para objeto
+   console.log(objeto.dado)                               usar o objeto
+
+sessionStorage
+   Quandos os dados não são importantes
+   
+
 ---------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
 
