@@ -4,9 +4,7 @@ CSS - Estilo      ( Cascading Style Sheet )
 
 Comentários -  /**/
 
-
 ---------------------------------------------------------------------------------------------------
-
 
 Fontes:
 
@@ -30,9 +28,7 @@ text-transfotm: nome          (Padrão)
                 lowercase     Todas as letras do texto serão minusculas
                 capitalize    Todo começo de palavra a primeira letra é maiuscula
 
-
 ---------------------------------------------------------------------------------------------------
-
 
 Seletores personalizados:
 
@@ -58,9 +54,7 @@ Ações do usuario
    Pseudo-elementos (::)
       ??
 
-
 ---------------------------------------------------------------------------------------------------
-
 
 Modelo de Caixas:
 
@@ -86,33 +80,33 @@ Vétices Arredondadas
    border-radius: topo-esquerda, topo-direita, baixo-direita, baixo esquerda
    border-radius: tudo
 
-
 ---------------------------------------------------------------------------------------------------
-
 
 Imagens de Fundo:
 
 Simplificando
    background: color  image  position  repeat  attachment
 
-
 ---------------------------------------------------------------------------------------------------
-
 
 CSS FlexBox:
 
 display: flex   -  Deixar como se fosse um menu de uma pagina, tudo na mesma linha, tudo na mesma horizontal
+
 
 flex-direction: row (Padão)     -  Linha da esquerda para a direita
                 row-reverse     -  Linha da direita para a esquerda
                 column          -  Coluna do primeiro para o ultimo
                 column-reverse  -  Coluna do ultimo para o primeiro
 
+
 flex-wrap: nowrap        -  Padrão, não permite a quebra de linha
            wrap          -  Permite quebra de linha assim que um dos flex itens não puder mais ser compactado
            wrap-reverse  -  Permite quebra de linha assim que um dos flex itens não puder mais ser compactado, porem na direção contrairia da linha
 
+
 flex-flow:  direction   wrap
+
 
 justify content: flex-start    - Início do container
                  flex-end      - Final do container
@@ -126,6 +120,7 @@ Abreviação / Ordem -    flex: grow, shink, basis
   flex-basis    -   Propriedade que estabelece o tamanho inicial do item antes das distribuição de espaço restante dentro dele
   flex-shink   - Propriedade que estabelece a capacidade de redução ou comprenssão do tamanho de um item
 
+
 align-self   -   Propriedade que estabelece o alinhamento de modo individual sobre um determinado item
    auto
    flex-start
@@ -134,8 +129,8 @@ align-self   -   Propriedade que estabelece o alinhamento de modo individual sob
    strtch
    baseline
 
-gap - Espaço entre os elementos
 
+gap - Espaço entre os elementos
 
 ---------------------------------------------------------------------------------------------------
 
@@ -149,8 +144,10 @@ transistion-property
 transition-property: all
    É usado para aplicar transição em todos os elementos quantificáveis disponíveis e que estejam sofrendo alteração
 
+
 transition-duration
    É o tempo de duração da transição
+
 
 transition-delay
    É uma propriedade CSS que permite atrasar o inicio de uma transição em uma escala de segundos
@@ -205,9 +202,7 @@ Animation timing function
 
 Animation fill mode
 
-
 ---------------------------------------------------------------------------------------------------
-
 
 @Media Queries:
 
@@ -221,24 +216,3 @@ Celular  =  @media screen and (min-width: 768px) {
 }
 
 ---------------------------------------------------------------------------------------------------
-
-Sass:
-
-instalar  -  npm install -g node-sass
-atualizar  -  node-sass --watch scss/style.scss css/style.css
-
-variaveis
-   $nome: dado;
-
-Extend
-   @extend - pegar estilos de outras classes
-
-funções
-   lighten($color, %%)
-   darken($color, %%)
-
-   criar
-      @function nome(parametros) { @return ... }
-
-placenholder
-   %nome{}

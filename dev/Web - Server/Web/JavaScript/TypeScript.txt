@@ -21,4 +21,4 @@ Type Aliases e Union
    EX: type usuario = string | number | void
 
 
-? na frente de uma variavel significa que passar um valor é opcional
+?  na frente de uma variavel significa que passar um valor é opcional

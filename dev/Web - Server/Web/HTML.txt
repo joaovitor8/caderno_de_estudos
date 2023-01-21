@@ -7,9 +7,7 @@ HTML - ( HyperText Markup Language ),                     A tag html é a raiz d
 
 Comentários   -   <!-- blablabla -->
 
-
 ---------------------------------------------------------------------------------------------------
-
 
 Texto:
 
@@ -18,9 +16,7 @@ Hierarquia de Títulos - <h1> a <h6>
 Parágrafos            - <p></p>
 Quebras de linha      - <br>
 
-
 ---------------------------------------------------------------------------------------------------
-
 
 Formatação de Textos: Semâtico
 
@@ -38,9 +34,7 @@ Citações em Bloco - <blockquote>
 Abreviações       - <abbr>
 Texto Invertido   - <bdo> rtl(Esquerda), ltr(Direita)
 
-
 ---------------------------------------------------------------------------------------------------
-
 
 Caracteres / Emojis:     &, &#x
 
@@ -51,9 +45,7 @@ Caracteres / Emojis:     &, &#x
 ""  -  &quot;
 ''  -  &&apos;
 
-
 ---------------------------------------------------------------------------------------------------
-
 
 Listas HTML:
 
@@ -68,9 +60,7 @@ Listas não Ordenadas - <ul>
 Adicionar itens a lista - <li>
    É um item dentro de uma dessas listas. Um <li> pode conter vários tipos de conteúdos, como parágrafos, imagens e até outras listas.
 
-
 ---------------------------------------------------------------------------------------------------
-
 
 Links:   <a> - que significa anchor/âncora, é ele que interliga vários conteúdos e páginas na web.
 
@@ -79,9 +69,7 @@ Hyperlink -  <a href=" Link do Site no qual deseja ir "  target=" Controle de De
    _self  vai abrir o Link na janela(Padrão)
    _blank  vai abrir o Link em uma nova janela em 'branco'
 
-
 ---------------------------------------------------------------------------------------------------
-
 
 Imagens dinâmicas, áudios e vídeos:   Imagens - <img>
 
@@ -91,7 +79,6 @@ Consentrar as configurações do video - <video>
 Configurações das midias - <source>
 
 ---------------------------------------------------------------------------------------------------
-
 
 Modelo de Caixas:
 
@@ -118,9 +105,7 @@ Grouping Tags e Semantic Tags
    Footer
       Rodapé do conteúdo ou de parte dele, pois ele é aceito dentro de vários elementos, como article e section e até do body. Exemplos de conteúdo de um <footer> são informações de autor e links relacionados.
 
-
 ---------------------------------------------------------------------------------------------------
-
 
 Tabelas:
 
@@ -136,9 +121,7 @@ Anatomia das Tabelas
       3º - TFOOT           - Rodapé
               <tr> = Linha da Tabela  -
 
-
 ---------------------------------------------------------------------------------------------------
-
 
 Formulários:
 
