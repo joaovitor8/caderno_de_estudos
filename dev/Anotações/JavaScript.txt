@@ -17,6 +17,14 @@ O quê ECMAScript tem a ver com JavaScript?
 
 ---------------------------------------------------------------------------------------------------
 
+Variavel:
+
+var - global, todo mundo pode acessar
+let - apenas quem esta no mesmo escopo pode acessar
+const - imutavel, apos passar um valor não podera muda-lo
+
+---------------------------------------------------------------------------------------------------
+
 Tipos de dados:  typeof - Conferir qual é o Tipo Primitivo de uma Variavel
 
 String  -  Cadeia de caracteres (Texto)
@@ -50,7 +58,7 @@ Array  -  Agrupamento de dados
     console.log(pessoas[2])
 
 
-Object  -  Objeto / Classe
+Object  -  Objeto
   Propriedade / Atributos
   Funcionalidade / Métodos
     EX:  const pessoa = {nome: "João", idade: 20, peso: 50}
@@ -98,7 +106,7 @@ Relacionais
 
 
 New
-  A expressão new, também denominada como left-hand-side expression, serve para criar um novo objeto usando as funções construtoras que temos por padrão no JavaScript.
+  A expressão new, serve para criar um novo objeto usando as funções construtoras que temos por padrão no JavaScript.
 
 
 Lógicos   Ordem - !, &&, ||
@@ -236,7 +244,7 @@ while  -  Usar quando eu não sei a hora de parar
 
 Funções:  Bloco de codigo que são reutilizáveis para evitar a repetição de codigo
 
-Declarar uma função  -  Função que não retorna nada
+Declarar uma função  -  Função que não retorna nada, função normal
   function nomeFuncao() {}
 
 
@@ -272,6 +280,30 @@ Funções Anônimas
 Arrow Function  -  Mesmo caisa que uma função normal
   const nome = () => {}
 
+---------------------------------------------------------------------------------------------------
+
+Classes:
+
+São construtores de Objetos. É como se as Classes fossem uma maquina de bombom e o bombom fosse o Objeto em si
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -279,12 +311,13 @@ Arrow Function  -  Mesmo caisa que uma função normal
 
 ---------------------------------------------------------------------------------------------------
 
-Biblioteca Math
+Biblioteca:
 
--------------------------------------------------
+Math  -  Matematica
 
-Biblioteca Date
-let data = new Date()  -   Pegar a data / Horario
+
+Date  -  Data / Hora
+let data = new Date()
 
 -------------------------------------------------
 
