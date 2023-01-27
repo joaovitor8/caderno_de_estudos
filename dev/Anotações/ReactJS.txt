@@ -1,11 +1,6 @@
-
-
-----------------------------------------------------------------------------------------
-
-
 Links React:
 
-instalar - npm install react-router-dom
+instalar - npm i react-router-dom
 
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'   -   Importação
@@ -36,3 +31,14 @@ import { Link } from "react-router-dom"   -   importação
 
 
 ---------------------------------------------------------------------------------------------------
+
+
+
+Midia React: 
+
+instalar - npm i react-player
+
+
+import ReactPlayer from 'react-player'    -   Importação
+
+<ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' />
