@@ -1,3 +1,25 @@
+localStorage:
+
+  localStorage.setItem("nome", "valor") //Criando se não alver uma chave ou adicionando se ouver uma chave
+  localStorage.getItem("nome")          //Obter o valor da chave
+  localStorage.removeItem("nome")       //Remover a chave
+
+---------------------------------------------------------------------------------------------------
+
+Componentes de Classe:
+
+import React from "react";
+
+export default class Teste extends React.Component {
+  render() {
+    return(
+      <h1>Primeiro Componentes de Classe</h1>
+    )
+  }
+}
+
+---------------------------------------------------------------------------------------------------
+
 Links React:
 
 instalar - npm i react-router-dom
