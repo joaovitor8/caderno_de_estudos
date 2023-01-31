@@ -9,9 +9,6 @@ Stylesheet  -  Adicionar Estilos
 
 
 
-const nomeLista = [{ name: 'Hummus', id: '1A' }]
+const nomeLista = [{ name: 'Hummus', id: '1A' }, { name: 'Hummus', id: '1A' }]
 
-FlatList
-  data = {nomeLista}
-  keyExtractor = {item=>item.id}
-  renderItem= {({item}) => <Text></Text>}
+<FlatList data={nomeLista} keyExtractor={item=>item.id} renderItem={({item}) => <Text></Text>}/>
