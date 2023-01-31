@@ -1,0 +1,17 @@
+
+
+View  -  Semelhante a tag DIV no React
+Text  - Semelhante a tag P no React
+Scrollview  -  Barra de Rolagem
+Stylesheet  -  Adicionar Estilos
+
+
+
+
+
+const nomeLista = [{ name: 'Hummus', id: '1A' }]
+
+FlatList
+  data = {nomeLista}
+  keyExtractor = {item=>item.id}
+  renderItem= {({item}) => <Text></Text>}
