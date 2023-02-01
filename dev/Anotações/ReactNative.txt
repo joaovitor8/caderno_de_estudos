@@ -8,7 +8,9 @@ Stylesheet  -  Adicionar Estilos
 
 
 
+FlatList:   Uma Lista não setorizada
+  Lista Aleatoria - const nomeLista = [{name: 'nome01', id: '1'}, {name: 'nome02', id: '2'}]
+  Codigo          - <FlatList data={nomeLista} keyExtractor={item=>item.id} renderItem={({item}) => <Text></Text>}/>
 
-const nomeLista = [{ name: 'Hummus', id: '1A' }, { name: 'Hummus', id: '1A' }]
 
-<FlatList data={nomeLista} keyExtractor={item=>item.id} renderItem={({item}) => <Text></Text>}/>
+SectionList:   Uma Lista setorizada
