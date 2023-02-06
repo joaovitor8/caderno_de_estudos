@@ -1,16 +1,40 @@
+Componentes Basicos:     import { StyleSheet, Text, View, Scrollview } from 'react-native';
 
+  <View> Semelhante a tag DIV no React / HTML </View>
+  <Text> Semelhante a tag P no React HTML </Text>
+  <Scrollview> Barra de Rolagem </Scrollview>
 
-View  -  Semelhante a tag DIV no React
-Text  - Semelhante a tag P no React
-Scrollview  -  Barra de Rolagem
-Stylesheet  -  Adicionar Estilos
+  const styles = StyleSheet.create({});   Adicionar Estilos
 
+---------------------------------------------------------------------------------------------------
 
+TextInput:   TAG de Formulario    import { TextInput } from 'react-native';
 
+  <TextInput placeholder={} keyboardType={ Tipo de Teclado }/>
 
-FlatList:   Uma Lista não setorizada
-  Lista Aleatoria - const nomeLista = [{name: 'nome01', id: '1'}, {name: 'nome02', id: '2'}]
-  Codigo          - <FlatList data={nomeLista} keyExtractor={item=>item.id} renderItem={({item}) => <Text></Text>}/>
+---------------------------------------------------------------------------------------------------
 
+Pressable: 
 
-SectionList:   Uma Lista setorizada
+---------------------------------------------------------------------------------------------------
+
+FlatList:   Uma Lista não setorizada         import { FlatList } from 'react-native';
+
+  conts nomeLista = [{A: 'AAA', B: 'BBB', id: 01}, {A: 'AAA', B: 'BBB', id: 02}, {A: 'AAA', B: 'BBB', id: 03}, {A: 'AAA', B: 'BBB', id: 04}]  
+
+  <FlatList data={nomeLista} keyExtractor={item=>item.id} renderItem={({item}) => <Text>{}{}</Text>}/>
+
+---------------------------------------------------------------------------------------------------
+
+SectionList:
+
+---------------------------------------------------------------------------------------------------
+
+Imagens:     import { Image, ImageBackground } from 'react-native';
+
+  <Image source={require( Buscar imagem )} resizeMode="center" accessible={true} accessibilityLabel={ Acessibilidade: Titulo da imagem }/>
+
+  <ImageBackground/>   Usado para colocar uma imagem como papel de parede
+
+---------------------------------------------------------------------------------------------------
+
