@@ -143,24 +143,12 @@ Negação
 
 Conjunção
    &&  E     As duas respostas tem que ser verdadeiro para dar  true
-   true
-   false
-   false
-   false
 
 Disjunção
    ||  OU     Apenas uma resposta tem que ser verdadeiro para dar  true
-   true
-   true
-   true
-   false
 
 Disjunção Exclusiva  (não tem no C#, mas tem bitwise)
    XOU        Para dar verdadeiro tem que ter exclusivamente um  true 
-   false
-   true
-   true
-   false
 
 ---------------------------------------------------------------------------------------------------
 
@@ -419,4 +407,90 @@ while      enquanto
 
 Funções:
 
-public static tipo NomeDaFunção(); {}
+public tipo NomeDaFunção(); {}
+
+---------------------------------------------------------------------------------------------------
+
+Tentar/Erro:
+
+
+Ler um arvivo
+
+try
+{
+   string line = "";
+   StreamReader sr = new StreamReader(arquivo);
+   line= sr.ReadLine();
+   while (line != null)
+   {
+      Console.WriteLine(line);
+      line = sr.ReadLine();
+   }
+   sr.Close();
+}
+catch (Exception e)
+{
+   Console.WriteLine("Erro: " + e.Message);
+}
+Console.ReadKey();
+
+
+
+Gravar texto
+
+try
+{
+   StreamWriter sr = new StreamWriter(txt);
+   sr.WriteLine();
+   sr.Close();
+}
+catch (Exception e)
+{
+   Console.WriteLine("Erro: " + e.Message);
+}
+Console.ReadKey();
+
+---------------------------------------------------------------------------------------------------
+
+Programação Orientada a Objetos C#:
+
+Os 4 Pilares
+   Abstração
+      O conceito de abstração consiste em esconder os detalhes de algo, no caso, os detalhes desnecessários. No mundo real, utilizamos abstrações o tempo todo. Tudo que não sabemos como funciona por baixo dos panos pode ser considerado uma abstração.
+   Encapsulamento
+     Significa que o código de cada objeto deve controlar apenas seu próprio estado
+   Herança        :
+      Permite que um objeto adquira as propriedades e métodos de outro objeto
+   Polimorfismo
+      Pode compartilhar comportamentos e permitir substituições personalizadas.
+
+
+Classes
+   O Objeto
+
+
+metodos
+      Um método em C# é um bloco de código que contém uma série de instruções. Um programa executa as instruções chamando o método e especificando argumentos.
+
+
+Propriedades   -   comando = propfull
+Propriedade Simplificadas   -   public tipo nome { get; set; }
+
+
+Construtores
+   é uma metodo q não preciso definir o tipo
+   o nome é igual ao da classe
+
+   public nome(receber parametros)
+   {
+      
+   }
+
+
+
+ENUM
+Destruidores
+Modificador Static
+Classe Abstrata
+Interface
+Interfaces X Classes Abstratas

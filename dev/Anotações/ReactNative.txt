@@ -44,21 +44,20 @@ const convertendoStringPraJson = () => {
   const myStr = '[{"name": "Veggie Kabob", "price": "$12", "type": "Main Dish"}, {"name": "Greek Salad", "price": "$7","type": "Side"}, {"name": "Black Tea", "price": "$3", "type": "Drink"}]';
 
   const result = JSON.parse(myStr);
-  setJsonObj(result);  {/* -> Retornando para a função do useState */}
+  funcaoUseState(result);  {/* -> Retornando para a função do useState */}
 };
 
+---------------------------------------------------------------------------------------------------
 
+Trabalhando com API
 
+  const api = "Link da API"
 
-
-
-  const api = 'https://raw.githubusercontent.com/Meta-Mobile-Developer-PC/Working-With-Data-API/main/menu-items-by-category.json'
-
-  const getMenu = async () => {
+  const nomeFunção = async () => {
     try {
-      const response = await fetch(api);
+      const response = await fetch( api );
       const json = await response.json();
-      setData(json.menu);
+      funcaoUseState(json.menu); {/* -> Retornando para a função do useState */}
     } catch (error) {
       console.error(error);
     } finally {
@@ -66,16 +65,9 @@ const convertendoStringPraJson = () => {
     }
   };
 
+---------------------------------------------------------------------------------------------------
 
-
-
-
-
-npx expo install @react-native-async-storage/async-storage
-
-AsyncStorage, armazenamento local (chave,valor)
-
-import AsyncStorage from @react-native-community/async-storage
+AsyncStorage:   npx expo install @react-native-async-storage/async-storage  -  import AsyncStorage from @react-native-community/async-storage
 
 const [exemplo, setExemplo]=useState(null)
 
