@@ -38,6 +38,7 @@ Imagens:     import { Image, ImageBackground } from 'react-native';
 
 ---------------------------------------------------------------------------------------------------
 
+<<<<<<< Updated upstream
 
 
 npx expo install @react-native-async-storage/async-storage
@@ -50,3 +51,32 @@ const [exemplo, setExemplo]=useState(null)
 
 const Armazernar = (chave, valor) =>{AsyncStorage.setItem(chave, valor)}
 const Buscar = async (chave) => {const valor await AsyncStorage.getItem(chave)   setExemplo(valor)}
+=======
+Trabalhando com JSON:
+
+const convertendoStringPraJson = () => { 
+  const myStr = '[{"name": "Veggie Kabob", "price": "$12", "type": "Main Dish"}, {"name": "Greek Salad", "price": "$7","type": "Side"}, {"name": "Black Tea", "price": "$3", "type": "Drink"}]';
+
+  const result = JSON.parse(myStr);
+  setJsonObj(result);  {/* -> Retornando para a função do useState */}
+};
+
+
+
+
+
+
+  const api = 'https://raw.githubusercontent.com/Meta-Mobile-Developer-PC/Working-With-Data-API/main/menu-items-by-category.json'
+
+  const getMenu = async () => {
+    try {
+      const response = await fetch(api);
+      const json = await response.json();
+      setData(json.menu);
+    } catch (error) {
+      console.error(error);
+    } finally {
+      setLoading(false);
+    }
+  };
+>>>>>>> Stashed changes
