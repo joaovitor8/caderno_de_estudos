@@ -38,3 +38,15 @@ Imagens:     import { Image, ImageBackground } from 'react-native';
 
 ---------------------------------------------------------------------------------------------------
 
+
+
+npx expo install @react-native-async-storage/async-storage
+
+AsyncStorage, armazenamento local (chave,valor)
+
+import AsyncStorage from @react-native-community/async-storage
+
+const [exemplo, setExemplo]=useState(null)
+
+const Armazernar = (chave, valor) =>{AsyncStorage.setItem(chave, valor)}
+const Buscar = async (chave) => {const valor await AsyncStorage.getItem(chave)   setExemplo(valor)}
