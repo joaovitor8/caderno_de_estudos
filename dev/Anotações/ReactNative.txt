@@ -4,7 +4,7 @@ Componentes Basicos:     import { StyleSheet, Text, View, Scrollview } from 'rea
   <Text> Semelhante a tag P no React HTML </Text>
   <Scrollview> Barra de Rolagem </Scrollview>
 
-  const styles = StyleSheet.create({});   Adicionar Estilos
+  const estilos = StyleSheet.create({});   Adicionar Estilos
 
 ---------------------------------------------------------------------------------------------------
 
@@ -14,7 +14,11 @@ TextInput:   TAG de Formulario    import { TextInput } from 'react-native';
 
 ---------------------------------------------------------------------------------------------------
 
-Pressable: 
+Pressable:  Um "botão" personalizavel
+
+  <Pressable>
+    <Text> ...TEXTO... </Text>
+  <Pressable/>
 
 ---------------------------------------------------------------------------------------------------
 
@@ -26,7 +30,9 @@ FlatList:   Uma Lista não setorizada         import { FlatList } from 'react-na
 
 ---------------------------------------------------------------------------------------------------
 
-SectionList:
+SectionList:   Uma Lista setorizada
+
+  <SectionList   />
 
 ---------------------------------------------------------------------------------------------------
 

@@ -1,1 +1,2 @@
-A experiência do usuário (UX) é a relação entre um produto e a pessoa que o utiliza. O design UX se concentra na criação de produtos que alguém pode usar facilmente e gostar de usar.
+Experiência do Usuário (UX):
+  É a relação entre um produto e a pessoa que o utiliza. O design UX se concentra na criação de produtos que facilitam o uso do usuario.
