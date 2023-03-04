@@ -288,16 +288,9 @@ localStorage e sessionStorage:   Salvar dados no navegador
 localStorage
    Os dados permanecem disponíveis mesmo após o navegador ser fechado e reaberto
 
-   NORMAL
-   localStorage.setItem("chave", dado)     salvar
-   localStorage.getItem("chave", dado)     resgatar
-   localStorage.removeItem("chave", dado)  remover
-
-   OBJETO
-   localStorage.setItem("chave", JSON.stringigy(objeto))  salvar de objeto para JSON
-   const obetoTOstring = localStorage.getItem("nome")     pegar o JSON
-   const objeto = JSON.parse(obetoTOstring)               de JSON para objeto
-   console.log(objeto.dado)                               usar o objeto
+   localStorage.setItem("chave", dado)   armazenar item
+   localStorage.getItem("chave")         recuperar item
+   localStorage.removeItem("chave")      remover item
 
 sessionStorage
    Os dados são apagados assim que o navegador é fechado.
