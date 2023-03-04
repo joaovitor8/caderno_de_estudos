@@ -286,10 +286,10 @@ let data = new Date()
 localStorage e sessionStorage:   Salvar dados no navegador
 
 localStorage
-   Quandos os dados são importantes
+   Os dados permanecem disponíveis mesmo após o navegador ser fechado e reaberto
 
    NORMAL
-   localStorage.serItem("chave", dado)     salvar
+   localStorage.setItem("chave", dado)     salvar
    localStorage.getItem("chave", dado)     resgatar
    localStorage.removeItem("chave", dado)  remover
 
@@ -300,7 +300,7 @@ localStorage
    console.log(objeto.dado)                               usar o objeto
 
 sessionStorage
-   Quandos os dados não são importantes
+   Os dados são apagados assim que o navegador é fechado.
 
 ---------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
