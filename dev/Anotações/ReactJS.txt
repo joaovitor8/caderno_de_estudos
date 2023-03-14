@@ -3,33 +3,60 @@ ReactJS:
 
 ---------------------------------------------------------------------------------------------------
 
-
----------------------------------------------------------------------------------------------------
-
-Links React:
-
-instalar - npm i react-router-dom
+Rotas React:      instalar - npm i react-router-dom
 
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'   -   Importação
+main.jsx
 
-<Router>
-   <Routes>
-      <Route path='/' element={<Home/>} />
-      <Route path='/' element={}/>
-      <Route path='/' element={} />
-   </Routes>
-</Router>
+  import App from './App'
+  import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+  import { Home } from './pages/Home'
+
+  const rotas = createBrowserRouter([
+    {
+      path: "/",
+      element: <App/>,
+      children: [
+        {
+          path: "/",
+          element: <Home/>,
+        },
+        {
+          path: "/rota01",
+          element: <componente01/>,
+        },
+        {
+          path: "/rota02",
+          element: <componente02/>,
+        },
+      ],
+    },
+  ])
+
+  ReactDOM.createRoot(document.getElementById('root')).render(
+    <React.StrictMode>
+      <RouterProvider router={rotas}/>
+    </React.StrictMode>
+  );
 
 
 
-import { Link } from "react-router-dom"   -   importação
+App.jsx
 
-<nav className="header-nav">
-   <Link to="/">Home</Link>
-   <Link to="/"> </Link>
-   <Link to="/"> </Link>
-</nav>
+  import { Outlet } from 'react-router-dom'
+  import { NavBar } from './components/NavBar'
+  import { Footer } from './components/Footer'
+
+  export default function App() {
+    return (
+      <div className="App">
+        <NavBar />
+        <Outlet/>
+        <Footer/>
+      </div>
+    )
+  }
+
 
 ---------------------------------------------------------------------------------------------------
 
