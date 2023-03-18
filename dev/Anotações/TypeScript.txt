@@ -2,7 +2,6 @@ O que é o TypeScript?
   O TypeScript foi criado pela Microsoft para trazer um superset de tipagens para o JavaScript.
   A diferença entre o JavaScript e TypeScript é a sua tipagem que no JS não é obrigatório, já no TS é obrigatório, mas nem pra todos os casos. Algumas vantagens de utilizar o TS é que a sua adoção pode ocorrer de forma gradual em um projeto JavaScript.
 
----------------------------------------------------------------------------------------------------
 
 Porquê utilizar TypeScript?
   A maior vantagem de usar o TypeScript além de aumentar a nossa produtividade no dia a dia é ele reconhecer os erros durante o desenvolvimento, diferente do JavaScript que reconhecerá apenas quando o projeto é executado.
@@ -22,7 +21,6 @@ Tipos primitivos
   enum: é um tipo que pode ser usado para definir um conjunto de valores nomeados.
   never: é um tipo que representa um valor que nunca ocorre, normalmente usado para indicar erros ou exceções em tempo de execução.
 
----------------------------------------------------------------------------------------------------
 
 Como definir o tipo?
   Para definir o tipo de uma variável, parâmetro de função ou retorno de função em TypeScript, utilizamos o sinal de dois pontos : seguido do tipo desejado.
@@ -31,7 +29,6 @@ Como definir o tipo?
 Opcional
   Para informamos que uma propriedade é opcional inserimos o sinal de ?
 
----------------------------------------------------------------------------------------------------
 
 Inference
   É um recurso do TypeScript que permite ao compilador inferir o tipo de uma variável, parâmetro de função ou retorno de função com base no valor atribuído ou retornado.
@@ -39,23 +36,24 @@ Inference
 
 ---------------------------------------------------------------------------------------------------
 
-Aliases e Union
+Type Alias e Union
   São recursos do TypeScript que permitem definir tipos personalizados para serem utilizados em variáveis, parâmetros de função ou retornos de função.
 
 
-  Aliases
+  Alias
     Cria um novo tipo mais complexo que os tipos primitivos em si
 
   Union
     ??
 
----------------------------------------------------------------------------------------------------
+
+Interface
+  ???
 
 
-
-
-
-
+Type Alias VS Interface
+  O objetivo de ambos serve para definir tipagens no TypeScript. O type alias é mais recomendado por ser mais simples, fácil de lidar com tipos primitivos, por ser mais flexível. Já as interfaces são utilizadas normalmente em criação de libs, para aqueles que gostam da programação orientada a objetos.
+  Em geral, as interfaces são usadas para definir a forma de um objeto, enquanto os type aliases são usados para criar novos tipos combinando tipos existentes. Ambos têm seus usos e podem ser usados em conjunto para criar tipos personalizados complexos e expressivos.
 
 ---------------------------------------------------------------------------------------------------
 
@@ -69,9 +67,3 @@ Generics
   <E> → Representando Element
 
 ---------------------------------------------------------------------------------------------------
-
-Type e Interface
-  O objetivo de ambos serve para definir tipagens no TypeScript. O type é mais recomendado por ser mais simples, fácil de lidar com tipos primitivos, por ser mais flexível. Já as interfaces são utilizadas normalmente em criação de libs, para aqueles que gostam da programação orientada a objetos.
-
----------------------------------------------------------------------------------------------------
-
