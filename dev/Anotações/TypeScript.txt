@@ -6,6 +6,9 @@ O que é o TypeScript?
 Porquê utilizar TypeScript?
   A maior vantagem de usar o TypeScript além de aumentar a nossa produtividade no dia a dia é ele reconhecer os erros durante o desenvolvimento, diferente do JavaScript que reconhecerá apenas quando o projeto é executado.
 
+
+Type == Tipo
+
 ---------------------------------------------------------------------------------------------------
 
 Tipos primitivos
@@ -36,15 +39,22 @@ Inference
 
 ---------------------------------------------------------------------------------------------------
 
+Classes
+  ?????
+
+---------------------------------------------------------------------------------------------------
+
 Type Alias e Union
   São recursos do TypeScript que permitem definir tipos personalizados para serem utilizados em variáveis, parâmetros de função ou retornos de função.
 
 
-  Alias
-    Cria um novo tipo mais complexo que os tipos primitivos em si
-
   Union
-    ??
+    É quando você coloca dois ou mais de um tipo na variáveis, parâmetros de função ou retornos de função
+    EX:  let nomeVariavel: number | string | undefined | ...
+
+  Alias
+    Já o alias cria um novo tipo mais complexo que os tipos primitivos em si, que pode ser um tipo novo ou a junção de varios
+    EX:  type nomeTipo = number | string | undefined | ...
 
 
 Interface
@@ -58,12 +68,24 @@ Type Alias VS Interface
 ---------------------------------------------------------------------------------------------------
 
 Generics
-  O generic no TypeScript nos permite reutilizar uma determinada implementação de código, de forma tipada. Para representar um generic, nós declaramos ele dessa forma <T> (podendo ser utilizado qualquer outra letra, existem as convenções que podemos seguir:
+  O generic no TypeScript nos permite reutilizar uma determinada implementação de código, de forma tipada. Para representar um generic, nós declaramos ele dessa forma <J> (podendo ser utilizado qualquer outra letra, existem as convenções que podemos seguir:
 
   <S> → Representando State
   <T> → Representando Type
   <K> → Representando Key
   <V> → Representando Value
   <E> → Representando Element
+  <P> → Representando Propriedades
 
 ---------------------------------------------------------------------------------------------------
+
+Type Utilities
+  São recursos que permitem manipular e inspecionar tipos. Eles são usados ​​para criar tipos novos e mais complexos a partir de tipos existentes, como tipos opcionais, tipos parciais, tipos exclusivos e tipos intersecção
+
+---------------------------------------------------------------------------------------------------
+
+Decorators
+  É uma funcionalidade que permite adicionar comportamentos adicionais a uma classe, método, propriedade ou parâmetro de função. Eles são implementados usando a sintaxe @decorator e podem ser usados ​​para adicionar funcionalidades, como controle de acesso, registro de log e validação de entrada de dados. Decorators são uma forma útil de separar a lógica de negócios da infraestrutura técnica de uma aplicação
+
+---------------------------------------------------------------------------------------------------
+
