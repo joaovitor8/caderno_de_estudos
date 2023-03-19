@@ -11,6 +11,14 @@ Type == Tipo
 
 ---------------------------------------------------------------------------------------------------
 
+Adicionando TypeScript
+  Instalando o TypeScript no projeto  -  npm install --typescript --save-dev
+
+
+  tsconfig.json
+
+---------------------------------------------------------------------------------------------------
+
 Tipos primitivos
   number: é um tipo numérico que pode ser usado para representar números inteiros e números de ponto flutuante.
   string: é um tipo que representa cadeias de caracteres, que podem incluir letras, números e outros caracteres especiais.

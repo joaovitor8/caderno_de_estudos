@@ -1,2 +1,0 @@
-Boas Praticas:
-  Comentar o codigo
