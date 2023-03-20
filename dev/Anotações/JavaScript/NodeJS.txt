@@ -9,5 +9,16 @@ Para trabalhar com node é obrigatório usar templates Engines?
 
 Iniciando:
   npm init -y
-  Framework:  express  -  npm i express --save
+  
+---------------------------------------------------------------------------------------------------
+
+Frameworks:
+  express  -  npm i express --save
+
+---------------------------------------------------------------------------------------------------
+
+NestJS
+  https://docs.nestjs.com/
+
+---------------------------------------------------------------------------------------------------
 
