@@ -24,7 +24,8 @@ Adicionando TypeScript
   Instalando o TypeScript no projeto  -  npm install --typescript --save-dev
 
 
-  tsconfig.json
+  Criar arquivo: tsconfig.json
+    Pegar o conteudo na  Vite
 
 ---------------------------------------------------------------------------------------------------
 
