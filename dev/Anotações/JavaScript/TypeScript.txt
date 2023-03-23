@@ -37,7 +37,7 @@ Tipos primitivos
   void: é um tipo que representa a ausência de qualquer tipo de valor, normalmente usado para indicar que uma função não retorna nenhum valor.
   null e undefined: são tipos que representam valores nulos ou indefinidos, respectivamente.
   object: é um tipo que representa qualquer objeto JavaScript, incluindo objetos personalizados, funções e matrizes.
-  array: é um tipo que representa matrizes de valores, onde cada elemento da matriz pode ser de qualquer tipo.
+  array[]: é um tipo que representa matrizes de valores, onde cada elemento da matriz pode ser de qualquer tipo.
   tuple: é um tipo que representa uma matriz com um número fixo de elementos, onde cada elemento pode ter um tipo diferente.
   enum: é um tipo que pode ser usado para definir um conjunto de valores nomeados.
   never: é um tipo que representa um valor que nunca ocorre, normalmente usado para indicar erros ou exceções em tempo de execução.
