@@ -15,10 +15,10 @@ Iniciando:
 Frameworks:
   express  -  npm i express --save
 
----------------------------------------------------------------------------------------------------
+  NestJS
+    https://docs.nestjs.com/
 
-NestJS
-  https://docs.nestjs.com/
+    NestJS é um framework Node.js de código aberto destinado ao desenvolvimento de aplicativos do lado do servidor. Foi criado por Kamil Mysliwiec e lançado em 2017. Sob o capô, por padrão, o NestJS faz uso do framework Express.js, sendo também compatível com o Fastify. Sua arquitetura é fortemente inspirada no Angular.
 
 ---------------------------------------------------------------------------------------------------
 
