@@ -7,12 +7,12 @@ Para trabalhar com node é obrigatório usar templates Engines?
 
 ---------------------------------------------------------------------------------------------------
 
-Iniciando:
+Iniciando
   npm init -y
   
 ---------------------------------------------------------------------------------------------------
 
-Frameworks:
+Frameworks
   express  -  npm i express --save
 
   NestJS
