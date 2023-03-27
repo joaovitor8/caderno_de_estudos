@@ -1,24 +1,33 @@
 O que é?
    É um interpretador JS que não depende do navegador, ou seja é totalmente desvinculado do navegador
 
-
-Para trabalhar com node é obrigatório usar templates Engines?
-   Não, vc pode trabalhar com React no frontend e Node no backend, e ao invés de retornar html puro com o handlebars, pode retornar objetos json, Entre outras formas
-
 ---------------------------------------------------------------------------------------------------
 
 Iniciando
   npm init -y
+
+
+Nodemon
+  npm i nodemon
   
 ---------------------------------------------------------------------------------------------------
 
-Frameworks
-  express  -  npm i express --save
+HTTP
+  É um módulo nativo do NodeJS que permite a criação de servidores web para processar solicitações HTTP e gerar respostas HTTP. O HTTP é um protocolo usado para transferir dados pela internet e é o principal protocolo usado na World Wide Web(WWW).
 
-  NestJS
-    https://docs.nestjs.com/
+  Método
+    GET  -  Buscar um ou mais dados      O frond-end(navegadores) só usa o metodo get
+    POST  -  Inserir um dado
+    PUT  -  Alterar um dado
+    DELETE  -  Remover um dado
 
-    NestJS é um framework Node.js de código aberto destinado ao desenvolvimento de aplicativos do lado do servidor. Foi criado por Kamil Mysliwiec e lançado em 2017. Sob o capô, por padrão, o NestJS faz uso do framework Express.js, sendo também compatível com o Fastify. Sua arquitetura é fortemente inspirada no Angular.
+---------------------------------------------------------------------------------------------------
+
+Express(framework)  -  npm i express --save
+
+---------------------------------------------------------------------------------------------------
+
+Fastify(framework)  -  npm i fastify
 
 ---------------------------------------------------------------------------------------------------
 
