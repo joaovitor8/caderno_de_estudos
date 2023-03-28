@@ -25,22 +25,21 @@ Adicionando TypeScript
 
 
   Criar arquivo: tsconfig.json
-    Pegar o conteudo na  Vite
 
 ---------------------------------------------------------------------------------------------------
 
 Tipos primitivos
-  number: é um tipo numérico que pode ser usado para representar números inteiros e números de ponto flutuante.
-  string: é um tipo que representa cadeias de caracteres, que podem incluir letras, números e outros caracteres especiais.
-  boolean: é um tipo que representa valores booleanos, ou seja, verdadeiro ou falso.
-  any: é um tipo que pode ser usado para representar qualquer tipo de valor, incluindo valores desconhecidos ou dinâmicos.
-  void: é um tipo que representa a ausência de qualquer tipo de valor, normalmente usado para indicar que uma função não retorna nenhum valor.
-  null e undefined: são tipos que representam valores nulos ou indefinidos, respectivamente.
-  object: é um tipo que representa qualquer objeto JavaScript, incluindo objetos personalizados, funções e matrizes.
-  array[]: é um tipo que representa matrizes de valores, onde cada elemento da matriz pode ser de qualquer tipo.
-  tuple: é um tipo que representa uma matriz com um número fixo de elementos, onde cada elemento pode ter um tipo diferente.
-  enum: é um tipo que pode ser usado para definir um conjunto de valores nomeados.
-  never: é um tipo que representa um valor que nunca ocorre, normalmente usado para indicar erros ou exceções em tempo de execução.
+  number: tipo numérico que pode ser usado para representar números inteiros e de ponto flutuante.
+  string: tipo que representa cadeias de caracteres, que podem incluir letras, números e outros caracteres especiais.
+  boolean: tipo que representa valores booleanos, ou seja, verdadeiro ou falso.
+  any: tipo que pode ser usado para representar qualquer tipo de valor, incluindo valores desconhecidos ou dinâmicos.
+  void: tipo que representa a ausência de qualquer tipo de valor, normalmente usado para indicar que uma função não retorna nenhum valor.
+  null e undefined: tipos que representam valores nulos ou indefinidos, respectivamente.
+  object: tipo que representa qualquer objeto JavaScript, incluindo objetos personalizados, funções e matrizes.
+  array[]: tipo que representa matrizes de valores, onde cada elemento da matriz pode ser de qualquer tipo.
+  tuple: tipo que representa uma matriz com um número fixo de elementos, onde cada elemento pode ter um tipo diferente.
+  enum: tipo que pode ser usado para definir um conjunto de valores nomeados.
+  never: tipo que representa um valor que nunca ocorre, normalmente usado para indicar erros ou exceções em tempo de execução.
 
 
 Como definir o tipo?
@@ -76,7 +75,7 @@ Type Alias e Union
 
 
 Interface
-  Outra maneira de criar tipagens
+  Outra maneira de criar tipagens como o Alias
   EX: interface nomeInterface {}
 
 
@@ -105,6 +104,12 @@ Type Utilities
 
 Decorators
   É uma funcionalidade que permite adicionar comportamentos adicionais a uma classe, método, propriedade ou parâmetro de função. Eles são implementados usando a sintaxe @decorator e podem ser usados ​​para adicionar funcionalidades, como controle de acesso, registro de log e validação de entrada de dados. Decorators são uma forma útil de separar a lógica de negócios da infraestrutura técnica de uma aplicação
+
+  Resumo
+    Oque é um Decorators?: É uma função
+    Sintaxe: @nomeFunção()
+    Porque usar?: Adicionar funcionalidade, Facilitar a leitura do código, Reutilização de código, Evitar a repetição de código, Integração com bibliotecas e frameworks
+
 
 ---------------------------------------------------------------------------------------------------
 
