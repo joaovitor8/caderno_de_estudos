@@ -17,125 +17,6 @@ O quê ECMAScript tem a ver com JavaScript?
 
 ---------------------------------------------------------------------------------------------------
 
-Variavel:
-
-var - global, todo mundo pode acessar
-let - apenas quem esta no mesmo escopo pode acessar
-const - imutavel, apos passar um valor não podera muda-lo
-
----------------------------------------------------------------------------------------------------
-
-Tipos de dados:  typeof - Conferir qual é o Tipo Primitivo de uma Variavel
-
-String  -  Cadeia de caracteres (Texto)
-  Aspas duplas
-  Aspas simples
-
-
-Number  -  Números
-  Inteiros
-  Float
-  Not a Number
-  Infinity
-
-
-Boolean  -  Somente 2 valores
-  true
-  false
-
-
-undefined  -  indefinido
-
-
-null  -  nulo
-  objeto que não possui nada dentro
-  diferente de indefinito
-
-
-Array  -  Agrupamento de dados
-   EX:  const pessoas = ['João', 'Flavia', 'Mateus']
-  Acessando
-    console.log(pessoas[2])
-
-
-Object  -  Objeto
-  Propriedade / Atributos
-  Funcionalidade / Métodos
-    EX:  const pessoa = {nome: "João", idade: 20, peso: 50}
-  Acessando
-    console.log(pessoa.nome)
-
-  JSON
-    stringify  -  transforma o objeto tudo para texto  string
-    parce  -  tranforma em objeto
-
----------------------------------------------------------------------------------------------------
-
-Operadores:
-
-Aritméticos
-  +  Adição 
-  -  Subtração
-  *  Multiplicação
-  /  Divição
-  %  Resto
-  **  Potencia
-
-
-Atribuição
-    =
-   +=
-   -=
-   *=
-   /=
-  **=
-   %=
-
-
-Relacionais
-  >    Maior
-  <    Menor
-  >=   Maior ou igual
-  <=   Menor ou igual
-  ==   Igual
-  !=   Diferente
-
-  Irá ver além dos valores os tipos de elementos
-     ===   Estritamente igual
-     !==   Estritamente diferente
-
-
-New
-  A expressão new, serve para criar um novo objeto usando as funções construtoras que temos por padrão no JavaScript.
-
-
-Lógicos   Ordem - !, &&, ||
-  !   Negação                "não"  Inverte o valor de  True  para  False  ou vice-versa
-  &&   Conjunção             "e"    Considera que todos os valores sejam  True
-  ||   Disjunção             "ou"   Considera que qualquer valor seja True
-
-
-Unarios
-  typeof
-     Serve para saber o tipo de dado que temos na expressão
-  delete
-     Deleta alguma propriedade de um objeto, desde que ela exista.
-
-
-Ternário
-  condição ? true : false
-   condição então valor 1 se não valor 2
-
-
-Ordem
-  (),   ! ++ --,   * /,   + -,   < <= > >=,   == != === !==,   &&,   ||,   ?:,   = += -= *= %=
-
----------------------------------------------------------------------------------------------------
-
-Operadores Bit à Bit:
-
----------------------------------------------------------------------------------------------------
-
 Controle:
 
 if/else -   if (Condição) {
@@ -289,21 +170,27 @@ Classes:
       const pessoa2 = new Pessoa("Maria", 25);
 
 
+contrutor(){}
+  Sempre irei usa-la caso alguma informação do objeto for obrigatorio
 
 this
   É o objeto da Classe
   Inves de escrever o nome dado que no exemplo acima é Pessoa, eu escrevo  this.nome
 
+------------------------------------------------------------------------------
+
+Importação:
+  const nomeVariavel = require('./arquivo')
 
 
+Exportação:
+  module.exports = Oque vc for esportar.
 
----------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------
 
-OOP:
+Orientação a Protótipo
 
-
-
----------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------
 
 Biblioteca:
 
