@@ -1,0 +1,9 @@
+useState
+  const [estado, setEstado] = useState()
+
+useEffect
+  useEffect(() => {}, [])
+
+useMemo - Memorisa uma variavel para não refazer toda vez
+
+useCallback - Memorisa uma função para não refazer toda vez

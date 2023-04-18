@@ -1,0 +1,5 @@
+custom hooks
+
+
+context api:  gerenciador de estado global
+
