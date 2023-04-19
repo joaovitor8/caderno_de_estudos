@@ -1,33 +1,6 @@
 O que é?
    É um interpretador JS que não depende do navegador, ou seja é totalmente desvinculado do navegador
 
----------------------------------------------------------------------------------------------------
-
 Iniciando
   npm init -y
-
-
-Nodemon
-  npm i nodemon
-  
----------------------------------------------------------------------------------------------------
-
-HTTP
-  É um módulo nativo do NodeJS que permite a criação de servidores web para processar solicitações HTTP e gerar respostas HTTP. O HTTP é um protocolo usado para transferir dados pela internet e é o principal protocolo usado na World Wide Web(WWW).
-
-  Método
-    GET  -  Buscar um ou mais dados      O frond-end(navegadores) só usa o metodo get
-    POST  -  Inserir um dado
-    PUT  -  Alterar um dado
-    DELETE  -  Remover um dado
-
----------------------------------------------------------------------------------------------------
-
-Express(framework)  -  npm i express --save
-
----------------------------------------------------------------------------------------------------
-
-Fastify(framework)  -  npm i fastify
-
----------------------------------------------------------------------------------------------------
 

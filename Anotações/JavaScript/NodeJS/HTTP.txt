@@ -1,0 +1,7 @@
+É um módulo nativo do NodeJS que permite a criação de servidores web para processar solicitações HTTP e gerar respostas HTTP. O HTTP é um protocolo usado para transferir dados pela internet e é o principal protocolo usado na World Wide Web(WWW).
+
+Método
+  GET  -  Buscar um ou mais dados      O frond-end(navegadores) só usa o metodo get
+  POST  -  Inserir um dado
+  PUT  -  Alterar um dado
+  DELETE  -  Remover um dado
