@@ -1,0 +1,4 @@
+def nomeFunção():
+
+Funções Lambda - "Funções Anônimas"
+

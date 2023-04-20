@@ -1,0 +1,11 @@
+ESTRUTURA DE CONDIÇÕES:
+  if
+  elif
+  else
+
+
+ESTRUTURAS DE REPETIÇÃO:
+  for - Usar quando eu sei quando acaba
+  while - Usar quando eu não sei quando acaba
+   
+  break - Responsável por interromper um laço imediatamente
