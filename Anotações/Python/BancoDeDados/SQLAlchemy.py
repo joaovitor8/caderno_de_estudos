@@ -1,6 +1,8 @@
+#Instalando SQLAlchemy: pip install sqlalchemy
+
 #Importações
 from sqlalchemy.orm import declarative_base, relationship, Session
-from sqlalchemy import Column, Integer, String, ForeignKey, create_engine, inspect
+from sqlalchemy import Column, Integer, String, ForeignKey, create_engine, inspect, select
 
 #Construindo a tabela
 Base = declarative_base()
@@ -77,3 +79,15 @@ with Session(engine) as session:
   #Enviando para o BD (Persistir de dados)
   session.add_all([Joao, Vitor, Mateus])
   session.commit()
+
+
+#Recuperando usuario a partir de condição de filtragem
+stmt = select(User).where(User.name.in_(['joao', 'vitor']))
+for user in session.scalars(stmt):
+  print(user)
+
+
+#Recuperando informações de maneira ordenada
+order = select(User).order_by(User.fullname)
+for result in session.scalars(order):
+  print(result)
