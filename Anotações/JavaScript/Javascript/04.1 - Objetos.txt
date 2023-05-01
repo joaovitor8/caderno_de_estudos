@@ -1,0 +1,17 @@
+const user = {nome: "Joao", idade: 63}
+
+Comandos
+  JSON
+    stringify  -  transforma o objeto tudo para texto  string
+    parce  -  tranforma em objeto
+
+  in
+    'nome' in user  -  existe a chave NOME no objeto USER?
+  
+  Object.keys(user)  -  Retorna todas as CHAVES do meu objeto
+  Object.values(user)  -  Retorna todos os VALORES do meu objeto
+  Object.entries(user)
+
+  Desestruturação
+    const { nome, idade } = user
+

@@ -28,3 +28,6 @@ tratamento de erro
 try{tenta executa}
 catch{error}
 finally{executa sempre}
+
+---------------------------------------------------------------------------------------------------
+

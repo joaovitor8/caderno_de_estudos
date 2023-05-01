@@ -7,3 +7,4 @@ EX:
   var nomeVariavelVar = 'Um dado'
   let nomeVariavelLet = 'Um dado'
   const nomeVariavelConst = 'Um dado'
+

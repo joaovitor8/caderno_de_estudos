@@ -1,5 +1,3 @@
-Historia:
-
 JavaScript = Client x Server (Principalmente para o lado do cliente)
 
 Qual a diferença entre um cliente e um servidor para a internet?:
