@@ -30,15 +30,7 @@ undefined  -  indefinido
 
 Array  -  Agrupamento de dados
 
-const lista = []
-
-Comandos
-  push() - Adiciona no array
-  pop() - Tira o ultimo valor
-  shift() - Tira o primeiro valor
-  forEach() -
-  filter() - fitra elementos de uma lista
-  reduce() - reduz os elementos de uma lista a um unico elemento
+const lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 
 ---------------------------------------------------------------------------------------------------
 

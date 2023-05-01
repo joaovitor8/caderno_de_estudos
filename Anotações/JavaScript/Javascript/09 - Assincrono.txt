@@ -1,30 +1,3 @@
-Importação:
-  const nomeVariavel = require('./arquivo')
-
-
-Exportação:
-  module.exports = Oque vc for esportar.
-
-------------------------------------------------------------------------------
-
-localStorage e sessionStorage:   Salvar dados no navegador
-
-localStorage
-   Os dados permanecem disponíveis mesmo após o navegador ser fechado e reaberto
-
-   localStorage.setItem("chave", dado)   armazenar item
-   localStorage.getItem("chave")         recuperar item
-   localStorage.removeItem("chave")      remover item
-
-sessionStorage
-   Os dados são apagados assim que o navegador é fechado.
-
----------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------
-
-Sincrono X Assincrono:
-
-
 Sistema Síncrono
    Um sistema síncrono (synchronous) é uma tarefa que é concluída após a outra.
    Por padrão, o JavaScript é um sistema síncrono
@@ -49,5 +22,3 @@ Promesas
       return resolve('Pedido aceito!')
       return reject('Pedido negado!')
    })
-
-

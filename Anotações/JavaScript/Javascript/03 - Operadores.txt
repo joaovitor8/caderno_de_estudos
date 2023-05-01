@@ -39,9 +39,12 @@ New
 ---------------------------------------------------------------------------------------------------
 
 Lógicos
-  !   Negação                "não"  Inverte o valor de  True  para  False  ou vice-versa
-  &&   Conjunção             "e"    Considera que todos os valores sejam  True
-  ||   Disjunção             "ou"   Considera que qualquer valor seja True
+  !   Negação               "não"  Inverte o valor de  True  para  False  ou vice-versa
+  &&  Conjunção             "e"    Considera que todos os valores sejam  True
+  ||  Disjunção             "ou"   Considera que qualquer valor seja True
+  ??  Nullish Coalescing
+    É um operador lógico do JavaScript que permite testar se um valor é null ou undefined e, se for, retornar um valor padrão especificado.
+    Esse operador é representado por dois sinais de interrogação (??)
 
 ---------------------------------------------------------------------------------------------------
 
@@ -61,11 +64,6 @@ Ternário
 
 Ordem
   (), !  ++  --, *  /, +  -, <  <=  >  >=, ==  !=  ===  !==, &&, ||, ?:, =  +=  -=  *=  %=
-
----------------------------------------------------------------------------------------------------
-
-Nullish Coalescing Operator
-  ??
 
 ---------------------------------------------------------------------------------------------------
 
