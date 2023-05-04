@@ -1,0 +1,7 @@
+Introdução
+  ETL são ferramentas de software é a extração de dados de diversos sostemas, transformação desses dados conforme regras de negocios e por fim o carregamento dos dados
+
+Etapas
+  Extracão
+  Transformação
+  Carregamento

@@ -1,0 +1,8 @@
+Dados
+  Pode ser uma representação simbolica, numerica ou textual qualquer
+Informação
+  É o conjunto ou a junção de dados que fazem um contexto ou sentido
+
+Segurança da Informação
+  Tem como objetivo assegurar que todos os dados de uma ou mais informações estejam sempre confidenciais, integros e disponiveis em quaquer meio de comunicação
+
