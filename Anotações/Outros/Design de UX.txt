@@ -1,0 +1,71 @@
+Historia:
+   A frase "experiência do usuário" foi cunhada pela primeira vez na década de 1990,pelo psicólogo cognitivo, Don Norman,à medida que o uso da tecnologia se expandiu e evoluiu. Embora o termo tenha surgido há relativamente pouco tempo,os princípios da experiência do usuário remontam a milhares de anos
+
+---------------------------------------------------------------------------------------------------
+
+Oque é a experiência do usuário:
+   A experiência do usuário é como uma pessoa(usuário), se sente ao interagir ou experimentar um produto.
+
+---------------------------------------------------------------------------------------------------
+
+As etapas de ciclo de vida do desenvolvimento do produto:
+   Brainstorm
+      Quando a equipe começa a pensar em uma ideia para um produto
+   Definir
+      Descobrir as especificações do produto respondendo a perguntas como: Para quem é o produto? O que o produto fará? E quais recursos precisam ser incluídos para que o produto seja bem-sucedido?
+   Projetar
+      Esboços ou esboços do produto, e depois passam para a criação de protótipos, que são os primeiros modelos de um produto que transmitem sua funcionalidade. 
+   Testar
+      A execução desses testes normalmente é responsabilidade do pesquisador de UX da sua equipe, se você tiver um. 
+      Primeiro, a equipe testa o produto internamente para procurar falhas técnicas e problemas de usabilidade. Isso geralmente é chamado de teste alfa.
+      Em seguida, o produto passa por um teste com stakeholders para garantir que o produto esteja alinhado com a visão da empresa, atenda às diretrizes legais de acessibilidade e siga as regulamentações governamentais de privacidade, por exemplo.
+      Por fim, há um teste externo com usuários em potencial . Este é o momento de descobrir se o produto oferece uma boa experiência ao usuário, o que significa que é utilizável, equitativo, agradável e útil. Isso geralmente é chamado de teste beta.
+   Lançar
+      Pode envolver a listagem de um aplicativo na Google Play Store ou na App Store da Apple, a ativação de um site ou a colocação de um produto físico nas prateleiras das lojas.
+
+---------------------------------------------------------------------------------------------------
+
+Características de uma boa experiência do usuário:
+   Utilidade
+       Significa que o design, a estrutura e a finalidade do produto são claros e fáceis de usar e de entender
+   Equitativo
+      O design do produto atende às necessidades de um público diversificado e garante que uma experiência de alta qualidade seja entregue a todos os usuários, independentemente de origem, gênero, raça ou habilidade.
+   Agradável
+      O design reflete o que o usuário pode estar pensando ou sentindo e cria uma conexão positiva com ele
+   Útil
+      O design resolve intencionalmente um problema do usuário que o designer identificou
+
+---------------------------------------------------------------------------------------------------
+
+Quem são meus usuários?:
+   No campo do design da experiência do usuário, o “usuário” vem em primeiro lugar. Um usuário é uma pessoa que está tentando resolver um problema e está procurando um produto ou serviço para ajudá-la a resolvê-lo. A experiência do usuário é a jornada que o usuário faz com aquele produto ou serviço. Como designer de UX, seu objetivo é manter o usuário no centro de todas as decisões que você toma e, para isso, você precisa conhecê-lo.
+
+   Perguntas:
+      Meus usuários têm deficiências ou deficiências a serem consideradas?
+      Quão familiarizados estão meus usuários com a tecnologia?
+      Como meus usuários estão acessando o produto ou serviço?
+      Onde meus usuários estão acessando o produto ou serviço?
+
+---------------------------------------------------------------------------------------------------
+
+Projetando experiências multiplataforma:
+   Ao projetar um novo produto ou recurso, é importante pensar nos diferentes tipos de plataformas nas quais o design será experimentado. Para relembrar, uma plataforma é o meio em que os usuários experimentam seu produto. Algumas plataformas comuns são:
+
+   Desktop computers
+   Laptop computers
+   Mobile phones
+   Tablets
+   Wearables, like smart watches
+   TVs
+   Smart displays
+
+   Considerações:
+      Tamanho da tela 
+      Interação
+      Layout de conteúdo
+      Funcionalidade
+
+---------------------------------------------------------------------------------------------------
+
+Pesquisa de UX
+   A pesquisa de UX se concentra em entender os comportamentos do usuário,necessidades e motivações por meio de observação e feedback. O objetivo da pesquisa de experiência do usuário é priorizar o usuário. Também queremos garantir que as necessidades de negócios sejam atendidas. A pesquisa de UX pode ajudar a preencher a lacuna entre o que uma empresa acha que o usuário precisa e o que o usuário realmente precisa.
