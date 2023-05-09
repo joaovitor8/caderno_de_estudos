@@ -32,3 +32,5 @@ contrutor(){}
 this
   É o objeto da Classe
   Inves de escrever o nome dado que no exemplo acima é Pessoa, eu escrevo  this.nome
+  Uma representação do elemento que está sendo utilizado naquele exato momento da execução do código
+
