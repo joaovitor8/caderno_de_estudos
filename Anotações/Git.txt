@@ -1,12 +1,41 @@
-Básico:
+Versionamento
+  Registro de mudanças em arquivos, que possibilita recuperação ou acesso a versões anteriores
+  Usado em desenvolvimento de codigo de colaboração em equipe
 
-git clone + Repositório (Vá até o GitHub, depois no repositório desejado, clique em "Code" e copie o link no SSH)- Clona o repositorio que deseja usar
-git status - Vê se algo foi alterado
-git add . - Adiciona tudo em que eu fiz alteração para o proximo commit
-git commit -m "Comentario do Commit" - Estou commitando
-git push - Vai sicronizar o commit com o repositório
-
-git pull - Atualiza para a vesão mais recente (Caso tenha mais pessoas alem de vc mechendo no repositório)
+  Git  -  Um sistema de versionamento
 
 ---------------------------------------------------------------------------------------------------
+
+Configuração
+  git config --global user.name "Seu nome"
+  git config --global user.email "Seu email"
+
+  git --version
+
+---------------------------------------------------------------------------------------------------
+
+Comandos
+  git init                    -  Começa um repositorio
+  git clone + Repositório     -  Clona o repositorio que deseja usar
+  git status                  -  Vê se algo foi alterado
+  git add .                   -  Adiciona tudo em que eu fiz alteração para o proximo commit
+  git diff                    -  Mostra quais linhas foram modificadas, adicionadas ou removidas
+  git commit -m "Comentario"  -  Estou comitando
+  git log                     -  Historicos dos commits
+  git restore                 -  ???
+  git push                    -  Vai sicronizar o commit com o repositório
+  git pull                    -  Atualiza para a vesão mais recente
+  git fetch                   -  Mostra a modificação que fara no codigo
+
+---------------------------------------------------------------------------------------------------
+
+Ramificações
+  git branch               -  Mostra todas as ramificações e qual eu estou
+  git branch nomeBranch    -  Cria uma nova ramificação
+  git checkout nomeBranch  -  Entra em uma ramificação
+
+  Vá para a branch master
+    git merging nomeBranch   -  Junta uma ramificação a master, que é a principal
+
+
 
