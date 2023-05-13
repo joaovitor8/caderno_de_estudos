@@ -41,8 +41,29 @@ Funções quandraticas (ou de segundo grau)  =>  f(x) = ax²+bx+c
 Funções polinomiais de grau n
 Funções racionais  =>  f(x) = P(x)/Qx
 Funções trigonometricas  =>  f(x) = sin(x);  f(x) = cos(x);  f(x) = tg(x) = sin(x)/cos(x)
-Funções sigmoides ou logisticas  =>  ¢(x) = 1/1+e elevado a -x
+Funções sigmoides ou logisticas  =>  ¢(x) = 1/1+e^-x
 
 
 Limite(0)
 Limite Laterais(infinitos)
+
+
+Intuição
+Derivada <==> Variação
+
+Formulas derivada:
+  Funções constantes       =>  f(x) = c => dc/dx = 0
+  Regra da potencia        =>  f(x) = x² => dx²/dx = 2x
+  Funções exponenciais     =>  f(x) = a^x => da/-dx = ln(a)a^x
+  Funções logaritmicas     =>  f(x) = logax => dlogax/dx => 1/xlna
+  Funções trigonometricas  =>  f(x) = sin(x) => cos(x);
+                               f(x) = cos(x) => -sin(x);
+                               f(x) = tg(x) = sin(x)/cos(x) => sec²(x) = 1/cos²x
+
+
+Regras de derivação
+
+Soma/Subtração
+Multiplicação por constante
+Regra do quociente
+Regra da cadeia
