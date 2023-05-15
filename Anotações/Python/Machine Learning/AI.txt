@@ -29,3 +29,10 @@ AG - Algoritmos Genéticos
     Criar um universo de possibilidades para a melhor solução
   Necessidades da recombinação
     Combinar os melhore resultados da população inicial
+
+
+
+Algoritmos de SVM (Support Vector Machine)
+
+
+
