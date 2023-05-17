@@ -1,0 +1,39 @@
+node: 
+
+npm i typescript -D  -  Instala o Typescript
+npm i @types/node -D  -  Ajuda o node a entender que esta em um projeto Typescript
+npx tsc --init  -  Inicia o arquivo tsconfg.json
+npm i tsx -D  -  Converte de Typescript para Javascript
+npm i fastify  -  Framework
+
+npm i eslint -D  -  Ajuda a mander a organização
+npx eslint --init
+
+npm i prisma -D
+npm i @prisma/client  -  Acessa
+
+-------------------------------------------------
+
+react:
+
+npx create-next-app@latest nome --use-npm  -  Sim em tudo
+npm i prettier-plugin-tailwindcss -D  -  Ajuda a mander a organização do TailwindCSS
+
+-------------------------------------------------
+
+mobile:
+
+npx create-expo-app nome
+
+Mude o arquivo App.js para App.tsx e rode a aplicação, a propria aplicação irá notar o Typescript e configura-lo
+
+npm i nativewind  -  Suporta o TailwindCSS no ReactNative
+npm i tailwindcss -D  -  Roda o TailwindCSS no ReactNative
+npx tailwindcss init  -  Cria o arquivo TailwindCSS
+Atualize => content: ["./App.tsx", "./app/**/*.tsx"],
+em babel.confg.js adicione => plugins:["nativewind/babel"],
+em tsconfg.json adicione em "compilerOptions" => "types": ["nativewind/types"]
+
+npm i eslint -D  -  Ajuda a mander a organização
+npx eslint --init
+npm i prettier-plugin-tailwindcss -D  -  Ajuda a mander a organização do TailwindCSS
