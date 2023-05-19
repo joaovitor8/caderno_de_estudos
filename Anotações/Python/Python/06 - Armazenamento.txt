@@ -13,7 +13,7 @@ Adicionando em um lugar específico
 Removendo da Lista
   del lista[4]
   lista.pop(4)
-  nome.renove('valor')
+  nome.renove()
 
 Colocando a lista em ordem
   lista.sort()
@@ -28,13 +28,13 @@ Copiar uma lista
   lista.copy()
 
 Ve a quantidade de um item na lista
-  lista.count('valor')
+  lista.count()
 
 Adicionando / Juntando itens de duas lista
-  lista.extend("valores")
+  lista.extend()
 
 Pegar um valor na lista
-  lista.index("valor")
+  lista.index()
 
 ---------------------------------------------------------------------------------------------------
 

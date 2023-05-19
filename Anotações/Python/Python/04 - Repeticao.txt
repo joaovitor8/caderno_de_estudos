@@ -6,6 +6,8 @@ ESTRUTURA DE CONDIÇÕES:
 
 ESTRUTURAS DE REPETIÇÃO:
   for - Usar quando eu sei quando acaba
+    range(inicio, fim, pulos) - o range pode ter até 3 parametros
+
   while - Usar quando eu não sei quando acaba
    
   break - Responsável por interromper um laço imediatamente
