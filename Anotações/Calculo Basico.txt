@@ -1,22 +1,5 @@
 Funções - definições
 
-
-Produto cartesiano
-
-EX:  A = { 1, 2, 3 }
-     B = { 4, 6 }
-
-     AxB = { (1,4); (1,6); (2,4); (2,6); (3,4); (3,6) }
-
-     Faça um grafico onde A sera "x" e B sera "y", marque no grafico os valores e ligue os pontos
-
-
-Relação    EX:  RC AxB => R = { (2,4); (3,6) }
-
-
-
-
-
 Funções
 Produto cartesiano
 Relação
@@ -24,42 +7,51 @@ Domínio e contradomínio
 Diagramas de Venn
 Funções injetoras, sobrejetoras e bijetoras
 
+-------------------------------------------------
 
 Expressão funcional
 Graficos de funções
 Tipos de funções
 Paridade
 
+-------------------------------------------------
 
 Funções inversa
 Composição de função
 
+Funções sigmoides / logisticas  =>  ¢(x) = 1/1+e^-x => f^-1(x) = ln x/1-x
 
-Funções constantes  =>  f(x) = c
-Funções lineares (ou de primeiro grau)  =>  f(x) = ax+b
-Funções quandraticas (ou de segundo grau)  =>  f(x) = ax²+bx+c
+-------------------------------------------------
+
+Funções constantes              =>  f(x) = c
+Funções lineares (ou 1º)        =>  f(x) = ax+b
+Funções quandraticas (ou 2º)    =>  f(x) = ax²+bx+c
 Funções polinomiais de grau n
-Funções racionais  =>  f(x) = P(x)/Qx
-Funções trigonometricas  =>  f(x) = sin(x);  f(x) = cos(x);  f(x) = tg(x) = sin(x)/cos(x)
-Funções sigmoides ou logisticas  =>  ¢(x) = 1/1+e^-x
+Funções racionais               =>  f(x) = P(x)/Qx
+Funções trigonometricas         =>  f(x) = sin(x);  f(x) = cos(x);  f(x) = tg(x) = sin(x)/cos(x)
+Funções sigmoides / logisticas  =>  ¢(x) = 1/1+e^-x
 
+-------------------------------------------------
 
 Limite(0)
 Limite Laterais(infinitos)
 
+-------------------------------------------------
 
 Intuição
 Derivada <==> Variação
 
 Formulas derivada:
-  Funções constantes       =>  f(x) = c => dc/dx = 0
-  Regra da potencia        =>  f(x) = x² => dx²/dx = 2x
-  Funções exponenciais     =>  f(x) = a^x => da/-dx = ln(a)a^x
-  Funções logaritmicas     =>  f(x) = logax => dlogax/dx => 1/xlna
-  Funções trigonometricas  =>  f(x) = sin(x) => cos(x);
-                               f(x) = cos(x) => -sin(x);
-                               f(x) = tg(x) = sin(x)/cos(x) => sec²(x) = 1/cos²x
+  Funções constantes              =>  f(x) = c => dc/dx = 0
+  Regra da potencia               =>  f(x) = x² => dx²/dx = 2x
+  Funções exponenciais            =>  f(x) = a^x => da/-dx = ln(a)a^x
+  Funções logaritmicas            =>  f(x) = logax => dlogax/dx => 1/xlna
+  Funções trigonometricas         =>  f(x) = sin(x) => cos(x);
+                                      f(x) = cos(x) => -sin(x);
+                                      f(x) = tg(x) = sin(x)/cos(x) => sec²(x) = 1/cos²x
+  Funções sigmoides / logisticas  =>  ¢(x) = 1/1+e^-x => e^-x/(1+e^-x)^2
 
+-------------------------------------------------
 
 Regras de derivação
 
