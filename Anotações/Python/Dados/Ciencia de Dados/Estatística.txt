@@ -1,0 +1,200 @@
+Amostragem
+  A amostragem é uma técnica utilizada na estatística para coletar informações sobre uma população a partir de uma parte representativa dessa população, chamada de amostra. Em muitos casos, é inviável ou impraticável estudar toda a população, seja por restrições de tempo, custo ou logística. Nesses casos, a amostragem permite obter uma visão geral da população com base em uma porção dela.
+
+Amostragem aleatória simples
+  Todos os elementos da população têm a mesma probabilidade de serem selecionados para a amostra. Esse método é útil quando não há informações prévias sobre a população.
+Amostragem estratificada
+  A população é dividida em subgrupos, chamados estratos, e uma amostra é selecionada aleatoriamente em cada estrato proporcionalmente ao seu tamanho. Esse método é útil quando a população apresenta heterogeneidade interna.
+Amostragem sistemática
+  A partir de uma lista ordenada dos elementos da população, seleciona-se um elemento a cada intervalo fixo. Esse método é útil quando a população segue um padrão ou ordem específica.
+Amostragem por conglomerados
+  A população é dividida em grupos ou conglomerados, e alguns conglomerados são selecionados aleatoriamente para a amostra. Esse método é útil quando a população é ampla e dispersa geograficamente.
+
+
+Além desses, existem outros métodos de amostragem que são aplicados em situações específicas, como:
+  Amostragem por quotas
+  Amostragem por conveniência
+  Amostragem por bola de neve
+
+---------------------------------------------------------------------------------------------------
+
+Tipos de dados
+  Categorizados(Qualitativos)
+    Nominais
+    Ordinais
+  Numericos(Quantitativos)
+    Discretos
+    Continuos
+
+Qualitativos ou Categóricos
+  São dados que representam categorias ou características distintas, sem uma ordem específica. Podem ser divididos em duas subcategorias:
+    Dados nominais: Não apresentam uma ordem específica entre as categorias. Exemplos: cor dos olhos (azul, verde, castanho), estado civil (solteiro, casado, divorciado).
+    Dados ordinais: Possuem uma ordem ou hierarquia entre as categorias. Exemplos: nível de satisfação (baixo, médio, alto), grau de escolaridade (ensino fundamental, ensino médio, ensino superior).
+
+Numericos ou Quantitativos
+  São dados numéricos que representam uma quantidade ou uma medida. Podem ser divididos em duas subcategorias:
+    Dados discretos: São valores inteiros que representam uma contagem ou uma quantidade específica. Exemplos: número de filhos, número de acidentes em uma estrada.
+    Dados contínuos: Representam valores que podem assumir qualquer valor dentro de um intervalo. Exemplos: altura de uma pessoa, temperatura, peso.
+
+---------------------------------------------------------------------------------------------------
+
+Tabelas
+
+---------------------------------------------------------------------------------------------------
+
+Meditas
+
+Moda: A moda de um conjunto de dados é o valor que ocorre com maior frequência. Em outras palavras, é o valor mais comum ou mais repetido em um conjunto de observações.
+  O valor mais frequente em um conjunto de dados, em alguns casos, um conjunto de dados pode ter várias modas ou não ter nenhuma.
+
+Média: A média é a medida de tendência central mais comumente usada. É calculada somando todos os valores de um conjunto de dados e dividindo pelo número total de observações. A média é sensível a valores extremos e pode ser influenciada por eles.
+  Formula = (Soma de todos os valores) / (Número total de observações)
+
+Mediana: A mediana é o valor central em um conjunto de dados ordenados. Para encontrar a mediana, os dados são organizados em ordem crescente ou decrescente e o valor que divide os dados em duas partes iguais é selecionado. Ao contrário da média, a mediana não é afetada por valores extremos.
+  Para calcular a mediana depende se o conjunto de dados tem um número ímpar ou par
+
+  Se o número de observações for ímpar:
+    Mediana = Valor do meio quando os dados são ordenados
+  Se o número de observações for par:
+    Mediana = (Soma dos dois valores do meio) / 2 quando os dados são ordenados
+
+Quartis: Os quartis dividem um conjunto de dados ordenados em quatro partes iguais. O primeiro quartil (Q1) é o valor que separa os 25% inferiores dos dados. O segundo quartil (Q2) é a mediana, que divide os dados em duas partes iguais. O terceiro quartil (Q3) separa os 25% superiores dos dados. Os quartis são úteis para entender a distribuição dos dados.
+  Primeiro quartil (Q1): É o valor que deixa 25% dos dados abaixo e 75% acima. Pode ser encontrado encontrando a mediana dos dados abaixo da mediana principal.
+  Terceiro quartil (Q3): É o valor que deixa 75% dos dados abaixo e 25% acima. Pode ser encontrado encontrando a mediana dos dados acima da mediana principal.
+
+Percentil: Os percentis são semelhantes aos quartis, mas dividem um conjunto de dados em 100 partes iguais. O percentil p representa o valor abaixo do qual uma porcentagem p dos dados se encontra. Por exemplo, o percentil 75 (P75) indica que 75% dos dados estão abaixo desse valor.
+  Percentil p = (p / 100) * (Número total de observações + 1)
+
+---------------------------------------------------------------------------------------------------
+
+Análise bidimensional
+  Envolve o estudo e a compreensão da relação entre duas variáveis em um conjunto de dados. Ela é realizada principalmente através da construção e interpretação de tabelas de contingência e gráficos relacionais.
+
+Tabela de contingência
+  É uma tabela que apresenta a distribuição conjunta das duas variáveis em estudo. Ela permite visualizar como as categorias de uma variável estão relacionadas às categorias da outra variável.
+Gráfico de dispersão
+  É um gráfico que representa a relação entre duas variáveis quantitativas. Cada ponto no gráfico representa uma observação e sua posição no espaço é determinada pelos valores das duas variáveis. Esse tipo de gráfico permite identificar padrões, tendências ou correlações entre as variáveis.
+Coeficiente de correlação
+  É uma medida estatística que quantifica o grau de associação linear entre duas variáveis quantitativas. O coeficiente de correlação varia de -1 a 1, onde valores próximos de -1 indicam uma correlação negativa forte, valores próximos de 1 indicam uma correlação positiva forte e valores próximos de 0 indicam pouca ou nenhuma correlação.
+Teste de associação
+  São testes estatísticos utilizados para verificar se existe uma associação significativa entre as duas variáveis em estudo. Alguns exemplos de testes de associação são o teste do qui-quadrado e o teste exato de Fisher, que são comumente utilizados quando as variáveis são categóricas.
+
+---------------------------------------------------------------------------------------------------
+
+Regressão linear simples
+  Ŷ = b₀ + b₁X
+
+  Onde:
+    Ŷ é o valor previsto da variável dependente (variável de resposta).
+    b₀ é o coeficiente de interceptação, que representa o valor de Ŷ quando X é igual a zero.
+    b₁ é o coeficiente de inclinação, que representa a mudança média em Ŷ associada a uma unidade de mudança em X.
+    X é o valor da variável independente (variável preditora) para o qual queremos prever Ŷ.
+
+
+
+Matematicamente, o coeficiente de determinação é calculado da seguinte forma:
+  R² = 1 - (SSR/SST)
+
+  Onde:
+    SSR (Soma dos Quadrados dos Resíduos) representa a soma dos quadrados das diferenças entre os valores observados de Y e os valores previstos pelo modelo de regressão.
+    SST (Soma Total dos Quadrados) representa a soma dos quadrados das diferenças entre os valores observados de Y e a média dos valores observados de Y.
+
+---------------------------------------------------------------------------------------------------
+
+Probabilidade
+  Forma de quantificar uma incerteza
+
+
+Diagramas de Venn
+  União
+    A união de dois conjuntos é representada pela região que inclui todos os elementos presentes em ambos os conjuntos.
+  Interseção
+    A interseção de dois conjuntos é representada pela região que contém apenas os elementos que pertencem a ambos os conjuntos simultaneamente.
+  Diferença
+    A diferença entre dois conjuntos é representada pela região que contém os elementos de um conjunto, mas não do outro.
+  Conjunto universal
+    É o conjunto que contém todos os elementos relevantes para o problema em questão. Geralmente, é representado pelo retângulo que envolve os círculos ou elipses.
+
+-------------------------------------------------
+
+Propriedades das operações entre eventos
+
+Idempotentes:
+  Um evento é idempotente em relação à operação de união ou interseção se a aplicação repetida dessa operação não alterar o evento.
+  Idempotência da união: A ∪ A = A
+  Idempotência da interseção: A ∩ A = A
+
+Comutativas:
+  As operações de união e interseção são comutativas, o que significa que a ordem dos eventos não afeta o resultado.
+  Comutatividade da união: A ∪ B = B ∪ A
+  Comutatividade da interseção: A ∩ B = B ∩ A
+
+Associativas:
+  As operações de união e interseção são associativas, o que significa que a forma como os eventos são agrupados não afeta o resultado final.
+  Associatividade da união: (A ∪ B) ∪ C = A ∪ (B ∪ C)
+  Associatividade da interseção: (A ∩ B) ∩ C = A ∩ (B ∩ C)
+
+Distributivas:
+  As operações de união e interseção são distributivas entre si.
+  Distributividade da união sobre a interseção: A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)
+  Distributividade da interseção sobre a união: A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)
+
+Absorções:
+  As operações de união e interseção têm propriedades de absorção.
+  Absorção da união: A ∪ (A ∩ B) = A
+  Absorção da interseção: A ∩ (A ∪ B) = A
+
+Identidades:
+  Existem elementos neutros para as operações de união e interseção.
+  Identidade da união: A ∪ ∅ = A
+  Identidade da interseção: A ∩ Espaço amostral universal = A
+
+Complementares:
+  O complementar de um evento A é único e satisfaz as propriedades complementares:
+  A ∪ A' = Espaço amostral universal
+  A ∩ A' = ∅ (conjunto vazio)
+
+Leis de De Morgan (Leis de Mongan ou Leis das Dualidades):
+  As leis de De Morgan estabelecem a relação entre as operações de complemento, união e interseção.
+  Complemento da união: (A ∪ B)' = A' ∩ B'
+  Complemento da interseção: (A ∩ B)' = A' ∪ B'
+
+
+-------------------------------------------------
+
+
+Tipos de agrupamentos
+   Definição classica
+   Definição Frequentista
+   Definição axiomatica
+
+-------------------------------------------------
+
+Eventos independentes
+
+Eventos mutauamente exclusivos
+
+Probabilidade condicional
+  p(B\A) = P(A∩B) / P(A)
+
+
+
+Análise combinatória
+
+Tipos de agrupamento
+  Arranjo
+    An.p = n! / (n-p)!
+  Permutação
+    P = n!               Permutação Simples
+    P = n! / a! b! c!    Permutação Repetição
+  Combinação
+    Cn,p = n! / p!(n-p)!
+
+
+Probabilidade de Análise combinatória
+  P(A) = n(A) / n(S)
+
+
+Probabilidade Condicional
+Teorema Probabilidade total
+Teorema de Bayes
