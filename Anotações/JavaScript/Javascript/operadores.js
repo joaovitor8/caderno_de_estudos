@@ -15,8 +15,8 @@
 // ---------------------------------------------------------------------------------------------------
 
 // Relacionais
-  let maior = 10 > 5       //  >  Maior
-  let menor = 5 < 10       //  <  Menor
+  let maior = 10 > 5       //  >   Maior
+  let menor = 5 < 10       //  <   Menor
   let maiorIgual1 = 3 >= 2 //  >=  Maior ou igual
   let maiorIgual2 = 3 >= 3 //  >=  Maior ou igual
   let menorIgual1 = 6 <= 9 //  <=  Menor ou igual
