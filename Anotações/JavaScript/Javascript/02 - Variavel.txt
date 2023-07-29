@@ -1,10 +1,4 @@
-var - global, todo mundo pode acessar
-let - apenas quem esta no mesmo escopo pode acessar
-const - imutavel, apos passar um valor não podera muda-lo
-
-
-EX:
-  var nomeVariavelVar = 'Um dado'
-  let nomeVariavelLet = 'Um dado'
-  const nomeVariavelConst = 'Um dado'
+var   - Escopo global, todo mundo pode acessar
+let   - Escopo local, apenas quem esta no mesmo escopo pode acessar
+const - Escopo local, imutavel, apos passar um valor não podera muda-lo
 
