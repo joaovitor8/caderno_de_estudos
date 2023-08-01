@@ -1,4 +1,4 @@
-// const user = {nome: "Joao", idade: 63}
+const user = {nome: "Joao", idade: 63}
 
 // Comandos
 //   JSON
