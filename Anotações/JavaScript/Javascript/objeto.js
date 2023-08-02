@@ -1,5 +1,8 @@
 const user = {nome: "Joao", idade: 63}
 
+
+// ---------------------------------------------------------------------------------------------------
+
 // Comandos
 //   JSON
 //     stringify  -  transforma o objeto tudo para texto  string
@@ -19,6 +22,7 @@ const user = {nome: "Joao", idade: 63}
 //   O rest operator é um recurso em JavaScript que permite que uma função receba um número indefinido de argumentos como um array. Ele é representado por três pontos consecutivos (...), colocados antes do último parâmetro da função.
 //   Quando o rest operator é utilizado, todos os argumentos adicionais passados para a função após o último parâmetro são coletados em um array
 
+// ---------------------------------------------------------------------------------------------------
 
 // Desestruturação
 //   Objeto  -  const user = {nome: 'João', idade: 21, sexo: 'M', oculos: True}

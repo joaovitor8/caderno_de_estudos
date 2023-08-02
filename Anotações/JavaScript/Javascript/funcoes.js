@@ -1,15 +1,10 @@
-function NomeDaFuncao() {}
-
-
-// Funções
-//   Bloco de codigo que são reutilizáveis para evitar a repetição de codigo
+// Funções  --->   Bloco de codigo que são reutilizáveis para evitar a repetição de codigo
 
 // Declarar uma função  -  Função que não retorna nada, função normal
-//   function nomeFuncao() {}
+    function nomeFuncao() {}
 
 // Arrow function
-//   const nomeFuncao = () => {}
-
+    const nomeFuncao = () => {}
 
 // Callback (chamar de volta)
 //   Callback é uma função que é passada como argumento de outra função e depois de algum tempo ela é chamada de volta.

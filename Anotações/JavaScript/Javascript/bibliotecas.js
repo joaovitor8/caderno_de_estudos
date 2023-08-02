@@ -1,4 +1,5 @@
 // Biblioteca Matematica - Math
+
 Math.abs(x)   // Retorna o valor absoluto de x.
 Math.ceil(x)   // Arredonda o número x para cima para o próximo inteiro.
 Math.floor(x)   // Arredonda o número x para baixo para o inteiro anterior.
