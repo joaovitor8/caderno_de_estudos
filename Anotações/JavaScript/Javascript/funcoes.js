@@ -17,6 +17,11 @@
 
 // Funções JS
 
+
+// startsWith()  -  Começa com
+// .trim()  -  Tira todos os espaços inuteis
+
+
 // setTimeout
 //   setTimeout() é uma função que recebe como argumento uma outra função e um tempo para ser executada.
 //   setTimeout(function, delay)
