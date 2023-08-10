@@ -1,1 +1,26 @@
-.
+Vector2 / Vector3
+
+As estruturas Vector2 e Vector3 em Unity são utilizadas principalmente para representar localização, movimentação, direção e outras informações relacionadas a vetores em um espaço bidimensional (2D) e tridimensional (3D). Elas são amplamente usadas para controlar a posição, movimento e geometria de objetos em um ambiente de jogo, tornando mais fácil a manipulação de coordenadas e cálculos vetoriais.
+
+Vector2 é usado para representar um vetor bidimensional, ou seja, com duas componentes: x e y. Isso é útil para trabalhar com coordenadas em um plano 2D. Por exemplo, você pode usar Vector2 para representar posições em um jogo 2D ou direções em um espaço bidimensional.
+
+  EX:
+    using UnityEngine;
+    Vector2 myVector = new Vector2(3.0f, 2.5f);
+
+Vector3 é usado para representar um vetor tridimensional, com três componentes: x, y e z. Ele é comumente usado para representar posições, direções e escala em um espaço 3D. Você pode usá-lo para manipular objetos em um ambiente 3D, fazer cálculos de colisão, controle de câmera, entre outras tarefas.
+
+  EX:
+    using UnityEngine;
+    Vector3 myVector = new Vector3(1.0f, 2.0f, 3.0f);
+
+Em resumo, as estruturas Vector2 e Vector3 em Unity são utilizadas principalmente para representar localização, movimentação, direção e outras informações relacionadas a vetores em um espaço bidimensional (2D) e tridimensional (3D). Elas são amplamente usadas para controlar a posição, movimento e geometria de objetos em um ambiente de jogo, tornando mais fácil a manipulação de coordenadas e cálculos vetoriais.
+
+
+
+[SerializeField]
+
+O atributo SerializeField em cima de uma variável indica que essa variável será visualizada e editável no Editor Unity. Caso o atributo não esteja presente, a variável não será visível no Editor. Isso oferece controle sobre quais variáveis do seu script são expostas para ajustes no ambiente de desenvolvimento Unity sem a necessidade de torná-las públicas.
+
+
+
