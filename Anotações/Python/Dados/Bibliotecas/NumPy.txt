@@ -1,0 +1,28 @@
+Impotação
+  import numpy as np
+
+
+Tranformando uma lista do Python em um Array do NumPy
+  listaPython = [1, 2, 3, 4, 5, 6, 7]
+  arrayNumPy = np.array(lista)
+
+
+Array de Zeros
+  arrayZeros = np.zeros(10)
+
+
+Mundando o valor de um Array
+  array[0] = 9
+
+
+
+Criando uma matriz de zeros
+  matrizZeros = np.zeros((5, 3))
+
+
+print(array.max()) ## Pegando o valor mais alto
+print(array.min()) ## Pegando o valor mais baixo
+print(array.std()) ## 
+print(array.mean()) ## Pegando o valor a media dos valores
+print(array.argmax()) ## Mostra aonde a valor mais alto esta
+print(array.argmin()) ## ## Mostra aonde a valor mais baixo esta
