@@ -1,0 +1,32 @@
+Redes Neurais Artificiais(RNAs):
+  Também conhecidas como redes neurais artificiais profundas ou Deep Neural Networks (DNNs) quando têm múltiplas camadas, são um tipo de modelo de aprendizado de máquina inspirado na estrutura e funcionamento do cérebro humano. Elas são amplamente utilizadas para tarefas de aprendizado de máquina, como visão computacional, processamento de linguagem natural, reconhecimento de padrões, previsão e muito mais.
+
+  Neurônios Artificiais:
+    Em uma rede neural artificial, os neurônios são unidades básicas de processamento de informações, que simulam os neurônios do cérebro humano. Cada neurônio artificial recebe entradas, realiza cálculos matemáticos nelas e produz uma saída. Essas saídas são passadas para outros neurônios na rede.
+
+  Camadas de Neurônios:
+    Uma rede neural é composta por várias camadas de neurônios.
+    As camadas são geralmente divididas em três tipos principais:
+
+      Camada de Entrada:
+        Recebe os dados de entrada, como imagens, texto ou valores numéricos.
+
+      Camadas Ocultas:
+        São camadas intermediárias entre a camada de entrada e a camada de saída. Elas realizam cálculos complexos para aprender representações úteis dos dados.
+
+      Camada de Saída:
+        Fornece as previsões ou resultados finais da rede neural. A quantidade de neurônios nessa camada depende do tipo de tarefa que a rede está realizando (por exemplo, classificação, regressão, etc.).
+
+  Conexões Ponderadas:
+    Cada conexão entre neurônios é associada a um peso. Esses pesos são ajustados durante o treinamento da rede neural para que ela possa aprender a melhor maneira de mapear as entradas para as saídas desejadas.
+
+  Função de Ativação:
+    Cada neurônio em uma camada aplica uma função de ativação à sua soma ponderada das entradas. Isso introduz não-linearidade nas operações da rede, permitindo que ela aprenda padrões complexos nos dados.
+
+  Treinamento:
+    O treinamento de uma rede neural envolve a apresentação de um conjunto de dados de treinamento (com entradas e saídas conhecidas) à rede, ajustando os pesos das conexões para minimizar a diferença entre as previsões da rede e as saídas desejadas. Isso é geralmente feito usando algoritmos de otimização, como descida de gradiente.
+
+  Redes Neurais Profundas:
+    As redes neurais profundas, ou DNNs, são aquelas que têm múltiplas camadas ocultas entre a camada de entrada e a camada de saída. Essas redes são capazes de aprender representações altamente abstratas dos dados, tornando-as especialmente eficazes em tarefas complexas que envolvem grande quantidade de dados, como reconhecimento de imagens e processamento de linguagem natural.
+
+
