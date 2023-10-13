@@ -15,13 +15,13 @@ Configuração
 ---------------------------------------------------------------------------------------------------
 
 Comandos
-  git init                    -  Começa um repositorio
-  git clone + Repositório     -  Clona o repositorio que deseja usar
-  git status                  -  Vê se algo foi alterado
+  git init                    -  Inicia o git no repositório
+  git clone <URL>             -  Copia o repositório remoto
+  git status                  -  Lista as modificações atuais do repositório
   git add .                   -  Adiciona tudo em que eu fiz alteração para o proximo commit
   git diff                    -  Mostra quais linhas foram modificadas, adicionadas ou removidas
   git commit -m "Comentario"  -  Estou comitando
-  git log                     -  Historicos dos commits
+  git log                     -  Lista o histórico de commits
   git restore                 -  ???
   git push                    -  Vai sicronizar o commit com o repositório
   git pull                    -  Atualiza para a vesão mais recente
@@ -30,9 +30,9 @@ Comandos
 ---------------------------------------------------------------------------------------------------
 
 Ramificações
-  git branch               -  Mostra todas as ramificações e qual eu estou
-  git branch nomeBranch    -  Cria uma nova ramificação
-  git checkout nomeBranch  -  Entra em uma ramificação
+  git branch                 -  Mostra todas as ramificações e qual eu estou
+  git branch <nomeBranch>    -  Cria uma nova ramificação
+  git checkout <nomeBranch>  -  Entra em uma ramificação
 
   Vá para a branch master
     git merging nomeBranch   -  Junta uma ramificação a master, que é a principal
