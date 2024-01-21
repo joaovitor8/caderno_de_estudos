@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turismo</title>
+</head>
+<body>
+  <h1>Formulário de Reserva</h1>
+
+  <form action="" method="">
+
+      <fieldset>
+          <legend>Informações Pessoais</legend>
+
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+      </fieldset>
+
+      <fieldset>
+          <legend>Serviços Desejados</legend>
+
+          <label for="servicos">Selecione os serviços desejados:</label>
+          <select id="servicos" name="servicos">
+              <option value="passagens">Compra de Passagens</option>
+              <option value="hospedagem">Reserva de Hospedagem</option>
+              <option value="veiculos">Aluguel de Veículos</option>
+          </select>
+
+      </fieldset>
+
+      <fieldset>
+          <legend>Forma de Pagamento</legend>
+
+          <label>Escolha a forma de pagamento:</label>
+          <div>
+              <input type="radio" id="cartao" name="pagamento" value="cartao">
+              <label for="cartao">Cartão de Crédito</label>
+          </div>
+
+          <div>
+              <input type="radio" id="boleto" name="pagamento" value="boleto">
+              <label for="boleto">Boleto</label>
+          </div>
+
+          <div>
+              <input type="radio" id="pix" name="pagamento" value="pix">
+              <label for="pix">PIX</label>
+          </div>
+
+      </fieldset>
+
+      <fieldset>
+          <legend>Prazo de Pagamento</legend>
+
+          <label for="prazo">Selecione o prazo de pagamento:</label>
+          <select id="prazo" name="prazo">
+              <option value="vista">À Vista</option>
+              <option value="5vezes">Cinco Vezes Sem Juros</option>
+              <option value="10vezes">Dez Vezes Com Juros</option>
+          </select>
+
+      </fieldset>
+
+      <fieldset>
+          <legend>Observações</legend>
+
+          <label for="observacoes">Observações:</label>
+          <textarea id="observacoes" name="observacoes" rows="4" cols="50"></textarea>
+
+      </fieldset>
+
+      <input type="submit" value="Enviar Reserva">
+
+  </form>
+</body>
+</html>
