@@ -70,3 +70,33 @@ print(dadosseq[3:6])
 
 dadosseq[3:6] = 20
 print(dadosseq)
+
+fatiadados = dadosseq[2:4]
+print(fatiadados)
+
+fatiadados[1] = 2000
+print(fatiadados)
+
+fatiadados[:] = 666
+print(dadosseq)
+
+
+# Copiar dados
+
+fatia2 = dadosseq[2:4].copy()
+print(fatia2)
+
+fatia2[:] = 111
+print(fatia2)
+
+
+# Array com mais de uma dimenção
+
+dados6 = np.array([[1,2,3],[4,5,6],[7,8,9]])
+print(dados6)
+
+print(dados6[1,2])
+
+
+# Mascasras
+
