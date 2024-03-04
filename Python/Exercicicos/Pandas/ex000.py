@@ -90,3 +90,7 @@ print(df4.drop('Ano', axis='columns', inplace=True))
 
 # Excluir Linhas
 print(df2.drop([0,2]))
+
+# Ver dados de Linhas
+print(df2.iloc[0])
+print(df2.iloc[1:3])
