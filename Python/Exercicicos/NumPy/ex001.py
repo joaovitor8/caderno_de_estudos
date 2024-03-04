@@ -100,3 +100,22 @@ print(dados6[1,2])
 
 # Mascasras
 
+mascara = (dadosseq < 100)
+print(mascara)
+
+dadosseq[dadosseq < 20 ] = 8888
+print(dadosseq)
+
+
+# Transposição
+
+dados7 = np.arange(15).reshape((3,5))
+print(dados7)
+print(dados7.T)
+
+
+# Multiplicação de Matrizes com Dots
+
+print(np.dot(dados7.T, dados7))
+
+
