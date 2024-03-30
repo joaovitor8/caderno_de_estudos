@@ -1,0 +1,13 @@
+Aprendizado de Máquina / Machine Learning:
+  É o desenvolvimento de algoritmos e modelos que permitem que as máquinas aprendam a partir de dados e aprimorem seu desempenho ao longo do tempo sem serem explicitamente programadas para realizar tarefas específicas.
+
+Tipos de Aprendizado de Máquina/Machine Learning:
+  Aprendizado Supervisionado:
+    Onde é treinado com dados já com a resposta correta
+
+  Aprendizado Não Supervisionado:
+    Onde é treinado com dados em que o proprio programa tem que achar a resposta de acordo com padroes
+
+  Aprendizado por Reforço:
+    Aqui os algoritmos aprendem através da interação com um ambiente. Eles tomam ações em um ambiente e recebem recompensas ou penalidades em função dessas ações. O objetivo é aprender a tomar ações que maximizem a recompensa ao longo do tempo, sendo aplicável a problemas de tomada de decisão sequencial.
+
