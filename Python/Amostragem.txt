@@ -1,0 +1,39 @@
+Amostragem Aleatória Simples:
+  É quando escolhemos aleatoriamente n amostras de nossa população. Cada membro da população tem uma chance igual de ser selecionado.
+
+Exemplo:
+  import pandas as pd
+
+  # Suponha que 'df' é seu DataFrame
+  amostra_aleatoria_simples = df.sample(n=100)  # Seleciona 100 amostras aleatoriamente
+
+--------------------------------------------------
+
+Amostragem Sistemática:
+  É quando escolhemos cada k-ésimo membro da população.
+
+Exemplo:
+  k = 10  # Escolha cada 10ª observação
+  amostra_sistemática = df.iloc[::k, :]  # Seleciona cada 10ª linha
+
+--------------------------------------------------
+
+Amostragem Estratificada:
+  É quando dividimos a população em estratos não sobrepostos e, em seguida, selecionamos amostras aleatórias de cada estrato.
+
+Exemplo:
+  from sklearn.model_selection import train_test_split
+
+  # Suponha que 'df' é seu DataFrame e 'etiqueta' é a coluna que você quer estratificar
+  X_treino, X_teste, y_treino, y_teste = train_test_split(df, df['etiqueta'], stratify=df['etiqueta'])
+
+--------------------------------------------------
+
+Amostragem por Conglomerados:
+  É quando dividimos a população em grupos ou conglomerados e selecionamos aleatoriamente alguns conglomerados e usamos todas as observações desses conglomerados selecionados.
+
+Exemplo:
+  # Suponha que 'df' é seu DataFrame e 'grupo' é a coluna que representa o conglomerado
+  grupos_selecionados = df['grupo'].drop_duplicates().sample(n=10)  # Seleciona 10 grupos aleatoriamente
+  amostra_por_conglomerados = df[df['grupo'].isin(grupos_selecionados)]
+
