@@ -1,0 +1,17 @@
+Regressão linear é um método estatístico que tenta mostrar a relação entre duas variáveis com um modelo linear. Em outras palavras, permite-nos prever uma variável com base no valor de outra.
+
+A forma mais simples de regressão linear é a regressão linear simples, que lida com apenas duas variáveis:
+
+Variável independente (X): é a variável que você usa para fazer previsões.
+Variável dependente (Y): é a variável que você está tentando prever.
+O objetivo é encontrar uma linha reta (chamada de “linha de melhor ajuste”) que melhor represente os pontos de dados disponíveis. A equação para essa linha reta geralmente tem a forma:
+
+[ Y = aX + b ]
+
+Onde:
+
+( Y ) é a variável dependente que estamos tentando prever,
+( X ) é a variável independente que usamos para fazer previsões,
+( a ) é a inclinação da linha, que nos diz quanto ( Y ) aumenta para um aumento de uma unidade em ( X ),
+( b ) é o intercepto, que é o valor de ( Y ) quando ( X ) é 0
+
