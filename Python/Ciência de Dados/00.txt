@@ -1,0 +1,7 @@
+Estatistica
+
+Regressão Linear
+
+Regressão Logistica
+
+Series Temporais
