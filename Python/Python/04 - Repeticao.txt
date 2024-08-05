@@ -7,6 +7,10 @@ ESTRUTURA DE CONDIÇÕES:
 ESTRUTURAS DE REPETIÇÃO:
   for - Usar quando eu sei quando acaba
     range(inicio, fim, pulos) - o range pode ter até 3 parametros
+   
+  for in   percorre os índices de um array
+  for of   percorre os valores
+   
 
   while - Usar quando eu não sei quando acaba
    
