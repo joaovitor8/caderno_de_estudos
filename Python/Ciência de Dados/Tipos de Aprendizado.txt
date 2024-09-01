@@ -7,4 +7,3 @@ Tipos de Aprendizado de Máquina/Machine Learning:
 
   Aprendizado por Reforço:
     Aqui os algoritmos aprendem através da interação com um ambiente. Eles tomam ações em um ambiente e recebem recompensas ou penalidades em função dessas ações. O objetivo é aprender a tomar ações que maximizem a recompensa ao longo do tempo, sendo aplicável a problemas de tomada de decisão sequencial.
-

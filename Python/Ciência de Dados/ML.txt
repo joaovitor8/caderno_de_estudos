@@ -5,4 +5,3 @@
 **Árvore de Decisão** é um algoritmo que utiliza uma estrutura de árvore para tomar decisões baseadas em regras de "se-então". Cada nó interno da árvore representa uma característica (ou atributo), cada ramo representa uma regra de decisão, e cada nó folha representa um resultado.
 
 ----------------------------------------------------------------------------------------------------
-
