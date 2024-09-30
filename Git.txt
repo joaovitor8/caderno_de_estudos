@@ -35,7 +35,6 @@ Ramificações
   git checkout <nomeBranch>  -  Entra em uma ramificação
 
   Vá para a branch master
-    git merging nomeBranch   -  Junta uma ramificação a master, que é a principal
-
-
+    git merge nomeBranch   -  Junta uma ramificação a master, que é a principal
+                              Depois fazer todo o procedimento: git add . | git commit | git push
 
