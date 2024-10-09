@@ -30,4 +30,21 @@ Imagem: A imagem de T, denotada por Im(T) ou T(V), é o conjunto de todos os vet
 
 ---
 
+INJETORA:
+T: U -> V
+v, u, £ U - T(u) = T(v)
+
+u = v
+v, u, £ U - T(u) != T(v)
+u != v
+
+SOBREJETORA:
+T: U -> V
+T(U) = V
+IM(T) = V
+
+BIJETORA: Quando T é INJETORA e SOBREJETORA
+
+---
+
 https://www.youtube.com/watch?v=WwS0_qB2Hhw
