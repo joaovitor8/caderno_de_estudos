@@ -1,23 +1,12 @@
 Introdução a Algoritmos
-
 Tipos de Dados e Instruções Primitivas
-
 Variáveis e Constantes
-
 Entrada, Processamento e Saída
-
 Estruturas de Decisão
-
 Estruturas de Repetição
-
 Vetor
-
 Matriz
-
 Procedimentos sem Parâmetros
-
 Procedimentos com Parâmetros
-
 Funções sem Parâmetros
-
 Funções com Parâmetros
