@@ -3,42 +3,42 @@ public class App {
         System.out.println("Hello, World!");
         
         // Tipos primitivos
-        byte numeroPequeno = 127; // Números inteiros pequenos
-        short numeroMedio = 32767; // Números inteiros médios
-        int numeroGrande = 2147483647; // Números inteiros grandes
-        long numeroMuitoGrande = 9223372036854775807L; // Números inteiros muito grandes
-        float numeroComPontoFlutuante = 3.14f; // Números de ponto flutuante de precisão simples
-        double numeroComMuitoPontoFlutuante = 3.141592653589793; // Números de ponto flutuante de precisão dupla
-        char caractere = 'A'; // Um único caractere
-        boolean verdadeiroOuFalso = true; // Valor lógico (true ou false)
+        //byte numeroPequeno = 127; // Números inteiros pequenos
+        //short numeroMedio = 32767; // Números inteiros médios
+        //int numeroGrande = 2147483647; // Números inteiros grandes
+        //long numeroMuitoGrande = 9223372036854775807L; // Números inteiros muito grandes
+        //float numeroComPontoFlutuante = 3.14f; // Números de ponto flutuante de precisão simples
+        //double numeroComMuitoPontoFlutuante = 3.141592653589793; // Números de ponto flutuante de precisão dupla
+        //char caractere = 'A'; // Um único caractere
+        //boolean verdadeiroOuFalso = true; // Valor lógico (true ou false)
         
         // Tipo de referência (String)
-        String texto = "Olá, mundo!";
+        //String texto = "Olá, mundo!";
         
         
         // ---
         
         
         // Operadores aritméticos
-        int a = 10, b = 5;
-        int soma = a + b;
-        int subtracao = a - b;
-        int multiplicacao = a * b;
-        int divisao = a / b;
-        int modulo = a % b; // Resto da divisão
+        //int a = 10, b = 5;
+        //int soma = a + b;
+        //int subtracao = a - b;
+        //int multiplicacao = a * b;
+        //int divisao = a / b;
+        //int modulo = a % b; // Resto da divisão
         
         // Operadores de comparação
-        boolean igual = (a == b);
-        boolean diferente = (a != b);
-        boolean maior = (a > b);
-        boolean menor = (a < b);
-        boolean maiorIgual = (a >= b);
-        boolean menorIgual = (a <= b);
+        //boolean igual = (a == b);
+        //boolean diferente = (a != b);
+        //boolean maior = (a > b);
+        //boolean menor = (a < b);
+        //boolean maiorIgual = (a >= b);
+        //boolean menorIgual = (a <= b);
         
         // Operadores lógicos
-        boolean e = true && false; // E lógico
-        boolean ou = true || false; // OU lógico
-        boolean nao = !true; // NÃO lógico
+        //boolean e = true && false; // E lógico
+        //boolean ou = true || false; // OU lógico
+        //boolean nao = !true; // NÃO lógico
         
         
         // ---
