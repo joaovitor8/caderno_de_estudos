@@ -2,18 +2,18 @@ Introdução ao Machine Learning
 Machine Learning é um campo da inteligência artificial que desenvolve algoritmos capazes de aprender a partir de dados. Em vez de serem explicitamente programados, esses algoritmos ajustam seus parâmetros para otimizar seu desempenho em uma tarefa específica.
 
 Principais Tipos de Aprendizado:
-Aprendizado Supervisionado
 
+Aprendizado Supervisionado
 Os algoritmos aprendem a partir de um conjunto de dados rotulados (entrada e saída).
 Exemplo: Classificação e regressão.
 Algoritmos: SVM, Redes Neurais, Regressão Linear.
-Aprendizado Não Supervisionado
 
+Aprendizado Não Supervisionado
 O algoritmo identifica padrões sem rótulos pré-definidos.
 Exemplo: Agrupamento (clustering), redução de dimensionalidade.
 Algoritmos: K-Means, PCA (Análise de Componentes Principais).
-Aprendizado por Reforço
 
+Aprendizado por Reforço
 O agente aprende interagindo com o ambiente e recebendo recompensas.
 Exemplo: Jogos, controle de robôs.
 Algoritmos: Q-Learning, Deep Q-Networks.
